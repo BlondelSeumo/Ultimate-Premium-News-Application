@@ -1,0 +1,246 @@
+{% extends "AppBundle::layout.html.twig" %}
+{% block body%}
+    <div class="container-fluid guide-view">
+        <div class="row">
+            <div class="col-sm-offset-2 col-md-8">
+                <div class="card">
+                    <div class="card-header card-header-icon" data-background-color="rose">
+                        <i class="material-icons">live_help</i>
+                    </div>
+                    <br>
+                    <h4 class="card-title">{{post.title}}</h4>
+                    {% if post.media != null %}
+                        <img src="{{asset(post.media.link)}}" class="fileinput-preview  " >
+                    {% endif %}
+                    <br><br>
+                    {% if post.localvideo != null %}
+                        <video autobuffer autoloop loop controls width="100%">
+                            <source id="video_here" src="{{asset(post.localvideo.link)}}"/>
+                            <source id="video_here" src="{{asset(post.localvideo.link)}}"/>
+                            <object type="video/ogg" data="{{asset(post.localvideo.link)}}">
+                            <param name="src" value="{{asset(post.localvideo.link)}}"/>
+                                <param name="autoplay" value="false"/>
+                                    <param name="autoStart" value="0"/>
+                                        <p><a href="{{asset(post.localvideo.link)}}">Download this video file.</a></p>
+                                        </object>
+                                    </video>
+                                {% endif %}
+                                {% if post.video != null %}
+                                    <style>.embed-container { position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; } .embed-container iframe, .embed-container object, .embed-container embed { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }</style><div class='embed-container'><iframe src='https://www.youtube.com/embed/{{post.youtube}}' frameborder='0' allowfullscreen></iframe></div>                        <div class="form-group label-floating is-empty">
+                                {% endif %}
+                                <div class="card-content">
+                                    <div >
+                                        {{post.content|raw}}
+                                    </div>
+                                    <hr>
+                                    <div class="row">
+                                        <div class="col-md-6">{% if post.enabled %}
+                                            <i class="material-icons" style="color:green;float:left">check_circle</i> <span class="check-label">Enabled</span>
+                                        {% else %}
+                                            <i class="material-icons" style="color:red;float:left">cancel</i> <span class="check-label">Disabled</span>
+                                        {% endif %}</div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-md-6">{% if post.comment %}
+                                            <i class="material-icons" style="color:green;float:left">check_circle</i> <span class="check-label">Comment Enabled</span>
+                                        {% else %}
+                                            <i class="material-icons" style="color:red;float:left">cancel</i> <span class="check-label">Comment Disabled</span>
+                                        {% endif %}</div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-md-12">
+                                            <h4>Categories : </h4>
+                                            {% for category in post.categories %}
+                                                <span class="label label-rose " style="margin:5px;"> <b> {{category.title}} </b></span>
+                                            {% endfor %}
+                                            <h4>Languages : </h4>
+                                            {% for language in post.languages %}
+                                                <span class="label label-rose " style="margin:5px;background:#FF5722"> <b> {{language.language}} </b></span>
+                                            {% endfor %}
+                                        </div>
+                                    </div>
+                                    <br>
+                                    <span class="label label-rose col-md-5" style="font-size:16pt;padding:10px;background:#FF5722"> <b>{{post.viewsnumber}} </b></span>
+                                    <span class="label label-rose col-md-5 col-sm-offset-2" style="font-size:16pt;padding:10px;background:#FF5722"> <b>{{post.shares}}  Share(s)</b></span>
+                                    <br>
+                                    <br>
+                                </div>
+                                <div class="card-footer">
+                                    <div class="price">
+                                        <div class="wallpaper-logo" style="color:#040303" >
+                                            {% if post.user.image == "" %}
+                                                {{post.user.name}}
+                                            {% else %}
+                                                <img src="{{post.user.image}}" class="avatar-img" alt="">
+                                            {% endif %}
+                                            <span>{{post.user.name}}</span>
+                                        </div>
+                                    </div>
+                                    <div class="stats pull-right">
+                                        <div class="wallpaper-logo"  style="color:#040303" >{{post.created|ago}}</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-sm-offset-2 col-md-8">
+                        {% for comment in post.comments %}
+                            <div>
+                                <ul class="timeline timeline-simple">
+                                    <li class="timeline-inverted">
+                                        <div class="timeline-badge danger">
+                                            <img src="{{comment.user.image}}" class="img-profile">
+                                        </div>
+                                        <div class="timeline-panel">
+                                            <div class="timeline-heading">
+                                                <a href="{{path("user_user_edit",{id:comment.user.id})}}" title="">
+                                                    <span class="label label-danger">{{comment.user.name}}</span>
+                                                </a>
+                                                <span class="pull-right" >
+                                                    <a href="{{path("app_comment_delete",{id:comment.id,"guide":"true"})}}"  onclick="return confirm('Are you sure you want to delete this item?');" rel="tooltip" data-placement="bottom" title="" data-original-title="Delete">
+                                                        <i class="material-icons" style="color:red">delete</i>
+                                                    </a>
+                                                    {% if comment.enabled %}
+                                                        <a href="{{path("app_comment_hide",{id:comment.id})}}"  rel="tooltip" data-placement="bottom" title="" data-original-title="Hide">
+                                                            <i class="material-icons">visibility_off</i>
+                                                        </a>
+                                                    {% else %}
+                                                        <a href="{{path("app_comment_hide",{id:comment.id})}}"   rel="tooltip" data-placement="bottom" title="" data-original-title="Show">
+                                                            <i class="material-icons">remove_red_eye</i>
+                                                        </a>
+                                                    {% endif %}
+                                                </span>
+                                            </div>
+                                            <div class="timeline-body">
+                                                <p>{{comment.contentclear}}</p>
+                                            </div>
+                                            <small class="pull-right label label-rose">
+                                            <span>{{comment.created|ago}}</span>
+                                            </small>
+                                        </div>
+                                    </li>
+                                    
+                                </ul>
+                            </div>
+                        {% else %}
+
+                                <div class="card" >
+                                    <div class="card-content">
+                                        <center><img src="{{asset("img/bg_empty.png")}}"  style="width: 100% !important;" ></center>
+                                        <br>
+                                    </div>
+                                </div>
+                        {% endfor %}
+                    </div>
+                                <div class="row">
+
+             <div class="col-sm-offset-2 col-md-8">
+                <div class="card" >
+                    <div class="status-bar"></div>
+                    <div class="action-bar">
+                        <a href="#" class="zmdi zmdi-star"></a>
+                    </div>
+                    {% set rate  =  rating %}
+                    {% set rate_main  =  rating %}
+                    <div class="list-group lg-alt lg-even-black">
+                        <br>
+                        <center>
+                        <span style="height: 28px;display: inline-block;font-size: 30pt;font-weight: bold;padding-left: 20px;">Rating : {{rate_main|number_format(1, '.', ',')}}</span>
+                        </center>
+                        <table width="100%" >
+                            <tr>
+                                <td colspan="3" style="padding: 15px;">
+                                    <div style="/* float: left; */display: inline-flex;">
+                                        {% for i in 1..5 %}
+                                            {% if rate >= 1 %}
+                                                <img src="{{asset("img/star.png")}}" style="height:50px;width:50px">
+                                            {% endif %}
+                                            {% if rate >= 0.25 and  rate < 0.75 %}
+                                                <img src="{{asset("img/star_h.png")}}" style="height:50px;width:50px">
+                                            {% endif %}
+                                            {% if rate >= 0.75 and  rate < 1 %}
+                                                <img src="{{asset("img/star.png")}}" style="height:50px;width:50px">
+                                            {% endif %}
+                                            {% if rate < 0.25 %}
+                                                <img src="{{asset("img/star_e.png")}}" style="height:50px;width:50px">
+                                            {% endif %}
+                                            {% set rate  =  rate - 1 %}
+                                        {% endfor %}
+                                    </div>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td width="50%" align="right" style="padding: 5px;">
+                                    <img src="{{asset("img/star.png")}}" style="height:30px;width:30px">
+                                    <img src="{{asset("img/star.png")}}" style="height:30px;width:30px">
+                                    <img src="{{asset("img/star.png")}}" style="height:30px;width:30px">
+                                    <img src="{{asset("img/star.png")}}" style="height:30px;width:30px">
+                                    <img src="{{asset("img/star.png")}}" style="height:30px;width:30px">
+                                </td>
+                                <td width="30px" align="center">{{ratings.rate_5}}</td>
+                                <td  align="left" style="padding:10px">
+                                    <span style="display:block;height:15px;background-color:black;border-radius: 12px;width:{{values.rate_5}}%"></span>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td width="50%" align="right" style="padding: 5px;">
+                                    <img src="{{asset("img/star_e.png")}}" style="height:30px;width:30px">
+                                    <img src="{{asset("img/star.png")}}" style="height:30px;width:30px">
+                                    <img src="{{asset("img/star.png")}}" style="height:30px;width:30px">
+                                    <img src="{{asset("img/star.png")}}" style="height:30px;width:30px">
+                                    <img src="{{asset("img/star.png")}}" style="height:30px;width:30px">
+                                </td>
+                                <td width="30px" align="center">{{ratings.rate_4}}</td>
+                                <td  align="left" style="padding:10px">
+                                    <span style="display:block;height:15px;background-color:black;border-radius: 12px;width:{{values.rate_4}}%"></span>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td width="50%" align="right" style="padding: 5px;">
+                                    <img src="{{asset("img/star_e.png")}}" style="height:30px;width:30px">
+                                    <img src="{{asset("img/star_e.png")}}" style="height:30px;width:30px">
+                                    <img src="{{asset("img/star.png")}}" style="height:30px;width:30px">
+                                    <img src="{{asset("img/star.png")}}" style="height:30px;width:30px">
+                                    <img src="{{asset("img/star.png")}}" style="height:30px;width:30px">
+                                </td>
+                                <td width="30px" align="center">{{ratings.rate_3}}</td>
+                                <td  align="left" style="padding:10px">
+                                    <span style="display:block;height:15px;background-color:black;border-radius: 12px;width:{{values.rate_3}}%"></span>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td width="50%" align="right" style="padding: 5px;">
+                                    
+                                    <img src="{{asset("img/star_e.png")}}" style="height:30px;width:30px">
+                                    <img src="{{asset("img/star_e.png")}}" style="height:30px;width:30px">
+                                    <img src="{{asset("img/star_e.png")}}" style="height:30px;width:30px">
+                                    <img src="{{asset("img/star.png")}}" style="height:30px;width:30px">
+                                    <img src="{{asset("img/star.png")}}" style="height:30px;width:30px">
+                                </td>
+                                <td width="30px" align="center">{{ratings.rate_2}}</td>
+                                <td  align="left" style="padding:10px">
+                                    <span style="display:block;height:15px;background-color:black;border-radius: 12px;width:{{values.rate_2}}%"></span>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td width="50%" align="right" style="padding: 5px;">
+                                    <img src="{{asset("img/star_e.png")}}" style="height:30px;width:30px">
+                                    <img src="{{asset("img/star_e.png")}}" style="height:30px;width:30px">
+                                    <img src="{{asset("img/star_e.png")}}" style="height:30px;width:30px">
+                                    <img src="{{asset("img/star_e.png")}}" style="height:30px;width:30px">
+                                    <img src="{{asset("img/star.png")}}" style="height:30px;width:30px">
+                                </td>
+                                <td width="30px" align="center">{{ratings.rate_1}}</td>
+                                <td  align="left" style="padding:10px">
+                                    <span style="display:block;height:15px;background-color:black;border-radius: 12px;width:{{values.rate_1}}%"></span>
+                                </td>
+                            </tr>
+                        </table>
+                    </div>
+                </div>
+            </div>
+            </div>
+                </div>
+            </div>
+        {% endblock%}

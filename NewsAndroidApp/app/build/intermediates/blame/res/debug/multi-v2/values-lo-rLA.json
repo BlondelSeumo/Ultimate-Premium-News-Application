@@ -1,0 +1,19 @@
+{
+    "logs": [
+        {
+            "outputFile": "/Users/hsn/Desktop/My Projects/Ultimate News App V2/CodeCanyon/New/NewsApp/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-lo-rLA/values-lo-rLA.xml",
+            "map": [
+                {
+                    "source": "/Users/hsn/.gradle/caches/transforms-1/files-1.1/exoplayer-ui-r2.5.2.aar/68f1a65150fb2bd7ec96a28b95f6b59c/res/values-lo-rLA/values-lo-rLA.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8,9,10,11",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,136,208,280,346,424,508,588,664,738",
+                        "endColumns": "80,71,71,65,77,83,79,75,73,63",
+                        "endOffsets": "131,203,275,341,419,503,583,659,733,797"
+                    }
+                }
+            ]
+        }
+    ]
+}

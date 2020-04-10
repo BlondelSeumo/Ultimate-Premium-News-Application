@@ -1,0 +1,19 @@
+<LinearLayout
+xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_height="wrap_content"
+android:layout_width="match_parent"
+android:orientation="vertical"
+android:paddingTop="5dp"
+    android:layoutDirection="ltr"
+
+    >
+<android.support.v7.widget.RecyclerView
+    android:visibility="visible"
+    android:id="@+id/recycler_view_item_categories"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:clipToPadding="false"
+    android:clipChildren="false"
+    />
+</LinearLayout>

@@ -1,0 +1,385 @@
+#tags
+api_tags_popular:
+    path:     /api/tag/popular/{page}/{language}/{token}/{purchase}/
+    defaults: { _controller: AppBundle:Home:api_tags }
+    requirements:
+        page: \d+
+        language: \d+
+#post
+app_home_privacypolicy:
+    path:     /privacy_policy.html
+    defaults: { _controller: AppBundle:Home:privacypolicy }
+api_home_latest:
+    path:     /api/home/latest/{language}/{token}/{purchase}/
+    defaults: { _controller: AppBundle:Home:api_latest }
+    requirements:
+        language: \d+
+app_post_index:
+    path: /post/index.html
+    defaults: { _controller: AppBundle:Post:index}
+app_posts_reviews:
+    path: /post/reviews.html
+    defaults: { _controller: AppBundle:Post:reviews}
+app_post_add:
+    path: /post/add.html
+    defaults: { _controller: AppBundle:Post:add}
+app_video_add:
+    path: /video/add.html
+    defaults: { _controller: AppBundle:Post:local_add}
+app_youtube_add:
+    path: /youtube/add.html
+    defaults: { _controller: AppBundle:Post:youtube_add}
+app_posts_review:
+    path: /post/review/{id}.html
+    defaults: { _controller: AppBundle:Post:review}
+    requirements:
+        id:  \d+
+app_post_view:
+    path: /post/view/{id}.html
+    defaults: { _controller: AppBundle:Post:view}
+    requirements:
+        id:  \d+
+app_post_edit:
+    path: /post/edit/{id}.html
+    defaults: { _controller: AppBundle:Post:edit}
+    requirements:
+        id:  \d+
+app_video_edit:
+    path: /video/edit/{id}.html
+    defaults: { _controller: AppBundle:Post:local_edit}
+    requirements:
+        id:  \d+
+app_youtube_edit:
+    path: /youtube/edit/{id}.html
+    defaults: { _controller: AppBundle:Post:youtube_edit}
+    requirements:
+        id:  \d+
+app_post_delete:
+    path: /post/delete/{id}.html
+    defaults: { _controller: AppBundle:Post:delete}
+    requirements:
+        id:  \d+ 
+api_rate_add:
+    path:     /api/rate/add/{user}/{post}/{value}/{token}/{purchase}/
+    defaults: { _controller: AppBundle:Post:api_add_rate }
+api_rate_get:
+    path:     /api/rate/get/{user}/{post}/{token}/{purchase}/
+    defaults: { _controller: AppBundle:Post:api_get_rate }
+api_post_all:
+    path:     /api/post/all/{page}/{order}/{language}/{token}/{purchase}/
+    defaults: { _controller: AppBundle:Post:api_all }
+    requirements:
+        page: \d+
+api_post_add_share:
+    path:     /api/post/add/share/{token}/{purchase}/
+    defaults: { _controller: AppBundle:Post:api_add_share }
+api_post_add_view:
+    path:     /api/post/add/view/{token}/{purchase}/
+    defaults: { _controller: AppBundle:Post:api_add_view }
+app_post_share:
+    path: /share/{id}.html
+    defaults: { _controller: AppBundle:Post:share}
+    requirements:
+        id:  \d+
+api_post_one:
+    path:     /api/post/get/{id}/{token}/{purchase}/
+    defaults: { _controller: AppBundle:Post:api_get }
+    requirements:
+        id: \d+
+api_post_by_follow:
+    path:     /api/post/by/follow/{page}/{language}/{user}/{token}/{purchase}/
+    defaults: { _controller: AppBundle:Post:api_by_follow }
+    requirements:
+        page: \d+
+        user: \d+
+api_post_by_category:
+    path:     /api/post/by/category/{page}/{order}/{language}/{category}/{token}/{purchase}/
+    defaults: { _controller: AppBundle:Post:api_by_category }
+    requirements:
+        category: \d+
+        page: \d+
+api_post_by_query:
+    path:     /api/post/by/query/{order}/{language}/{page}/{query}/{token}/{purchase}/
+    defaults: { _controller: AppBundle:Post:api_by_query }
+
+api_post_my:
+    path:     /api/post/my/{page}/{user}/{token}/{purchase}/
+    defaults: { _controller: AppBundle:Post:api_my }
+    requirements:
+        page: \d+
+api_post_by_user:
+    path:     /api/post/by/user/{page}/{order}/{language}/{user}/{token}/{purchase}/
+    defaults: { _controller: AppBundle:Post:api_by_user }
+    requirements:
+        user: \d+
+        page: \d+
+api_post_by_me:
+    path:     /api/post/by/me/{page}/{user}/{token}/{purchase}/
+    defaults: { _controller: AppBundle:Post:api_by_me }
+    requirements:
+        user: \d+
+api_post_delete:
+    path:     /api/post/delete/{token}/{purchase}/
+    defaults: { _controller: AppBundle:Post:api_delete }
+api_post_upload:
+    path:     /api/post/upload/{token}/{purchase}/
+    defaults: { _controller: AppBundle:Post:api_uploadPost}
+api_post_upload_video:
+    path:     /api/video/upload/{token}/{purchase}/
+    defaults: { _controller: AppBundle:Post:api_uploadVideo}
+api_post_upload_youtube:
+    path:     /api/youtube/upload/{token}/{purchase}/
+    defaults: { _controller: AppBundle:Post:api_uploadYoutube}
+api_post_edit:
+    path:     /api/post/edit/{token}/{purchase}/
+    defaults: { _controller: AppBundle:Post:api_editPost}
+api_video_edit:
+    path:     /api/video/edit/{token}/{purchase}/
+    defaults: { _controller: AppBundle:Post:api_editVideo}
+api_youtube_edit:
+    path:     /api/youtube/edit/{token}/{purchase}/
+    defaults: { _controller: AppBundle:Post:api_editYoutube}
+#slide
+app_slide_add:
+    path: /slide/add.html
+    defaults: { _controller: AppBundle:Slide:add}
+app_slide_index:
+    path: /slide/index.html
+    defaults: { _controller: AppBundle:Slide:index}
+app_slide_edit:
+    path: /slide/{id}.html
+    defaults: { _controller: AppBundle:Slide:edit}
+    requirements:
+        id:  \d+
+app_slide_delete:
+    path: /slide/delete/{id}.html
+    defaults: { _controller: AppBundle:Slide:delete}
+    requirements:
+        id:  \d+
+app_slide_up:
+    path: /slide/up/{id}.html
+    defaults: { _controller: AppBundle:Slide:up}
+    requirements:
+        id:  \d+
+app_slide_down:
+    path: /slide/down/{id}.html
+    defaults: { _controller: AppBundle:Slide:down}
+    requirements:
+        id:  \d+
+api_slide_all:
+    path:     /api/slide/all/{language}/{token}/{purchase}/
+    defaults: { _controller: AppBundle:Slide:api_all }
+    requirements:
+        language:  \d+
+
+#old
+
+app_home_index:
+    path:     /
+    defaults: { _controller: AppBundle:Home:index }
+app_home_settings:
+    path:     /settings.html
+    defaults: { _controller: AppBundle:Home:settings }
+app_home_notif_post:
+    path:     /notif/post.html
+    defaults: { _controller: AppBundle:Home:notifPost }
+app_home_notif_url:
+    path:     /notif/url.html
+    defaults: { _controller: AppBundle:Home:notifUrl }
+app_home_notif_user_post:
+    path:     /notif/user_post.html
+    defaults: { _controller: AppBundle:Home:notifUserPost }
+app_home_notif_user_payment:
+    path:     /notif/user_payment.html
+    defaults: { _controller: AppBundle:Home:notifUserPayment }
+app_home_notif_user:
+    path:     /notif/user.html
+    defaults: { _controller: AppBundle:Home:notifUser }
+app_home_notif_category:
+    path:     /notif/category.html
+    defaults: { _controller: AppBundle:Home:notifCategory }
+api_home_api_device:
+    path:   /api/device/{tkn}/{token}/{purchase}/
+    defaults: { _controller: AppBundle:Home:api_device }
+app_support_index:
+    path:     /support/index.html
+    defaults: { _controller: AppBundle:Support:index }
+app_support_view:
+    path:     /support/view/{id}.html
+    defaults: { _controller: AppBundle:Support:view }
+app_support_delete:
+    path:     /support/delete/{id}.html
+    defaults: { _controller: AppBundle:Support:delete }
+api_support_add:
+    path:     /api/support/add/{token}/{purchase}/
+    defaults: { _controller: AppBundle:Support:api_add }
+    methods: POST
+
+
+
+app_category_index:
+    path: /category/index.html
+    defaults: { _controller: AppBundle:Category:index}
+
+app_category_add:
+    path: /category/add.html
+    defaults: { _controller: AppBundle:Category:add}
+
+app_category_edit:
+    path: /category/edit/{id}.html
+    defaults: { _controller: AppBundle:Category:edit}
+    requirements:
+        id:  \d+
+
+app_category_delete:
+    path: /category/delete/{id}.html
+    defaults: { _controller: AppBundle:Category:delete}
+    requirements:
+        id:  \d+
+
+app_category_up:
+    path: /category/up/{id}.html
+    defaults: { _controller: AppBundle:Category:up}
+    requirements:
+        id:  \d+
+
+app_category_down:
+    path: /category/down/{id}.html
+    defaults: { _controller: AppBundle:Category:down}
+    requirements:
+        id:  \d+
+api_category_all:
+    path:     /api/category/all/{language}/{token}/{purchase}/
+    defaults: { _controller: AppBundle:Category:api_all }
+    requirements:
+        language:  \d+
+api_category_popular:
+    path:     /api/category/popular/{language}/{token}/{purchase}/
+    defaults: { _controller: AppBundle:Category:api_popular }
+    requirements:
+        language:  \d+
+api_category_by_post:
+    path:     /api/category/by/post/{id}/{token}/{purchase}/
+    defaults: { _controller: AppBundle:Category:api_by_post }
+    requirements:
+        id:  \d+
+#version
+app_version_add:
+    path: /version/add.html
+    defaults: { _controller: AppBundle:Version:add}
+app_version_index:
+    path: /version/index.html
+    defaults: { _controller: AppBundle:Version:index}
+app_version_edit:
+    path: /version/edit/{id}.html
+    defaults: { _controller: AppBundle:Version:edit}
+    requirements:
+        id:  \d+
+app_version_delete:
+    path: /version/delete/{id}.html
+    defaults: { _controller: AppBundle:Version:delete}
+    requirements:
+        id:  \d+
+api_version_check:
+    path: /api/version/check/{code}/{token}/{purchase}/
+    defaults: { _controller: AppBundle:Version:api_check}
+    requirements:
+        code:  \d+
+
+
+#question
+app_question_add:
+    path: /question/add.html
+    defaults: { _controller: AppBundle:Question:add}
+app_question_index:
+    path: /question/index.html
+    defaults: { _controller: AppBundle:Question:index}
+app_question_edit:
+    path: /question/edit/{id}.html
+    defaults: { _controller: AppBundle:Question:edit}
+    requirements:
+        id:  \d+
+app_question_delete:
+    path: /question/delete/{id}.html
+    defaults: { _controller: AppBundle:Question:delete}
+    requirements:
+        id:  \d+
+api_question_featured:
+    path:     /api/question/featured/{token}/{purchase}/
+    defaults: { _controller: AppBundle:Question:api_featured }
+api_question_all:
+    path:     /api/question/all/{page}/{language}/{token}/{purchase}/
+    defaults: { _controller: AppBundle:Question:api_all }
+    requirements:
+        page: \d+
+        language: \d+
+api_question_vote:
+    path:     /api/question/vote/{question}/{choices}/{token}/{purchase}/
+    defaults: { _controller: AppBundle:Question:api_add }
+    requirements:
+        question:  \d+
+
+    
+
+
+
+
+
+#language 
+app_language_add:
+    path: /language/add.html
+    defaults: { _controller: AppBundle:Language:add}
+app_language_index:
+    path: /language/index.html
+    defaults: { _controller: AppBundle:Language:index}
+app_language_edit:
+    path: /language/edit/{id}.html
+    defaults: { _controller: AppBundle:Language:edit}
+    requirements:
+        id:  \d+
+app_language_delete:
+    path: /language/delete/{id}.html
+    defaults: { _controller: AppBundle:Language:delete}
+    requirements:
+        id:  \d+
+app_language_up:
+    path: /language/up/{id}.html
+    defaults: { _controller: AppBundle:Language:up}
+    requirements:
+        id:  \d+
+app_language_down:
+    path: /language/down/{id}.html
+    defaults: { _controller: AppBundle:Language:down}
+    requirements:
+        id:  \d+
+api_language_all:
+    path:     /api/language/all/{token}/{purchase}/
+    defaults: { _controller: AppBundle:Language:api_all }
+api_language_by_post:
+    path:     /api/language/by/post/{id}/{token}/{purchase}/
+    defaults: { _controller: AppBundle:Language:api_by_post }
+    requirements:
+        id:  \d+
+#comment
+app_comment_delete:
+    path:     /comment/delete/{id}.html
+    defaults: { _controller: AppBundle:Comment:delete }
+    requirements:
+        id:  \d+
+app_comment_hide:
+    path:     /comment/hide/{id}.html
+    defaults: { _controller: AppBundle:Comment:hide }
+    requirements:
+        id:  \d+  
+app_comment_index:
+    path:     /comment/index.html
+    defaults: { _controller: AppBundle:Comment:index }
+api_comment_add:
+    path:     /api/comment/add/{token}/{purchase}/
+    defaults: { _controller: AppBundle:Comment:api_add }
+    methods: POST
+api_comment_list:
+    path:     /api/comment/list/{id}/{token}/{purchase}/
+    defaults: { _controller: AppBundle:Comment:api_list }
+    requirements:
+        id:  \d+  

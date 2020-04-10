@@ -1,0 +1,201 @@
+{% extends "AppBundle::layout.html.twig" %}
+{% block body%}
+<div class="container-fluid">
+    <div class="row cards-infos">
+        <div class="col-lg-4 col-md-6 col-sm-6 ">
+            <div class="card card-stats">
+                <div class="card-header" data-background-color="red">
+                    <i class="material-icons">devices_other</i>
+                </div>
+                <div class="card-content">
+                    <p class="category">Installs</p>
+                     <h3 class="title">{{devices_count}}</h3>
+                </div>
+                <div class="card-footer">
+                    <div class="stats">
+                        <i class="material-icons">perm_device_information</i><span> Application install</span> 
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-lg-4 col-md-6 col-sm-6">
+            <div class="card card-stats">
+                <div class="card-header" data-background-color="green">
+                    <i class="material-icons">remove_red_eye</i>
+                </div>
+                <div class="card-content">
+                    <p class="category">Views</p>
+                     <h3 class="title">{{count_views}}</h3>
+                </div>
+                <div class="card-footer">
+                    <div class="stats">
+                        <i class="material-icons">keyboard_arrow_right</i><a href="{{path("app_post_index")}}">Post list</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-lg-4 col-md-6 col-sm-6">
+            <div class="card card-stats">
+                <div class="card-header" data-background-color="green">
+                    <i class="material-icons">share</i>
+                </div>
+                <div class="card-content">
+                    <p class="category">Shares</p>
+                     <h3 class="title">{{count_shares}}</h3>
+                </div>
+                <div class="card-footer">
+                    <div class="stats">
+                        <i class="material-icons">keyboard_arrow_right</i><a href="{{path("app_post_index")}}">Post list</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-lg-4 col-md-6 col-sm-6">
+            <div class="card card-stats">
+                <div class="card-header" data-background-color="green">
+                    <i class="material-icons">featured_play_list</i>
+                </div>
+                <div class="card-content">
+                    <p class="category">Post</p>
+                     <h3 class="title">{{post_count}}</h3>
+                </div>
+                <div class="card-footer">
+                    <div class="stats">
+                        <i class="material-icons">keyboard_arrow_right</i><a href="{{path("app_post_index")}}">Post list</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-lg-4 col-md-6 col-sm-6">
+            <div class="card card-stats">
+                <div class="card-header" data-background-color="blue">
+                    <i class="material-icons">access_time</i>
+                </div>
+                <div class="card-content">
+                    <p class="category">Reviews</p>
+                     <h3 class="title">{{review_count}}</h3>
+                </div>
+                <div class="card-footer">
+                    <div class="stats">
+                        <i class="material-icons">keyboard_arrow_right</i><a href="{{path("app_posts_reviews")}}">Post to reviews</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-lg-4 col-md-6 col-sm-6">
+            <div class="card card-stats">
+                <div class="card-header" data-background-color="red">
+                    <i class="material-icons">flag</i>
+                </div>
+                <div class="card-content">
+                    <p class="category">Languages</p>
+                     <h3 class="title">{{language_count}}</h3>
+                </div>
+                <div class="card-footer">
+                    <div class="stats">
+                        <i class="material-icons">keyboard_arrow_right</i><a href="{{path("app_language_index")}}">Languages list</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-lg-4 col-md-6 col-sm-6">
+            <div class="card card-stats">
+                <div class="card-header" data-background-color="red">
+                    <i class="material-icons">slideshow</i>
+                </div>
+                <div class="card-content">
+                    <p class="category">Slides </p>
+                     <h3 class="title">{{slides_count}}</h3>
+                </div>
+                <div class="card-footer">
+                    <div class="stats">
+                        <i class="material-icons">keyboard_arrow_right</i><a href="{{path("app_slide_index")}}">Slide list</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-lg-4 col-md-6 col-sm-6">
+            <div class="card card-stats">
+                <div class="card-header" data-background-color="red">
+                    <i class="material-icons">view_list</i>
+                </div>
+                <div class="card-content">
+                    <p class="category">Categoryies </p>
+                     <h3 class="title">{{category_count}}</h3>
+                </div>
+                <div class="card-footer">
+                    <div class="stats">
+                        <i class="material-icons">keyboard_arrow_right</i><a href="{{path("app_category_index")}}">Categories list</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-lg-4 col-md-6 col-sm-6">
+            <div class="card card-stats">
+                <div class="card-header" data-background-color="purple">
+                    <i class="material-icons">group</i>
+                </div>
+                <div class="card-content">
+                    <p class="category">users</p>
+                     <h3 class="title">{{users_count}}</h3>
+                </div>
+                <div class="card-footer">
+                    <div class="stats">
+                        <i class="material-icons">keyboard_arrow_right</i><a href="{{path("user_user_index")}}">user list</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-lg-4 col-md-6 col-sm-6">
+            <div class="card card-stats">
+                <div class="card-header" data-background-color="rose">
+                    <i class="material-icons">comment</i>
+                </div>
+                <div class="card-content">
+                    <p class="category">Comments</p>
+                     <h3 class="title">{{comment_count}}</h3>
+                </div>
+                <div class="card-footer">
+                    <div class="stats">
+                        <i class="material-icons">keyboard_arrow_right</i><a href="{{path("app_comment_index")}}">Comments list</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="col-lg-4 col-md-6 col-sm-6">
+            <div class="card card-stats">
+                <div class="card-header" data-background-color="rose">
+                    <i class="material-icons">help</i>
+                </div>
+                <div class="card-content">
+                    <p class="category">Supports</p>
+                     <h3 class="title">{{supports_count}}</h3>
+                </div>
+                <div class="card-footer">
+                    <div class="stats">
+                        <i class="material-icons">keyboard_arrow_right</i><a href="{{path("app_support_index")}}">Support messages list</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-lg-4 col-md-6 col-sm-6">
+            <div class="card card-stats">
+                <div class="card-header" data-background-color="black">
+                    <i class="material-icons">info</i>
+                </div>
+                <div class="card-content">
+                    <p class="category">Version</p>
+                     <h3 class="title">{{version_count}}</h3>
+                </div>
+                <div class="card-footer">
+                    <div class="stats">
+                        <i class="material-icons">keyboard_arrow_right</i><a href="{{path("app_version_index")}}">Versions list</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock%}

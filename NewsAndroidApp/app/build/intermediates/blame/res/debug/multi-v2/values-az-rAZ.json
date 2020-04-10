@@ -1,0 +1,19 @@
+{
+    "logs": [
+        {
+            "outputFile": "/Users/hsn/Desktop/My Projects/Ultimate News App V2/CodeCanyon/New/NewsApp/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-az-rAZ/values-az-rAZ.xml",
+            "map": [
+                {
+                    "source": "/Users/hsn/.gradle/caches/transforms-1/files-1.1/exoplayer-ui-r2.5.2.aar/68f1a65150fb2bd7ec96a28b95f6b59c/res/values-az-rAZ/values-az-rAZ.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8,9,10,11",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,136,209,276,341,417,501,582,659,733",
+                        "endColumns": "80,72,66,64,75,83,80,76,73,68",
+                        "endOffsets": "131,204,271,336,412,496,577,654,728,797"
+                    }
+                }
+            ]
+        }
+    ]
+}

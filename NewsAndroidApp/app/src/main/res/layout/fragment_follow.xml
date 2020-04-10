@@ -1,0 +1,120 @@
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layoutDirection="ltr"
+
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    >
+
+    <RelativeLayout
+        android:visibility="gone"
+        android:id="@+id/relative_layout_follow_fragment"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <android.support.v4.widget.SwipeRefreshLayout
+            android:id="@+id/swipe_refreshl_follow_fragment"
+            android:layout_width="match_parent"
+            android:layout_height="fill_parent"
+            >
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="fill_parent">
+                <LinearLayout
+                    android:visibility="gone"
+                    android:id="@+id/linear_layout_page_error"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+                    <include layout="@layout/page_error" />
+                </LinearLayout>
+                <ImageView
+                    android:visibility="gone"
+                    android:padding="40dp"
+                    app:srcCompat="@drawable/bg_empty"
+                    android:id="@+id/imageView_empty_follow"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent" />
+                <android.support.v7.widget.RecyclerView
+                    android:visibility="visible"
+                    android:id="@+id/recycle_view_follow_fragment"
+                    android:layout_centerInParent="true"
+                    android:layout_height="fill_parent"
+                    android:layout_width="match_parent"/>
+            </LinearLayout>
+        </android.support.v4.widget.SwipeRefreshLayout>
+        <RelativeLayout
+            android:visibility="gone"
+            android:id="@+id/relative_layout_load_more"
+            android:gravity="center"
+            android:layout_centerHorizontal="true"
+            android:layout_alignParentBottom="true"
+            android:background="@drawable/loading_bg"
+            android:layout_marginBottom="60dp"
+            android:layout_width="40dp"
+            android:layout_height="40dp">
+            <com.leo.simplearcloader.SimpleArcLoader
+                android:layout_alignParentBottom="true"
+                android:visibility="visible"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                app:arc_colors="@array/colors_load"
+                app:arc_style="simple_arc"
+                app:arc_speed="medium"
+                app:arc_margin="3dp">
+
+            </com.leo.simplearcloader.SimpleArcLoader>
+        </RelativeLayout>
+    </RelativeLayout>
+    <LinearLayout
+        android:gravity="center"
+        android:orientation="vertical"
+        android:visibility="visible"
+        android:id="@+id/linear_layout_follow_fragment_me"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <ImageView
+                android:padding="25dp"
+                android:layout_centerHorizontal="true"
+                android:id="@+id/image_view_login"
+                android:adjustViewBounds="true"
+                android:scaleType="fitXY"
+                android:tint="@color/colorPrimaryDark"
+                app:srcCompat="@drawable/ic_login"
+                android:layout_width="200dp"
+                android:layout_height="200dp" />
+        </RelativeLayout>
+        <LinearLayout
+            android:gravity="center"
+            android:orientation="vertical"
+            android:layout_alignParentRight="true"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:id="@+id/text_view_name_nave_header"
+                android:textColor="@color/primary_text_light"
+                android:textSize="8pt"
+                android:layout_margin="10dp"
+                android:text="@string/please_login"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <Button
+                android:id="@+id/button_login_nav_follow_fragment"
+                android:paddingLeft="40dp"
+                android:paddingRight="40dp"
+                android:text="Sign in !"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/white"
+                android:background="@drawable/gradient_dialog_btn"
+                android:elevation="1dp" />
+        </LinearLayout>
+    </LinearLayout>
+</FrameLayout>

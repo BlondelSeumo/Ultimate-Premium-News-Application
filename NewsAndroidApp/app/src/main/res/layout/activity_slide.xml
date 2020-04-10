@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/relative_layout_slide"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:layoutDirection="ltr"
+
+    tools:context=".ui.Activities.SlideActivity">
+    <com.virmana.news_app.ui.view.ClickableViewPager
+        android:gravity="center"
+        android:paddingBottom="0dp"
+        android:paddingLeft="20dp"
+        android:paddingTop="10dp"
+        android:paddingRight="20dp"
+        android:id="@+id/view_pager_slide"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    </com.virmana.news_app.ui.view.ClickableViewPager>
+    <LinearLayout
+        android:layout_alignParentBottom="true"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="51dp">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp">
+    <com.github.vivchar.viewpagerindicator.ViewPagerIndicator
+        android:id = "@+id/view_pager_indicator"
+        android:layout_width = "wrap_content"
+        android:layout_height = "wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:padding="5dp"
+        android:layout_marginBottom="15dp"
+        app:delimiterSize = "6dp"
+        app:itemSize="8dp"
+        app:itemTint="@color/black"
+        app:itemSelectedTint="@color/gray_color"
+        />
+        <LinearLayout
+            android:id="@+id/linear_layout_skip"
+            android:background="?android:attr/selectableItemBackground"
+            android:clickable="true"
+            android:focusable="true"
+            android:orientation="horizontal"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentBottom="true"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp" >
+            <TextView
+                android:paddingRight="10dp"
+                android:paddingLeft="10dp"
+                android:textAlignment="center"
+                android:gravity="center"
+                android:textSize="18dp"
+                android:textColor="@color/black"
+                android:text="SKIP"
+                android:layout_width="wrap_content"
+                android:layout_height="50dp" />
+        </LinearLayout>
+        <LinearLayout
+            android:id="@+id/linear_layout_next"
+            android:background="?android:attr/selectableItemBackground"
+            android:clickable="true"
+            android:focusable="true"
+            android:orientation="horizontal"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentBottom="true"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp" >
+            <TextView
+                android:id="@+id/text_view_next_done"
+                android:paddingRight="10dp"
+                android:paddingLeft="10dp"
+                android:textAlignment="center"
+                android:gravity="center"
+                android:textSize="18dp"
+                android:textColor="@color/black"
+                android:text="NEXT"
+                android:layout_width="wrap_content"
+                android:layout_height="50dp" />
+        </LinearLayout>
+    </RelativeLayout>
+    </LinearLayout>
+</RelativeLayout>

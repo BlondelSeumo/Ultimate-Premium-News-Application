@@ -1,0 +1,30 @@
+{% extends 'MediaBundle::layout.html.twig' %}
+{% block body %}
+	{% if media.id !=null %}
+		<script type="text/javascript">
+		sendToParent("{{asset(media.link)|imagine_filter('media_image')}}");
+		window.close();
+		</script>
+	{% endif %}
+	<div class="notif" >
+		<div class="notif-head">
+			<a href="{{path("media_index",{CKEditor:app.request.query.get("CKEditor"),CKEditorFuncNum:app.request.query.get("CKEditorFuncNum"),langCode:app.request.query.get("langCode")})}}" class="notif-close"><i class="fa fa-chevron-left" aria-hidden="true"></i>IMAGES LIST</a>
+			<span class="notif-title">ADD IMAGE</span>
+		</div>
+		{{ form_start(form)}}
+		
+		<div class="notif-body clearfix" dir="rtl">
+			<div class="thumb  upload" onclick="document.getElementById('form_file').click()">
+				<img class="select-image" id="img-preview" src="{{asset("img/placeholder_media.jpg")|imagine_filter('media_image')}}">
+				{{form_widget(form.file,{"attr":{"style":"opacity:0;"}})}}
+			</div>
+			<div class="errors-form">
+				{{form_errors(form.file)}}
+			</div>
+			<br>
+			<button class="btn btn-hiya" style="width:300px;" >CLICK HERE TO UPLOAD<i class="fa fa-send" aria-hidden="true"></i></button>
+			{{form_end(form)}}
+		</div>
+	</div>
+
+{% endblock %}

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/fab_post"
+        android:title="Post Text"
+        android:icon="@drawable/ic_library_books"
+        />
+    <item
+        android:id="@+id/fab_youtube"
+        android:title="Post Youtube"
+        android:icon="@drawable/ic_youtube"
+        />
+    <item
+        android:id="@+id/fab_video"
+        android:title="Post Video"
+        android:icon="@drawable/ic_videocam"
+        />
+</menu>

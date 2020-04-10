@@ -1,0 +1,107 @@
+{% extends "AppBundle::layout.html.twig" %}
+{% block body%}
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-sm-offset-2 col-md-8">
+                <div class="card">
+                    <div class="card-header card-header-icon" data-background-color="rose">
+                        <i class="material-icons">videocam</i>
+                    </div>
+                    <div class="card-content">
+                        {{form_start(form)}}
+                        <h4 class="card-title">Edit Video : {{form.vars.value.title}}</h4>
+                        <div class="form-group label-floating ">
+                            <label class="control-label">Video title</label>
+                            {{form_widget(form.title,{"attr":{"class":"form-control"}})}}
+                            <span class="validate-input">{{form_errors(form.title)}}</span>
+                        </div>
+                        <div class="fileinput fileinput-new text-center" style="    width: 100%;" data-provides="fileinput">
+                            <div class="fileinput-new thumbnail" style="    width: 100%;">
+                                <img  id="img-preview" src="{{asset(form.vars.value.media.link)}}"  width="100%">
+                            </div>
+                            {{form_widget(form.file,{"attr":{"class":"file-hidden input-file img-selector","style":"    display: none;"}})}}
+                            <div>
+                                <a href="#" class="btn btn-rose btn-round btn-select"><i class="material-icons">image</i> Select image </a>
+                            </div>
+                            <span class="validate-input">{{form_errors(form.file)}}</span>
+                        </div>
+                        <video autobuffer autoloop loop controls width="100%">
+                          <source id="video_here" src="{{asset(form.vars.value.localvideo.link)}}">
+                          <source id="video_here" src="{{asset(form.vars.value.localvideo.link)}}">
+                          <object type="video/ogg" data="{{asset(form.vars.value.localvideo.link)}}">
+                          <param name="src" value="{{asset(form.vars.value.localvideo.link)}}">
+                          <param name="autoplay" value="false">
+                          <param name="autoStart" value="0">
+                          <p><a href="{{asset(form.vars.value.localvideo.link)}}">Download this video file.</a></p>
+                          </object>
+                        </video>
+                        <span class="validate-input">{{form_errors(form.file)}}</span>
+                        <div style="width: 100%;">
+                            <div class="fileinput-preview thumbnail"></div>
+                            <div>
+                                <a href="#" class="btn btn-rose btn-round  input-btn-3" style="width: 100%;"><i class="material-icons">attach_file</i> Select Video</a>
+                            </div>
+                            {{form_widget(form.videofile,{"attr":{"class":"input-file-3","style":"   /* display: none; */height: 0px;width: 0px;position: absolute;"}})}}
+                        </div>
+                        <span class="validate-input">{{form_errors(form.videofile)}}</span>
+                        <label class="control-label">Video content</label>
+                        <div class="form-group label-floating">
+                            {{form_widget(form.content,{"attr":{"class":"form-control"}})}}
+                            <span class="validate-input">{{form_errors(form.content)}}</span>
+                        </div>
+                        <div class="">
+                            <label>
+                                {{form_widget(form.enabled)}}  Enabled
+                            </label>
+                        </div>
+                        <div class="">
+                            <label>
+                                {{form_widget(form.comment)}}  Enabled comments
+                            </label>
+                        </div>
+                        <div class="form-group" style="    padding: 0px !important;margin-top: 0px;">
+                            <label>Tags</label>
+                            {{form_widget(form.tags,{"attr":{"class":"input-tags"}})}}
+                            <span class="validate-input">{{form_errors(form.tags)}}</span>
+                        </div>
+                        <script>
+                        $('.input-tags').selectize({
+                        persist: false,
+                        createOnBlur: true,
+                        create: true
+                        });
+                        </script>
+{{form_label(form.categories,null,{label_attr:{"style":"font-size:16px"}})}} :
+                            <div>
+                                <div class="row">
+                                    {% for field in form.categories %}
+                                        <label  style="background: #000;border-radius: 20px;padding: 5px;text-align: center;margin: 10px;color: white;font-weight: bold;/* padding-left: 20px; */padding-right: 20px;position: relative;padding-left: 38px;">
+                                            {{ form_widget(field) }} {{ field.vars.label }} 
+                                            {% for category in categories %}
+                                                {% if category.id == field.vars.value %}
+                                                    <img src="{{asset(category.language.media.link)|imagine_filter('language_thumb')}}" style="width: 21px;height: inherit;border-radius: 5px;position: absolute;left: 6px;top: 4px;" >
+                                                {% endif %}
+                                            {% endfor %}
+                                        </label>
+                                    {% endfor %}
+                                </div>
+                            </div>
+                        {{form_label(form.languages,null,{label_attr:{"style":"font-size:16px"}})}} :
+                        <div>
+                            <div class="row">
+                                {% for field in form.languages %}
+                                    <label  style="background: #000;border-radius: 20px;padding: 5px;text-align: center;margin: 10px;color: white;font-weight: bold;padding-left: 20px;padding-right: 20px;">
+                                        {{ form_widget(field) }} {{ field.vars.label }}
+                                    </label>
+                                {% endfor %}
+                            </div>
+                        </div>
+                        <br>
+                        <span class="pull-right"><a href="{{path("app_post_index")}}" class="btn btn-fill btn-yellow"><i class="material-icons">arrow_back</i> Cancel</a>{{form_widget(form.save,{attr:{"class":"btn btn-fill btn-rose"}})}}</span>
+                        {{form_end(form)}}
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+{% endblock%}

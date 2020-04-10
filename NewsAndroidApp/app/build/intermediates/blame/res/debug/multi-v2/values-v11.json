@@ -1,0 +1,20 @@
+{
+    "logs": [
+        {
+            "outputFile": "/Users/hsn/Desktop/My Projects/Ultimate News App V2/CodeCanyon/New/NewsApp/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-v11/values-v11.xml",
+            "map": [
+                {
+                    "source": "/Users/hsn/.gradle/caches/transforms-1/files-1.1/exoplayer-ui-r2.5.2.aar/68f1a65150fb2bd7ec96a28b95f6b59c/res/values-v11/values-v11.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endLines": "6",
+                        "endColumns": "10",
+                        "endOffsets": "329"
+                    }
+                }
+            ]
+        }
+    ]
+}

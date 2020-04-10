@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layoutDirection="ltr"
+
+    android:layout_height="match_parent">
+    <RelativeLayout
+        android:background="@drawable/bg_dialog"
+        android:clickable="true"
+        android:focusable="true"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:id="@+id/relative_layout_item_quote"
+        android:layout_marginBottom="5dp"
+        android:padding="4dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">`
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:id="@+id/text_view_item_payout_name"
+                    android:textStyle="bold"
+                    android:textColor="@color/primary_text"
+                    android:layout_margin="3dp"
+                    android:padding="4dp"
+                    android:text="Johon Amlagona "
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+                <TextView
+                    android:id="@+id/text_view_item_payout_state"
+                    android:layout_margin="3dp"
+                    android:layout_alignParentRight="true"
+                    android:textStyle="bold"
+                    android:padding="4dp"
+                    android:textColor="@color/white"
+                    android:background="#ffbc12"
+                    android:text="Rejected"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+            </RelativeLayout>
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:id="@+id/text_view_item_payout_account"
+                    android:textStyle="bold"
+                    android:textColor="@color/primary_text"
+                    android:layout_margin="3dp"
+                    android:padding="4dp"
+                    android:text="Johan.payement@PayPal.com"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+                <TextView
+                    android:id="@+id/text_view_item_payout_method"
+                    android:layout_margin="3dp"
+                    android:layout_alignParentRight="true"
+                    android:textStyle="bold"
+                    android:padding="4dp"
+                    android:textColor="@color/white"
+                    android:background="@color/blue"
+                    android:text="PayPal"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+            </RelativeLayout>
+            <TextView
+                android:id="@+id/text_view_item_payout_date"
+                android:gravity="center"
+                android:text="20/11/20344"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+            <RelativeLayout
+                android:background="@color/colorPrimaryDark"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"/>
+            <LinearLayout
+                android:weightSum="2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:id="@+id/text_view_item_payout_amount"
+                    android:textColor="@color/primary_text"
+                    android:textStyle="bold"
+                    android:padding="5dp"
+                    android:gravity="center"
+                    android:layout_weight="1"
+                    android:text="13.43 $"
+                    android:textSize="23dp"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content" />
+                <TextView
+                    android:id="@+id/text_view_item_payout_points"
+                    android:textStyle="bold"
+                    android:textColor="@color/primary_text"
+                    android:padding="5dp"
+                    android:gravity="center"
+                    android:textSize="23dp"
+                    android:layout_weight="1"
+                    android:text="1373 P"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content" />
+            </LinearLayout>
+        </LinearLayout>
+    </RelativeLayout>
+</RelativeLayout>

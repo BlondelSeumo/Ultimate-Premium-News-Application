@@ -1,0 +1,94 @@
+{% extends "AppBundle::layout.html.twig" %}
+{% block body%}
+    <div class="container-fluid post-view">
+        <div class="row">
+            <div class="col-sm-offset-2 col-md-8">
+                <div class="card">
+                    <div class="card-header card-header-icon" data-background-color="rose">
+                        <i class="material-icons">library_books</i>
+                    </div>
+                    <div class="card-content">
+                        <h4 class="card-title">Review "{{form.vars.value.title}}"</h4>
+                        {{form_start(form)}}
+                        <div class="form-group label-floating is-empty">
+                            <label class="control-label">Guide title</label>
+                            {{form_widget(form.title,{"attr":{"class":"form-control"}})}}
+                            <span class="validate-input">{{form_errors(form.title)}}</span>
+                        </div>
+                        <div class="fileinput fileinput-new text-center" style="    width: 100%;" data-provides="fileinput">
+                            <div class="fileinput-new thumbnail" style="    width: 100%;">
+                                <img  id="img-preview" src="{{asset(post.media.link)}}"  width="100%">
+                            </div>
+                        </div>
+                    {% if post.localvideo != null %}
+                       <video autobuffer autoloop loop controls width="100%">
+                          <source id="video_here" src="{{asset(post.localvideo.link)}}">
+                          <source id="video_here" src="{{asset(post.localvideo.link)}}">
+                          <object type="video/ogg" data="{{asset(post.localvideo.link)}}">
+                          <param name="src" value="{{asset(post.localvideo.link)}}">
+                          <param name="autoplay" value="false">
+                          <param name="autoStart" value="0">
+                          <p><a href="{{asset(post.localvideo.link)}}">Download this video file.</a></p>
+                          </object>
+                        </video>
+                    {% endif %}
+                    {% if post.video != null %}
+                            <style>.embed-container { position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; } .embed-container iframe, .embed-container object, .embed-container embed { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }</style><div class='embed-container'><iframe src='https://www.youtube.com/embed/{{post.youtube}}' frameborder='0' allowfullscreen></iframe></div>                        <div class="form-group label-floating is-empty">
+
+                    {% endif %}
+                        <div class="form-group label-floating is-empty" style=" margin-top: 0px !important; ">
+                            <label class="control-label">Guide content</label>
+                            {{form_widget(form.content,{"attr":{"class":"form-control"}})}}
+                            <span class="validate-input">{{form_errors(form.content)}}</span>
+                        </div>
+                        <div class="form-group label-floating is-empty">
+                            <label>
+                                {{form_widget(form.comment)}}  Enabled Comments
+                            </label>
+                        </div>
+                        <div class="form-group label-floating " style=" margin-top: 0px !important; ">
+                            <label class="control-label">Tags (Ex:anim,art,hero)</label>
+                            <br>
+                            {{form_widget(form.tags,{"attr":{"class":"input-tags"}})}}
+                            <span class="validate-input">{{form_errors(form.tags)}}</span>
+                        </div>
+                        <script>
+                        $('.input-tags').selectize({
+                        persist: false,
+                        createOnBlur: true,
+                        create: true
+                        });
+                        </script>
+{{form_label(form.categories,null,{label_attr:{"style":"font-size:16px"}})}} :
+                            <div>
+                                <div class="row">
+                                    {% for field in form.categories %}
+                                        <label  style="background: #000;border-radius: 20px;padding: 5px;text-align: center;margin: 10px;color: white;font-weight: bold;/* padding-left: 20px; */padding-right: 20px;position: relative;padding-left: 38px;">
+                                            {{ form_widget(field) }} {{ field.vars.label }} 
+                                            {% for category in categories %}
+                                                {% if category.id == field.vars.value %}
+                                                    <img src="{{asset(category.language.media.link)|imagine_filter('language_thumb')}}" style="width: 21px;height: inherit;border-radius: 5px;position: absolute;left: 6px;top: 4px;" >
+                                                {% endif %}
+                                            {% endfor %}
+                                        </label>
+                                    {% endfor %}
+                                </div>
+                            </div>
+                        {{form_label(form.languages,null,{label_attr:{"style":"font-size:16px"}})}} :
+                        <div>
+                            <div class="row">
+                                {% for field in form.languages %}
+                                    <label  style="background: #000;border-radius: 20px;padding: 5px;text-align: center;margin: 10px;color: white;font-weight: bold;padding-left: 20px;padding-right: 20px;">
+                                        {{ form_widget(field) }} {{ field.vars.label }}
+                                    </label>
+                                {% endfor %}
+                            </div>
+                        </div>
+                        <span class="pull-right"><a href="{{path("app_post_index")}}" class="btn btn-fill btn-yellow"><i class="material-icons">arrow_back</i> Cancel</a>{{form_widget(form.save,{attr:{"class":"btn btn-fill btn-rose"}})}}</span>
+                        {{form_end(form)}}
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+{% endblock%}

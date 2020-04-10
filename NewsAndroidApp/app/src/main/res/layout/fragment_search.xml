@@ -1,0 +1,72 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layoutDirection="ltr"
+    >
+    <RelativeLayout
+        android:id="@+id/relative_layout_popular_f"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <android.support.v4.widget.SwipeRefreshLayout
+            android:id="@+id/swipe_refreshl_search_fragment"
+            android:layout_width="match_parent"
+            android:layout_height="fill_parent">
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="fill_parent">
+                <LinearLayout
+                    android:visibility="gone"
+                    android:id="@+id/linear_layout_load_search_fragment"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+                    <include layout="@layout/item_placeholder" />
+                </LinearLayout>
+                <LinearLayout
+                    android:visibility="gone"
+                    android:id="@+id/linear_layout_page_error"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+                    <include layout="@layout/page_error" />
+                </LinearLayout>
+                <android.support.v7.widget.RecyclerView
+                    android:id="@+id/recycler_view_search_fragment"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:paddingTop="5dp"
+                    android:paddingBottom="5dp"
+                    android:clipToPadding="false"
+                    android:clipChildren="false"
+                    tools:listitem="@layout/item_list"/>
+            </LinearLayout>
+        </android.support.v4.widget.SwipeRefreshLayout>
+        <RelativeLayout
+            android:visibility="gone"
+            android:id="@+id/relative_layout_load_more"
+            android:gravity="center"
+            android:layout_centerHorizontal="true"
+            android:layout_alignParentBottom="true"
+            android:background="@drawable/loading_bg"
+            android:layout_marginBottom="60dp"
+            android:layout_width="40dp"
+            android:layout_height="40dp">
+            <com.leo.simplearcloader.SimpleArcLoader
+                android:layout_alignParentBottom="true"
+                android:visibility="visible"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                app:arc_colors="@array/colors_load"
+                app:arc_style="simple_arc"
+                app:arc_speed="medium"
+                app:arc_margin="3dp">
+
+            </com.leo.simplearcloader.SimpleArcLoader>
+        </RelativeLayout>
+    </RelativeLayout>
+
+</FrameLayout>

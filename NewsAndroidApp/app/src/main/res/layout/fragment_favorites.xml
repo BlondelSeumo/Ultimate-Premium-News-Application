@@ -1,0 +1,44 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layoutDirection="ltr"
+
+    >
+
+    <RelativeLayout
+        android:id="@+id/activity_favorites"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context="com.rkhd.how_to.ui.activity.FavoritesActivity">
+        <RelativeLayout
+            android:id="@+id/relative_layout_home_f"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <android.support.v4.widget.SwipeRefreshLayout
+                android:id="@+id/swipe_refreshl_home_favorite"
+                android:layout_width="match_parent"
+                android:layout_height="fill_parent">
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_width="match_parent"
+                    android:layout_height="fill_parent">
+                    <ImageView
+                        android:visibility="gone"
+                        android:padding="40dp"
+                        app:srcCompat="@drawable/bg_empty"
+                        android:id="@+id/imageView_empty_favorite"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent" />
+                    <android.support.v7.widget.RecyclerView
+                        android:id="@+id/recycle_view_home_favorite"
+                        android:layout_centerInParent="true"
+                        android:layout_height="fill_parent"
+                        android:layout_width="match_parent"/>
+                </LinearLayout>
+            </android.support.v4.widget.SwipeRefreshLayout>
+        </RelativeLayout>
+    </RelativeLayout>
+</FrameLayout>

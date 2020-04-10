@@ -1,0 +1,47 @@
+{% extends "AppBundle::layout.html.twig" %}
+{% block body%}
+<div class="container-fluid">
+    <div class="row">
+       <div class="col-sm-offset-2 col-md-8">
+            <div class="card">
+                <div class="card-header card-header-icon" data-background-color="rose">
+                    <i class="material-icons">notifications_active</i>
+                </div>
+                <div class="card-content">
+                    <h4 class="card-title">Notification Post</h4>
+                    {{form_start(form)}}
+                        <br>
+                        <label class="control-label">Notification Title</label>
+                        <div class="form-group label-floating">
+                            {{form_widget(form.title,{value: app.request.query.get("title"),"attr":{"class":"form-control","data-emojiable":"true","data-emoji-input":"unicode"}})}}
+                            <span class="validate-input">{{form_errors(form.title)}}</span>
+                        </div>
+                        <label class="control-label">Notification Message</label>
+                        <div class="form-group label-floating ">
+                            {{form_widget(form.message,{value: app.request.query.get("title"),"attr":{"class":"form-control","data-emojiable":"true","data-emoji-input":"unicode"}})}}
+                            <span class="validate-input">{{form_errors(form.message)}}</span>
+                        </div>
+                        <div class="form-group label-floating ">
+                            <label class="control-label">Large Icon</label>
+                            {{form_widget(form.icon,{value: app.request.query.get("icon"),"attr":{"class":"form-control"}})}}
+                            <span class="validate-input">{{form_errors(form.icon)}}</span>
+                        </div>
+                        <div class="form-group label-floating ">
+                            <label class="control-label">Big Image</label>
+                            {{form_widget(form.image,{value: app.request.query.get("image"),"attr":{"class":"form-control"}})}}
+                            <span class="validate-input">{{form_errors(form.image)}}</span>
+                        </div>
+                        <div class="form-group label-floating ">
+                            <label class="control-label">Post</label>
+                            {{form_widget(form.object,{value: app.request.query.get("id"),"attr":{"class":"form-control"}})}}
+                            <span class="validate-input">{{form_errors(form.object)}}</span>
+                        </div>
+                        <span class="pull-right">{{form_widget(form.send,{attr:{"class":"btn btn-fill btn-rose"}})}}</span>
+
+                    {{form_end(form)}}
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock%}

@@ -1,0 +1,122 @@
+{% extends "AppBundle::layout.html.twig" %}
+{% block body%}
+	<div class="container-fluid post-list">
+		<div class="row">
+			<div class="row">
+				<div class="col-md-4">
+					<a href="{{path("app_post_index")}}" class="btn  btn-lg btn-warning col-md-12"><i class="material-icons" style="font-size: 30px;">refresh</i> Refresh</a>
+				</div>
+				<div class="col-md-4">
+					<a class="btn btn btn-lg btn-yellow col-md-12"><i class="material-icons" style="font-size: 30px;">library_books</i> {{post_count}} POSTS</a>
+				</div>
+
+				<div class="col-md-4">
+					<div class="dropdown">
+						<a href="#" data-toggle="dropdown" aria-expanded="false" class="btn btn-rose btn-lg pull-right add-button col-md-12"title=""><i class="material-icons" style="font-size: 30px;">add_box</i> NEW POST </a>
+						<ul class="dropdown-menu dropdown-menu-right" role="menu">
+							<li>
+								<a href="{{path("app_post_add")}}"><i class="material-icons">library_books</i> NEW POST</a>
+							</li>
+							<li>
+								<a href="{{path("app_video_add")}}"><i class="material-icons">videocam</i> NEW VIDEO</a>
+							</li>
+							<li>
+								<a href="{{path("app_youtube_add")}}"><i class="material-icons">link</i> NEW YOUTUBE VIDEO</a>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+			<div class="row">
+
+				<div class="col-md-12">
+					    <form>
+					    	<input name="query"  value="{{ app.request.query.get("query") }}" type="text" class="search-input">
+					    	<button class="btn btn-sm search-btn"  ><i class="material-icons" style="font-size: 30px;">search</i></button>
+					    </form>
+				</div>
+			</div>
+			<br>
+			<div class="row">
+				{% for post in post_list %}
+					
+					<div class="col-md-4" >
+						<div class="card card-product"  >
+							{% if post.type == "video" %}
+								<div class="parts-count"><span><i class="material-icons">videocam</i></span></div>
+							{% endif %}
+							{% if post.type == "post" %}
+								<div class="parts-count"><span><i class="material-icons">library_books</i></span></div>
+							{% endif %}
+							{% if post.type == "youtube" %}
+								<div class="parts-count"><span><img style=" height: 20px; width: 20px; " src="{{asset("img/youtube.png")}}"></span></div>
+							{% endif %}
+							<img class="img " style="height:auto;background-color:#fff;  border-top-left-radius: 5px;border-top-right-radius: 5px;" src="{{asset(post.media.link)|imagine_filter("post_thumb")}}">
+							<div class="card-actions">
+								<a href="{{path("app_post_view",{id:post.id})}}" class="btn btn-info btn-simple" rel="tooltip" data-placement="bottom" title="" data-original-title="View">
+									<i class="material-icons">remove_red_eye</i>
+								</a>
+								{% if post.type == "video" %}
+									<a href="{{path("app_video_edit",{id:post.id})}}" class="btn btn-success btn-simple" rel="tooltip" data-placement="bottom" title="" data-original-title="Edit">
+										<i class="material-icons">edit</i>
+									</a>
+								{% endif %}
+								{% if post.type == "post" %}
+									<a href="{{path("app_post_edit",{id:post.id})}}" class="btn btn-success btn-simple" rel="tooltip" data-placement="bottom" title="" data-original-title="Edit">
+										<i class="material-icons">edit</i>
+									</a>
+								{% endif %}
+								{% if post.type == "youtube" %}
+									<a href="{{path("app_youtube_edit",{id:post.id})}}" class="btn btn-success btn-simple" rel="tooltip" data-placement="bottom" title="" data-original-title="Edit">
+										<i class="material-icons">edit</i>
+									</a>
+								{% endif %}
+								<a href="{{path("app_home_notif_post",{title:post.title,id:post.id,image:asset(post.media.link)|imagine_filter("post_thumb"),icon:asset(post.media.link)|imagine_filter("post_thumb")})}}" class="btn btn-rose btn-simple" rel="tooltip" data-placement="bottom" title="" data-original-title="Notification">
+									<i class="material-icons">notifications_active</i>
+								</a>
+								<a href="{{path("app_post_delete",{id:post.id})}}" class="btn btn-danger btn-simple" rel="tooltip" data-placement="bottom" title="" data-original-title="Delete">
+									<i class="material-icons">close</i>
+								</a>
+							</div>
+							<div class="card-content" style="padding: 10px 10px;">
+								<div class="wallpaper-title" >
+									{{post.title}}
+								</div>
+							</div>
+							<div class="card-footer">
+								<div class="price">
+									<div class="wallpaper-logo" >
+										{% if post.user.image == "" %}
+											{{post.user.name}}
+										{% else %}
+											<img src="{{post.user.image}}" class="avatar-img" alt="">
+										{% endif %}
+										<span>{{post.user.name}}</span>
+									</div>
+								</div>
+								<div class="stats pull-right">
+									<div class="wallpaper-logo" >{{post.created|ago}}</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				{% else %}
+					<div class="col-md-12">
+						<div class="card">
+							<div class="card-content">
+								<br>
+								<br>
+								<center><img src="{{asset("img/bg_empty.png")}}"  style="width: auto !important;" =""></center>
+								<br>
+								<br>
+							</div>
+						</div>
+					</div>
+				{% endfor %}
+				
+			</div>
+			<div class=" pull-right">
+				{{ knp_pagination_render(post_list) }}
+			</div>
+		</div>
+	{% endblock%}

@@ -1,0 +1,603 @@
+{
+  "project_info": {
+    "project_number": "690266354741",
+    "firebase_url": "https://my-project-bd321.firebaseio.com",
+    "project_id": "my-project-bd321",
+    "storage_bucket": "my-project-bd321.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:690266354741:android:3b8e36dca68a4951",
+        "android_client_info": {
+          "package_name": "com.mystatus.video_whatsapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "690266354741-fvmld199k92icr1okt0rsti7em3t5fdp.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.mystatus.video_whatsapp",
+            "certificate_hash": "89a2455c9c6c187ca935f06e83415e514bffebd8"
+          }
+        },
+        {
+          "client_id": "690266354741-c3q285kt04pi97i3r6856kr40coqdpr2.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAD-0imNCZ7KF4rEVTHayk_k9Vl6qpvKME"
+        },
+        {
+          "current_key": "AIzaSyCqK2dXmV-Ib6K0ofTbhCa0SC8-WQRA4vs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "690266354741-c3q285kt04pi97i3r6856kr40coqdpr2.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:690266354741:android:8cb9815a9eafde10",
+        "android_client_info": {
+          "package_name": "com.pxllab.wastickerapps"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "690266354741-65c0sdeovvspk8mk6ptjl0bhpoe9barf.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.pxllab.wastickerapps",
+            "certificate_hash": "c61860eeedea3151a0163ffabf5ffd19f4842629"
+          }
+        },
+        {
+          "client_id": "690266354741-c3q285kt04pi97i3r6856kr40coqdpr2.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAD-0imNCZ7KF4rEVTHayk_k9Vl6qpvKME"
+        },
+        {
+          "current_key": "AIzaSyCqK2dXmV-Ib6K0ofTbhCa0SC8-WQRA4vs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "690266354741-c3q285kt04pi97i3r6856kr40coqdpr2.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:690266354741:android:c03ff94b9ec36e25",
+        "android_client_info": {
+          "package_name": "com.virmana.guide_app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "690266354741-6gpfgre85g4h4q8hnm22ae8kacbln0tl.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.virmana.guide_app",
+            "certificate_hash": "976f75958dd7b0550a420e522d849c6084dafddc"
+          }
+        },
+        {
+          "client_id": "690266354741-vsvmmmhmt49gra1rpccdbft64hng7je7.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.virmana.guide_app",
+            "certificate_hash": "7cb58cd17e3991ae9e177620efd6de15847c184a"
+          }
+        },
+        {
+          "client_id": "690266354741-8jmhr4ngu6466d9bv920un2vpoa1958f.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.virmana.guide_app",
+            "certificate_hash": "852a10c48e06ab205f6fca5e39a96cccda067785"
+          }
+        },
+        {
+          "client_id": "690266354741-75nkonimqc88qrtmin437mvsfu77us12.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.virmana.guide_app",
+            "certificate_hash": "ced86307a4b8e2c319e5c3ac22da165c9d518256"
+          }
+        },
+        {
+          "client_id": "690266354741-c3q285kt04pi97i3r6856kr40coqdpr2.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAD-0imNCZ7KF4rEVTHayk_k9Vl6qpvKME"
+        },
+        {
+          "current_key": "AIzaSyCqK2dXmV-Ib6K0ofTbhCa0SC8-WQRA4vs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "690266354741-c3q285kt04pi97i3r6856kr40coqdpr2.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:690266354741:android:c642b4017bde26256ced7c",
+        "android_client_info": {
+          "package_name": "com.virmana.news_app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "690266354741-c3q285kt04pi97i3r6856kr40coqdpr2.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAD-0imNCZ7KF4rEVTHayk_k9Vl6qpvKME"
+        },
+        {
+          "current_key": "AIzaSyCqK2dXmV-Ib6K0ofTbhCa0SC8-WQRA4vs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "690266354741-c3q285kt04pi97i3r6856kr40coqdpr2.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:690266354741:android:8fe4f29a9e5dd299",
+        "android_client_info": {
+          "package_name": "com.virmana.quotes_emoji"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "690266354741-gh98ri5h0d4t3var4r0u3va0rbj2qkce.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.virmana.quotes_emoji",
+            "certificate_hash": "db86869afd1cc9a8afe82b508e9a805908bd86de"
+          }
+        },
+        {
+          "client_id": "690266354741-c3q285kt04pi97i3r6856kr40coqdpr2.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAD-0imNCZ7KF4rEVTHayk_k9Vl6qpvKME"
+        },
+        {
+          "current_key": "AIzaSyCqK2dXmV-Ib6K0ofTbhCa0SC8-WQRA4vs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "690266354741-c3q285kt04pi97i3r6856kr40coqdpr2.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:690266354741:android:e7140ddbb1cd8675",
+        "android_client_info": {
+          "package_name": "com.virmana.ringtone_app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "690266354741-de2c0t2qqv2pjf3geuqbh8afq179pami.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.virmana.ringtone_app",
+            "certificate_hash": "6faf28510e347c3b61e9d0deb7b43a95d89e1f7b"
+          }
+        },
+        {
+          "client_id": "690266354741-lpcs70icfaat2pdgu4dgekf5k91upug2.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.virmana.ringtone_app",
+            "certificate_hash": "976f75958dd7b0550a420e522d849c6084dafddc"
+          }
+        },
+        {
+          "client_id": "690266354741-2utio6a1p8ln1cojh8nh9iuqns9vesqh.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.virmana.ringtone_app",
+            "certificate_hash": "0f07403727f1c7e897ddf43fbbedecb06b59acd6"
+          }
+        },
+        {
+          "client_id": "690266354741-c3q285kt04pi97i3r6856kr40coqdpr2.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAD-0imNCZ7KF4rEVTHayk_k9Vl6qpvKME"
+        },
+        {
+          "current_key": "AIzaSyCqK2dXmV-Ib6K0ofTbhCa0SC8-WQRA4vs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "690266354741-c3q285kt04pi97i3r6856kr40coqdpr2.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:690266354741:android:316458dbfb2acf7b",
+        "android_client_info": {
+          "package_name": "com.virmana.status_app_all"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "690266354741-ka44d7t6gtojqbvidhp2m3e8edvt4r22.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.virmana.status_app_all",
+            "certificate_hash": "3f380e8693a151d780a12eb94c8306b4c5c5ed54"
+          }
+        },
+        {
+          "client_id": "690266354741-0fl4buk77n0lcvt11t2f7ip7v6dgff16.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.virmana.status_app_all",
+            "certificate_hash": "7cb58cd17e3991ae9e177620efd6de15847c184a"
+          }
+        },
+        {
+          "client_id": "690266354741-83dae49r11a9h4kmnl1ij83plfjdcb27.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.virmana.status_app_all",
+            "certificate_hash": "aaf40f15099dfa5af4aa61eb34e7007d05c132d8"
+          }
+        },
+        {
+          "client_id": "690266354741-omr3kh7vdasvrebmches8u0km8q77nq4.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.virmana.status_app_all",
+            "certificate_hash": "53b4d921664a607eca14fe3aa4afbada0abf4fa3"
+          }
+        },
+        {
+          "client_id": "690266354741-c3q285kt04pi97i3r6856kr40coqdpr2.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAD-0imNCZ7KF4rEVTHayk_k9Vl6qpvKME"
+        },
+        {
+          "current_key": "AIzaSyCqK2dXmV-Ib6K0ofTbhCa0SC8-WQRA4vs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "690266354741-c3q285kt04pi97i3r6856kr40coqdpr2.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:690266354741:android:780b93e032524542",
+        "android_client_info": {
+          "package_name": "com.virmana.status_gifs"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "690266354741-a2os8n84ajt1fkv8f1t71uv58fdnil1b.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.virmana.status_gifs",
+            "certificate_hash": "dd2170f4a7ff29ddb77b71bca86b89596ab6b09e"
+          }
+        },
+        {
+          "client_id": "690266354741-79766kfu08nfvug3rn10hbs534dnmt2o.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.virmana.status_gifs",
+            "certificate_hash": "4e1b98cecd7dfa0af4cff11fc815a3372ccba23b"
+          }
+        },
+        {
+          "client_id": "690266354741-c3q285kt04pi97i3r6856kr40coqdpr2.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAD-0imNCZ7KF4rEVTHayk_k9Vl6qpvKME"
+        },
+        {
+          "current_key": "AIzaSyCqK2dXmV-Ib6K0ofTbhCa0SC8-WQRA4vs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "690266354741-c3q285kt04pi97i3r6856kr40coqdpr2.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:690266354741:android:339b8cb5c606392b",
+        "android_client_info": {
+          "package_name": "com.virmana.status_images"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "690266354741-bhivk8mb35ebd6c4cuklakislrg88pl9.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.virmana.status_images",
+            "certificate_hash": "d4ac8dba82c01d9cb11e932a455a76186ad58e3a"
+          }
+        },
+        {
+          "client_id": "690266354741-bhfpvcpu7ptg3qgel2181slmqlksvhst.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.virmana.status_images",
+            "certificate_hash": "77af0bf30e2c0715c454ed9b0e1018a440924b61"
+          }
+        },
+        {
+          "client_id": "690266354741-c3q285kt04pi97i3r6856kr40coqdpr2.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAD-0imNCZ7KF4rEVTHayk_k9Vl6qpvKME"
+        },
+        {
+          "current_key": "AIzaSyCqK2dXmV-Ib6K0ofTbhCa0SC8-WQRA4vs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "690266354741-c3q285kt04pi97i3r6856kr40coqdpr2.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:690266354741:android:6d6d9163bbfcbdec",
+        "android_client_info": {
+          "package_name": "com.virmana.status_video"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "690266354741-sqsrtg0959fpq3mu68kldc9ias3t671i.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.virmana.status_video",
+            "certificate_hash": "7cb58cd17e3991ae9e177620efd6de15847c184a"
+          }
+        },
+        {
+          "client_id": "690266354741-uj9tp33ed131psa09fu5kl08sq0lfitm.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.virmana.status_video",
+            "certificate_hash": "a8e9ce42665164e7862e8a9c7d10ae170a8ba024"
+          }
+        },
+        {
+          "client_id": "690266354741-c3q285kt04pi97i3r6856kr40coqdpr2.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAD-0imNCZ7KF4rEVTHayk_k9Vl6qpvKME"
+        },
+        {
+          "current_key": "AIzaSyCqK2dXmV-Ib6K0ofTbhCa0SC8-WQRA4vs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "690266354741-c3q285kt04pi97i3r6856kr40coqdpr2.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:690266354741:android:20e15d13aad1a001",
+        "android_client_info": {
+          "package_name": "com.virmana.stickers_app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "690266354741-1ks02np9i40bu9nqf3kque5qtsbtovbh.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.virmana.stickers_app",
+            "certificate_hash": "7cb58cd17e3991ae9e177620efd6de15847c184a"
+          }
+        },
+        {
+          "client_id": "690266354741-2obi4q6e00o1ammod2tvb5cum3u6vs5a.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.virmana.stickers_app",
+            "certificate_hash": "9f9c5bc49174dcde16b269e8da7fa5e52a5eda9f"
+          }
+        },
+        {
+          "client_id": "690266354741-geu1e19mpe1lipu8ife92aapnadr007n.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.virmana.stickers_app",
+            "certificate_hash": "a59e0e9ccbad1f768ae5bebc4cf1fa717a4b66ec"
+          }
+        },
+        {
+          "client_id": "690266354741-1piqkmnf46prgog6t6qtflo82ga6lq1e.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.virmana.stickers_app",
+            "certificate_hash": "976f75958dd7b0550a420e522d849c6084dafddc"
+          }
+        },
+        {
+          "client_id": "690266354741-c3q285kt04pi97i3r6856kr40coqdpr2.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAD-0imNCZ7KF4rEVTHayk_k9Vl6qpvKME"
+        },
+        {
+          "current_key": "AIzaSyCqK2dXmV-Ib6K0ofTbhCa0SC8-WQRA4vs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "690266354741-c3q285kt04pi97i3r6856kr40coqdpr2.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:690266354741:android:995d27da9459937a",
+        "android_client_info": {
+          "package_name": "com.virmana.wallpaper_app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "690266354741-91o25drfltku9j46ot4h60hfn59nq9sc.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.virmana.wallpaper_app",
+            "certificate_hash": "b2b0d201eb9a3c48c4e09c31553429042885587a"
+          }
+        },
+        {
+          "client_id": "690266354741-322tiknp3kc6o2rpehi9nn8g52ruu677.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.virmana.wallpaper_app",
+            "certificate_hash": "d39cb92628e52867266db0bfe46f9109e1816e5c"
+          }
+        },
+        {
+          "client_id": "690266354741-c3q285kt04pi97i3r6856kr40coqdpr2.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAD-0imNCZ7KF4rEVTHayk_k9Vl6qpvKME"
+        },
+        {
+          "current_key": "AIzaSyCqK2dXmV-Ib6K0ofTbhCa0SC8-WQRA4vs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "690266354741-c3q285kt04pi97i3r6856kr40coqdpr2.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

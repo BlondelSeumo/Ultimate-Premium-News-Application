@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="wrap_content"
+    android:layoutDirection="ltr"
+
+    android:layout_width="match_parent">
+    <android.support.v7.widget.RecyclerView
+        android:visibility="visible"
+        android:id="@+id/recycler_view_item_questions"
+        android:layout_centerInParent="true"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"/>
+</RelativeLayout>

@@ -1,0 +1,87 @@
+{% extends "AppBundle::layout.html.twig" %}
+{% block body%}
+<div class="container-fluid">
+    <div class="row">
+      <div class="col-md-12">
+        <div class="row">
+            <div class="col-md-4">
+                        <a href="{{path("app_question_index")}}" class="btn  btn-lg btn-warning col-md-12"><i class="material-icons" style="font-size: 30px;">refresh</i> Refresh</a>
+            </div>
+            <div class="col-md-4">
+                        <a class="btn btn btn-lg btn-yellow col-md-12"><i class="material-icons " style="font-size: 30px;">help</i>  Questions :  {{questions|length}} </a>  
+            </div>
+            <div class="col-md-4">
+              <a href="{{path("app_question_add")}}" class="btn btn-rose btn-lg pull-right add-button col-md-12" title=""><i class="material-icons" style="font-size: 30px;">add_box</i> NEW Question </a>
+            </div>
+        </div>
+            <div class="row">
+              {% for question in pagination %}
+              <div class="col-md-6">
+                <div class="card" style="    margin: 6px 0;" >
+                  <div class="card-header" style="    border-top-right-radius: 5px !important;border-top-left-radius: 5px !important;">
+                    {% if question.enabled %}
+                        <i class="fa fa-circle text-success"></i>
+                    {% else %}
+                        <i class="fa fa-circle text-danger"></i>
+                    {% endif %}
+                    <b style="color:white">{{question.question}} </b>
+                    <br>
+                    <br>
+                  </div>
+                  <div class="card-content" style="display:none"> 
+                      {% set t= 0 %}
+                          {% for answer in question.answers %}
+                            {% set t= t+answer.value %}  
+                          {% endfor %}
+                          {% for answer in question.answers %}
+                          {% if answer.value==0 %}
+                            {% set p= 0 %}  
+                          {% else %}
+                            {% set p= (answer.value/t)*100 %}        
+                          {% endif %}
+                          <label>{{answer.answer}}:</label>
+                    <div class="progress" style="height:auto;border-radius: 5px;" >
+                      <div class="progress-bar hiya-progress " role="progressbar" aria-valuenow="{{p|number_format}}" aria-valuemin="0" aria-valuemax="100" style="width: {{p|number_format}}%;">
+                        <span>{{p|number_format}}% ({{answer.value}})</span>
+                      </div>
+                    </div>
+                    {% endfor %}
+                  </div>
+                  <div class="card-footer" style="text-align:center">
+                            <a href="#" rel="tooltip" data-placement="bottom"  class="toggle-resule btn btn-success btn-xs btn-round" data-original-title="Choices list">
+                                <i class="material-icons">sort</i>
+                            </a>
+                            <a href="{{path("app_question_edit",{"id":question.id})}}" rel="tooltip" data-placement="left" class=" btn btn-primary btn-xs btn-round" data-original-title="Edit">
+                                <i class="material-icons">edit</i>
+                            </a>
+                            <a href="{{path("app_question_delete",{"id":question.id})}}" rel="tooltip" data-placement="left" class=" btn btn-danger btn-xs btn-round" data-original-title="Delete">
+                                <i class="material-icons">delete</i>
+                            </a>
+                            <a class="pull-right" >
+                                <img src="{{asset(question.language.media.link)|imagine_filter('language_thumb')}}" style="width: 30px;height: inherit;border-radius: 5px;" >
+                            </a>
+                  </div>
+                </div>
+              </div>
+              {% else %}
+              <div class="col-md-12">
+            <div class="card">
+                  <div class="card-content">
+                    <br>
+                    <br>
+                    <center><img src="{{asset("img/bg_empty.png")}}"  style="width: auto !important;" =""></center>
+                      <br>
+                      <br>
+                  </div>
+                </div>
+                </div>
+          {% endfor %}
+        </div>
+    <div>
+      {{ knp_pagination_render(pagination) }}
+    </div>  
+
+      </div>
+  </div>
+                            
+{% endblock%}

@@ -1,0 +1,217 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="15dp"
+    tools:context="com.virmana.news_app.ui.Activities.PermissionActivity">
+        <RelativeLayout
+            android:id="@+id/relative_layout_permission"
+            android:visibility="visible"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+                    <TextView
+                        android:textStyle="bold"
+                        android:textSize="20dp"
+                        android:padding="20dp"
+                        android:layout_marginBottom="50dp"
+                        android:layout_alignParentTop="true"
+                        android:textAlignment="center"
+                        android:textColor="@color/primary_text"
+                        android:text="@string/permission_title"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content" />
+                    <ImageView
+                        android:padding="20dp"
+                        android:layout_centerVertical="true"
+                        app:srcCompat="@drawable/ic_permission"
+                        android:layout_centerHorizontal="true"
+                        android:layout_width="match_parent"
+                        android:layout_height="220dp" />
+                    <TextView
+                        android:padding="20dp"
+                        android:layout_marginBottom="50dp"
+                        android:layout_alignParentBottom="true"
+                        android:textAlignment="center"
+                        android:textColor="@color/primary_text_light"
+                        android:text="@string/permission_desc"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content" />
+                </RelativeLayout>
+            <android.support.v7.widget.CardView
+                android:id="@+id/card_view_allow_permission"
+                app:cardBackgroundColor="@color/white"
+                app:cardElevation="0dp"
+                app:cardCornerRadius="0dp"
+                android:layout_marginBottom="10dp"
+                android:layout_width="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_centerHorizontal="true"
+                android:layout_height="40dp">
+                <TextView
+                    android:background="@drawable/gradient_dialog_btn"
+                    android:paddingLeft="30dp"
+                    android:paddingRight="30dp"
+                    android:textStyle="bold"
+                    android:textColor="@color/white"
+                    android:gravity="center"
+                    android:text="ALLOW PERMISSION"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent" />
+            </android.support.v7.widget.CardView>
+        </RelativeLayout>
+        <RelativeLayout
+            android:visibility="gone"
+            android:id="@+id/relative_layout_weather"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <RelativeLayout
+                android:layout_above="@id/linearLayout_view_allow_permission_location_2"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+                <TextView
+                    android:textStyle="bold"
+                    android:textSize="20dp"
+                    android:padding="20dp"
+                    android:layout_marginBottom="50dp"
+                    android:layout_alignParentTop="true"
+                    android:textAlignment="center"
+                    android:textColor="@color/primary_text"
+                    android:text="Weather widget"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+                <ImageView
+                    android:padding="20dp"
+                    android:layout_centerVertical="true"
+                    app:srcCompat="@drawable/cloudy"
+                    android:layout_centerHorizontal="true"
+                    android:layout_width="match_parent"
+                    android:layout_height="220dp" />
+                <TextView
+                    android:visibility="gone"
+                    android:padding="20dp"
+                    android:layout_marginBottom="50dp"
+                    android:layout_alignParentBottom="true"
+                    android:textAlignment="center"
+                    android:textColor="@color/primary_text_light"
+                    android:text="@string/permission_desc"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+            </RelativeLayout>
+            <LinearLayout
+                android:orientation="vertical"
+                android:id="@+id/linearLayout_view_allow_permission_location_2"
+                android:layout_above="@id/card_view_finish"
+                android:layout_marginBottom="10dp"
+                android:background="@drawable/bg_weather_setting"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <RelativeLayout
+                    android:paddingRight="10dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+                    <ImageView
+                        android:tint="@color/primary_text"
+                        android:padding="10dp"
+                        app:srcCompat="@drawable/ic_cloud"
+                        android:layout_width="50dp"
+                        android:layout_height="50dp" />
+                    <TextView
+                        android:textColor="@color/primary_text"
+                        android:textStyle="bold"
+                        android:paddingLeft="5dp"
+                        android:gravity="center|left"
+                        android:text="Enable weather widget"
+                        android:layout_marginLeft="50dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="50dp" />
+                    <com.rm.rmswitch.RMSwitch
+
+                        android:layout_marginTop="15dp"
+                        android:id="@+id/rm_switch_view_weather_one"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentRight="true"
+                        app:checked="false"
+                        app:forceAspectRatio="false"
+                        app:enabled="true"
+                        app:switchDesign="android"
+                        app:switchBkgCheckedColor="@color/green"
+                        app:switchBkgNotCheckedColor="@color/red"
+                        app:switchToggleCheckedColor="@color/green"
+                        app:switchToggleCheckedImage="@drawable/ic_check_white_24dp"
+                        app:switchToggleNotCheckedColor="@color/red"
+                        app:switchToggleNotCheckedImage="@drawable/ic_close"/>
+                </RelativeLayout>
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="0.5dp"
+                    android:background="#e9e9e9"/>
+                <RelativeLayout
+                    android:paddingRight="10dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+                    <ImageView
+                        android:tint="@color/primary_text"
+                        android:padding="10dp"
+                        app:srcCompat="@drawable/ic_settings"
+                        android:layout_width="50dp"
+                        android:layout_height="50dp" />
+                    <TextView
+                        android:id="@+id/text_view_temp_unit_title"
+                        android:textColor="@color/primary_text"
+                        android:textStyle="bold"
+                        android:paddingLeft="5dp"
+                        android:gravity="center|left"
+                        android:text="Unite weather : Celsius"
+                        android:layout_marginLeft="50dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="50dp" />
+
+                    <com.rm.rmswitch.RMSwitch
+                        android:id="@+id/rm_switch_view_weather_unit"
+                        android:layout_marginTop="15dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentRight="true"
+                        app:checked="true"
+                        app:forceAspectRatio="false"
+                        app:enabled="false"
+                        app:switchDesign="android"
+                        app:switchBkgCheckedColor="@color/yellow"
+                        app:switchBkgNotCheckedColor="@color/yellow"
+                        app:switchToggleCheckedColor="@color/yellow"
+                        app:switchToggleCheckedImage="@drawable/ic_c"
+                        app:switchToggleNotCheckedColor="@color/yellow"
+                        app:switchToggleNotCheckedImage="@drawable/ic_f"/>
+                </RelativeLayout>
+            </LinearLayout>
+
+            <android.support.v7.widget.CardView
+                android:visibility="visible"
+                android:id="@+id/card_view_finish"
+                app:cardBackgroundColor="@color/white"
+                app:cardElevation="0dp"
+                app:cardCornerRadius="0dp"
+                android:layout_marginBottom="10dp"
+                android:layout_width="match_parent"
+                android:layout_alignParentBottom="true"
+                android:layout_centerHorizontal="true"
+                android:layout_height="45dp">
+                <TextView
+                    android:background="@drawable/gradient_dialog_btn"
+                    android:paddingLeft="30dp"
+                    android:paddingRight="30dp"
+                    android:textStyle="bold"
+                    android:textColor="@color/white"
+                    android:gravity="center"
+                    android:text="FINICH"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent" />
+            </android.support.v7.widget.CardView>
+        </RelativeLayout>
+</RelativeLayout>

@@ -1,0 +1,244 @@
+@font-face {
+	font-family: 'DroidKufi';
+	src: url('../fonts/DroidKufi-Regular.ttf');
+}
+
+label {
+	font-family: "DroidKufi";
+}
+
+body {
+	background-color: #fff;
+	overflow: auto;
+}
+
+.notif {
+	min-height: 100px;
+	width: calc(100% - 20px);
+	background: white;
+	margin-right: 10px;
+	margin-left: 10px;
+	margin-top: 10px;
+	z-index: 6;
+	box-shadow: 0px 0px 20px -8px #000;
+	border-radius: 2px;
+	border: 1px solid #000000;
+}
+.cards-infos  .card-footer{
+     margin: 0px !important;
+}
+.notif-head {
+	height: 50px;
+	background: #000000;
+}
+
+.notif-body {
+	padding: 10px;
+	text-align: center;
+	background-color: #f0f0f0;
+	font-family: "DroidKufi";
+}
+
+.notif-title {
+	font-family: "DroidKufi";
+	width: 100%;
+	display: inline-table;
+	height: 50px;
+	line-height: 50px;
+	text-align: center;
+	color: white;
+	font-size: 14pt;
+}
+
+.notif-close,.notif-close:hover{
+	height: 50px;
+	display: inline-table;
+	line-height: 50px;
+	text-align: center;
+	color: white;
+	cursor: pointer;
+	position: absolute;
+	background-color: #000000;
+	font-family: "DroidKufi";
+	padding-left: 10px;
+	padding-right: 10px;
+	text-decoration: none;
+}
+
+.notif-close:hover {
+	background-color: #000000;
+}
+
+.thumb {
+	background: red;
+	width: 210px;
+	height: 270px;
+	background: white;
+	display: inline-block;
+	float: right;
+	margin: 5px;
+	font-family: monospace;
+	position: relative;
+}
+
+.thumb>div {
+	word-wrap: break-word
+}
+.thumb>img {
+	width: 100%;
+}
+.select-image{
+	border: 1px solid #000;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px 2px #ccc;
+        cursor: pointer;
+        height: 270px;
+}
+.thumb .select {
+	position: absolute;
+	height: 100%;
+	width: 100%;
+	top: 0px;
+	line-height: 50px;
+	border-top: 1px solid #f0f0f0;
+	font-family: "DroidKufi";
+	z-index: 2;
+	left: 0px;
+	opacity: 0;
+	line-height: 290px;
+	left: 0px;
+	background: #000000;
+	cursor: pointer;
+	color: white;
+	-webkit-transition: opacity 0.3s;
+	-moz-transition: opacity 0.3s;
+	-o-transition: opacity 0.3s;
+	-ms-transition: opacity 0.3s;
+	transition: opacity 0.3s;
+}
+
+.upload .select {
+	opacity: 1;
+	line-height: 100px;
+	color: #000000;
+	border-radius: 20px;
+}
+
+.upload {
+	float: none;
+	margin: auto 0%;
+	width: 300px;
+}
+
+.thumb .select:hover {
+	opacity: 1;
+}
+
+.btn-hiya,
+.pagination>.page>a,
+.pagination>.current,
+.pagination>.last>a,
+.pagination>.previous>a,
+.pagination>.next>a,
+.pagination>.first>a {
+	background-color: #000000;
+	font-family: "DroidKufi";
+	color: #e4e4e4;
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	text-decoration: none;
+	border-radius: 5px;
+}
+
+.btn-hiya:hover,
+.pagination>.page>a:hover,
+.pagination>.current,
+.pagination>.first>a:hover,
+.pagination>.next>a:hover,
+.pagination>.last>a:hover,
+.pagination>.previous>a:hover {
+	background-color: #902560;
+	color: #e4e4e4;
+}
+
+.errors-form {
+	color: red;
+}
+
+
+ul.answers{
+  list-style: none;
+  padding: 0px;
+  margin: 0px;
+}
+ul.answers label{
+  display: none !important;
+}
+ul.answers >li{
+  margin-top: 5px;
+}
+ul.answers >li>a.delete-item{
+    height: 40px;
+    background: #e4306f;
+    display: inline-block;
+    line-height: 40px;
+    width: 40px;
+    text-align: center;
+    color: white;
+    border-bottom-right-radius: 5px;
+    border-top-right-radius: 5px;
+  }
+ul.answers >li>div,ul.answers >li>div>div{
+  display: inline-block;
+  width: calc(50% - 20px);
+  float: left;
+}
+ul.answers >li>div[id^="question_answers"]{
+  display: inline-block;
+  width: calc(100% - 40px) !important;
+  float: left;
+}
+ul.answers >li>div[id^="question_answers"]>div{
+  display: inline-block;
+  width: calc(50%)  !important;
+  float: left;
+}
+ul.answers >li>div>input,ul.answers >li>div>div>input{
+    width: 100%;
+    height: 40px;
+    border-bottom-left-radius: 5px;
+    border-top-left-radius: 5px;
+    border: 1px solid #ccc;
+    padding: 5px;
+}
+ul.answers >li>div>input[type="number"],ul.answers >li>div>div>input[type="number"]{
+    border-radius: 0px !important;
+    border-left: none;
+}
+ul.answers >li:last-child a.delete-item{
+  display: none;
+}
+ul.answers a.add_tag_link{
+    height: 40px;
+    background: #e4306f;
+    display: inline-block;
+    line-height: 40px;
+    width: 100%;
+    text-align: center;
+    color: white;
+    border-radius: 5px;
+}
+.search-input{
+	    height: 41px;
+    width: calc(100% - 110px);
+    /* margin: 0px; */
+    display: inline-block;
+    /* border-radius: 5px; */
+    padding: 5px;
+    background: #e7e7e7 !important;
+    border-bottom: 0px !important;
+    border: 1px solid #ccc !important;
+    border-radius: 0px !important;
+}

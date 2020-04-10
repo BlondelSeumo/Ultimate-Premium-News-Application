@@ -1,0 +1,22 @@
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android"> <!-- Remove <selector> wehn you are using <layer-list> -->
+    <item android:id="@android:id/background">
+        <shape
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:shape="rectangle">
+            <solid android:color="#008080" />
+            <corners android:radius="10dp"  />
+        </shape>
+    </item>
+    <item android:id="@android:id/progress">
+        <clip >
+            <shape
+                xmlns:android="http://schemas.android.com/apk/res/android"
+                android:shape="rectangle">
+
+                <corners android:radius="10dp"  />
+                <solid android:color="#2affffff" />
+
+            </shape>
+        </clip>
+    </item>
+</layer-list>

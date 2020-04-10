@@ -1,0 +1,335 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layoutDirection="ltr"
+    android:layout_height="match_parent">
+    <android.support.v7.widget.CardView
+        app:cardElevation="1dp"
+        android:layout_marginLeft="7dp"
+        android:layout_marginRight="7dp"
+        android:layout_marginBottom="7dp"
+        android:layout_marginTop="3dp"
+        app:cardCornerRadius="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:padding="20dp"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:textColor="@color/primary_text"
+                android:textStyle="bold"
+                android:textAlignment="center"
+                android:gravity="center"
+                android:textSize="18dp"
+                android:text="Rate this post"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+            <android.support.v7.widget.AppCompatRatingBar
+                android:layout_gravity="center"
+                android:id="@+id/rating_bar_post_main_post_activity"
+                android:indeterminateTint="@color/black"
+                android:foregroundTint="@color/black"
+                android:progressTint="@color/black"
+                android:backgroundTint="@color/dark_gray"
+                android:secondaryProgressTint="@color/gray_color"
+                android:progressBackgroundTint="@color/gray_color"
+                android:rating="0"
+                android:stepSize="1"
+                android:elevation="20dp"
+                android:layout_marginTop="30dp"
+                android:layout_below="@+id/relative_layout_user"
+                android:layout_centerHorizontal="true"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+    </android.support.v7.widget.CardView>
+    <android.support.v7.widget.CardView
+
+        app:cardElevation="1dp"
+        android:layout_marginLeft="7dp"
+        android:layout_marginRight="7dp"
+        android:layout_marginBottom="70dp"
+        android:layout_marginTop="3dp"
+        app:cardCornerRadius="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:paddingTop="20dp"
+            android:paddingBottom="20dp"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:textColor="@color/primary_text"
+                android:textStyle="bold"
+                android:textAlignment="center"
+                android:gravity="center"
+                android:textSize="18dp"
+                android:text="Users rates"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+            <LinearLayout
+                android:gravity="center"
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:id="@+id/text_view_rate_main_post_activity"
+                    android:layout_marginRight="10dp"
+                    android:textSize="45dp"
+                    android:text="--"
+                    android:textColor="@color/primary_text"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+                <android.support.v7.widget.AppCompatRatingBar
+                    android:isIndicator="true"
+                    android:layout_gravity="center"
+                    android:id="@+id/rating_bar_post_value_post_activity"
+                    android:indeterminateTint="@color/black"
+                    android:foregroundTint="@color/black"
+                    android:progressTint="@color/black"
+                    android:backgroundTint="@color/dark_gray"
+                    android:secondaryProgressTint="@color/gray_color"
+                    android:progressBackgroundTint="@color/gray_color"
+                    android:rating="2.3"
+                    android:elevation="20dp"
+                    android:layout_below="@+id/relative_layout_user"
+                    android:layout_centerHorizontal="true"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:weightSum="4"
+                android:layout_width="match_parent"
+                android:layout_height="20dp">
+
+
+                <LinearLayout
+                    android:layout_gravity="right|center"
+                    android:gravity="right|center"
+                    android:layout_weight="2"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent">
+                    <RatingBar
+                        android:id="@+id/rating_bar_post_5_post_activity"
+                        android:layout_marginRight="10dp"
+                        android:layout_gravity="center"
+                        android:textAlignment="center"
+                        style="?android:attr/ratingBarStyleSmall"
+                        android:stepSize="1"
+                        android:rating="5"
+                        android:numStars="5"
+                        android:layout_width="wrap_content"
+                        android:layout_height="20dp" />
+                    <TextView
+
+                        android:id="@+id/text_view_rate_5_post_activity"
+                        android:gravity="center"
+                        android:textAlignment="center"
+                        android:textColor="@color/primary_text"
+                        android:text="0"
+                        android:layout_width="40dp"
+                        android:layout_height="wrap_content" />
+                </LinearLayout>
+                <ProgressBar
+                    android:id="@+id/progress_bar_rate_5_post_activity"
+                    android:layout_gravity="center"
+                    android:progressDrawable="@drawable/progress"
+                    android:paddingRight="35dp"
+                    android:paddingLeft="10dp"
+                    android:progress="20"
+                    style="?android:attr/progressBarStyleHorizontal"
+                    android:layout_width="0dp"
+                    android:layout_weight="2"
+                    android:layout_height="10dp" />
+            </LinearLayout>
+            <LinearLayout
+                android:weightSum="4"
+                android:layout_width="match_parent"
+                android:layout_height="20dp">
+
+
+                <LinearLayout
+                    android:layout_gravity="right|center"
+                    android:gravity="right|center"
+                    android:layout_weight="2"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent">
+                    <RatingBar
+                        android:id="@+id/rating_bar_post_4_post_activity"
+
+                        android:layout_marginRight="10dp"
+                        android:layout_gravity="center"
+                        android:textAlignment="center"
+                        style="?android:attr/ratingBarStyleSmall"
+                        android:stepSize="1"
+                        android:rating="4"
+                        android:numStars="4"
+                        android:layout_width="wrap_content"
+                        android:layout_height="20dp" />
+                    <TextView
+                        android:id="@+id/text_view_rate_4_post_activity"
+                        android:gravity="center"
+                        android:textAlignment="center"
+                        android:textColor="@color/primary_text"
+                        android:text="0"
+                        android:layout_width="40dp"
+                        android:layout_height="wrap_content" />
+                </LinearLayout>
+                <ProgressBar
+                    android:id="@+id/progress_bar_rate_4_post_activity"
+                    android:layout_gravity="center"
+                    android:progressDrawable="@drawable/progress"
+                    android:paddingRight="35dp"
+                    android:paddingLeft="10dp"
+
+                    android:progress="20"
+                    style="?android:attr/progressBarStyleHorizontal"
+                    android:layout_width="0dp"
+                    android:layout_weight="2"
+                    android:layout_height="10dp" />
+            </LinearLayout>
+            <LinearLayout
+                android:weightSum="4"
+                android:layout_width="match_parent"
+                android:layout_height="20dp">
+
+
+                <LinearLayout
+                    android:layout_gravity="right|center"
+                    android:gravity="right|center"
+                    android:layout_weight="2"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent">
+                    <RatingBar
+                        android:id="@+id/rating_bar_post_3_post_activity"
+
+                        android:layout_marginRight="10dp"
+                        android:layout_gravity="center"
+                        android:textAlignment="center"
+                        style="?android:attr/ratingBarStyleSmall"
+                        android:stepSize="1"
+                        android:rating="3"
+                        android:numStars="3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="20dp" />
+                    <TextView
+                        android:id="@+id/text_view_rate_3_post_activity"
+                        android:gravity="center"
+                        android:textAlignment="center"
+                        android:textColor="@color/primary_text"
+                        android:text="0"
+                        android:layout_width="40dp"
+                        android:layout_height="wrap_content" />
+                </LinearLayout>
+                <ProgressBar
+                    android:id="@+id/progress_bar_rate_3_post_activity"
+                    android:layout_gravity="center"
+                    android:progressDrawable="@drawable/progress"
+                    android:paddingRight="35dp"
+                    android:paddingLeft="10dp"
+                    android:progress="20"
+                    style="?android:attr/progressBarStyleHorizontal"
+                    android:layout_width="0dp"
+                    android:layout_weight="2"
+                    android:layout_height="10dp" />
+            </LinearLayout>
+            <LinearLayout
+                android:weightSum="4"
+                android:layout_width="match_parent"
+                android:layout_height="20dp">
+
+
+                <LinearLayout
+                    android:layout_gravity="right|center"
+                    android:gravity="right|center"
+                    android:layout_weight="2"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent">
+                    <RatingBar
+                        android:id="@+id/rating_bar_post_2_post_activity"
+
+                        android:layout_marginRight="10dp"
+                        android:layout_gravity="center"
+                        android:textAlignment="center"
+                        style="?android:attr/ratingBarStyleSmall"
+                        android:stepSize="1"
+                        android:rating="2"
+                        android:numStars="2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="20dp" />
+                    <TextView
+                        android:id="@+id/text_view_rate_2_post_activity"
+                        android:gravity="center"
+                        android:textAlignment="center"
+                        android:textColor="@color/primary_text"
+                        android:text="0"
+                        android:layout_width="40dp"
+                        android:layout_height="wrap_content" />
+                </LinearLayout>
+                <ProgressBar
+                    android:id="@+id/progress_bar_rate_2_post_activity"
+                    android:layout_gravity="center"
+                    android:progressDrawable="@drawable/progress"
+                    android:paddingRight="35dp"
+                    android:paddingLeft="10dp"
+                    android:progress="20"
+                    style="?android:attr/progressBarStyleHorizontal"
+                    android:layout_width="0dp"
+                    android:layout_weight="2"
+                    android:layout_height="10dp" />
+            </LinearLayout>
+            <LinearLayout
+                android:weightSum="4"
+                android:layout_width="match_parent"
+                android:layout_height="20dp">
+
+
+                <LinearLayout
+                    android:layout_gravity="right|center"
+                    android:gravity="right|center"
+                    android:layout_weight="2"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent">
+                    <RatingBar
+                        android:id="@+id/rating_bar_post_1_post_activity"
+
+                        android:layout_marginRight="10dp"
+                        android:layout_gravity="center"
+                        android:textAlignment="center"
+                        style="?android:attr/ratingBarStyleSmall"
+                        android:stepSize="1"
+                        android:rating="1"
+                        android:numStars="1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="20dp" />
+                    <TextView
+                        android:id="@+id/text_view_rate_1_post_activity"
+                        android:gravity="center"
+                        android:textAlignment="center"
+                        android:textColor="@color/primary_text"
+                        android:text="0"
+                        android:layout_width="40dp"
+                        android:layout_height="wrap_content" />
+                </LinearLayout>
+                <ProgressBar
+                    android:id="@+id/progress_bar_rate_1_post_activity"
+                    android:layout_gravity="center"
+                    android:progressDrawable="@drawable/progress"
+                    android:paddingRight="35dp"
+                    android:paddingLeft="10dp"
+                    android:progress="20"
+                    style="?android:attr/progressBarStyleHorizontal"
+                    android:layout_width="0dp"
+                    android:layout_weight="2"
+                    android:layout_height="10dp" />
+            </LinearLayout>
+        </LinearLayout>
+    </android.support.v7.widget.CardView>
+</LinearLayout>

@@ -1,0 +1,1041 @@
+-- Merging decision tree log ---
+provider#android.support.v4.content.FileProvider
+INJECTED from /Users/hsn/Desktop/My Projects/Ultimate News App V2/CodeCanyon/New/NewsApp/app/src/main/AndroidManifest.xml:34:9-42:20
+	android:grantUriPermissions
+		ADDED from /Users/hsn/Desktop/My Projects/Ultimate News App V2/CodeCanyon/New/NewsApp/app/src/main/AndroidManifest.xml:38:13-47
+	android:authorities
+		INJECTED from /Users/hsn/Desktop/My Projects/Ultimate News App V2/CodeCanyon/New/NewsApp/app/src/main/AndroidManifest.xml
+		ADDED from /Users/hsn/Desktop/My Projects/Ultimate News App V2/CodeCanyon/New/NewsApp/app/src/main/AndroidManifest.xml:36:13-60
+	android:exported
+		ADDED from /Users/hsn/Desktop/My Projects/Ultimate News App V2/CodeCanyon/New/NewsApp/app/src/main/AndroidManifest.xml:37:13-37
+	android:name
+		ADDED from /Users/hsn/Desktop/My Projects/Ultimate News App V2/CodeCanyon/New/NewsApp/app/src/main/AndroidManifest.xml:35:13-67
+manifest
+ADDED from /Users/hsn/Desktop/My Projects/Ultimate News App V2/CodeCanyon/New/NewsApp/app/src/main/AndroidManifest.xml:2:1-183:12
+INJECTED from /Users/hsn/Desktop/My Projects/Ultimate News App V2/CodeCanyon/New/NewsApp/app/src/main/AndroidManifest.xml:2:1-183:12
+INJECTED from /Users/hsn/Desktop/My Projects/Ultimate News App V2/CodeCanyon/New/NewsApp/app/src/main/AndroidManifest.xml:2:1-183:12
+INJECTED from /Users/hsn/Desktop/My Projects/Ultimate News App V2/CodeCanyon/New/NewsApp/app/src/main/AndroidManifest.xml:2:1-183:12
+MERGED from [com.android.support:multidex:1.0.3] /Users/hsn/.gradle/caches/transforms-1/files-1.1/multidex-1.0.3.aar/5ceb6672982cf1ae5f8949ff780307b8/AndroidManifest.xml:17:1-22:12
+MERGED from [devlight.io:navigationtabbar:1.2.5] /Users/hsn/.gradle/caches/transforms-1/files-1.1/navigationtabbar-1.2.5.aar/b939a8e25a04ef403f2ccdaf29c2a6e4/AndroidManifest.xml:14:1-28:12
+MERGED from [com.miguelcatalan:materialsearchview:1.4.0] /Users/hsn/.gradle/caches/transforms-1/files-1.1/materialsearchview-1.4.0.aar/081ef8ccb93426a470d959b5ac9bd020/AndroidManifest.xml:2:1-13:12
+MERGED from [com.leinardi.android:speed-dial:2.0.1] /Users/hsn/.gradle/caches/transforms-1/files-1.1/speed-dial-2.0.1.aar/601006fd1c6ed7ee65d92bb10f332922/AndroidManifest.xml:17:1-26:12
+MERGED from [com.android.support:design:28.0.0] /Users/hsn/.gradle/caches/transforms-1/files-1.1/design-28.0.0.aar/555908e41d8a1cb745c84ed3a17d9ae4/AndroidManifest.xml:17:1-24:12
+MERGED from [com.github.vivchar:ViewPagerIndicator:1.1.0] /Users/hsn/.gradle/caches/transforms-1/files-1.1/ViewPagerIndicator-1.1.0.aar/bedfb5ac5f0bf91e75679832be6dba95/AndroidManifest.xml:2:1-12:12
+MERGED from [com.github.jd-alexander:LikeButton:0.2.3] /Users/hsn/.gradle/caches/transforms-1/files-1.1/LikeButton-0.2.3.aar/c3e10604f6efbea75496f42a5bebeabb/AndroidManifest.xml:2:1-14:12
+MERGED from [com.github.generic-leo:SimpleArcLoader:bb0cc96c81] /Users/hsn/.gradle/caches/transforms-1/files-1.1/SimpleArcLoader-bb0cc96c81.aar/05b4cd9d7b6469e71863aa734e288fd8/AndroidManifest.xml:2:1-14:12
+MERGED from [com.github.GrenderG:Toasty:1.4.0] /Users/hsn/.gradle/caches/transforms-1/files-1.1/Toasty-1.4.0.aar/6f7b8b74e298a9f4f8057fd0efc4940e/AndroidManifest.xml:2:1-11:12
+MERGED from [com.google.android.ads.consent:consent-library:1.0.3] /Users/hsn/.gradle/caches/transforms-1/files-1.1/consent-library-1.0.3.aar/a455537859a6eb94ae80349be63a2985/AndroidManifest.xml:2:1-9:12
+MERGED from [com.github.codemybrainsout:smart-app-rate:1.0.8] /Users/hsn/.gradle/caches/transforms-1/files-1.1/smart-app-rate-1.0.8.aar/794ad2c14c38af18c3e105e717746316/AndroidManifest.xml:2:1-11:12
+MERGED from [com.github.QuadFlask:colorpicker:0.0.13] /Users/hsn/.gradle/caches/transforms-1/files-1.1/colorpicker-0.0.13.aar/68816f4df30e91fc13f5b739c1bc8190/AndroidManifest.xml:2:1-14:12
+MERGED from [com.facebook.android:facebook-android-sdk:5.5.1] /Users/hsn/.gradle/caches/transforms-1/files-1.1/facebook-android-sdk-5.5.1.aar/42e1ca6cbe7fff2f24b8d744259ae2e2/AndroidManifest.xml:21:1-31:12
+MERGED from [com.facebook.android:facebook-login:5.5.1] /Users/hsn/.gradle/caches/transforms-1/files-1.1/facebook-login-5.5.1.aar/cca3bdf242637d5819f46d3c8e44b7bf/AndroidManifest.xml:21:1-31:12
+MERGED from [com.facebook.android:facebook-share:5.5.1] /Users/hsn/.gradle/caches/transforms-1/files-1.1/facebook-share-5.5.1.aar/8d210ee4706a1baccd951c650e08720e/AndroidManifest.xml:21:1-31:12
+MERGED from [com.facebook.android:facebook-common:5.5.1] /Users/hsn/.gradle/caches/transforms-1/files-1.1/facebook-common-5.5.1.aar/3613b5541ad39670f4e07043ea94c573/AndroidManifest.xml:21:1-37:12
+MERGED from [com.android.support:appcompat-v7:28.0.0] /Users/hsn/.gradle/caches/transforms-1/files-1.1/appcompat-v7-28.0.0.aar/301e91b37a67d6320b5cf715295a25ef/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] /Users/hsn/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.0.2.aar/da0ddc32d86ea1fe7745bcf0c1c88c67/AndroidManifest.xml:2:1-11:12
+MERGED from [com.android.support:cardview-v7:28.0.0] /Users/hsn/.gradle/caches/transforms-1/files-1.1/cardview-v7-28.0.0.aar/fa8e8e9fb0c3aa4f9bcfbd65af50c6dd/AndroidManifest.xml:17:1-22:12
+MERGED from [com.github.chrisbanes:PhotoView:1.2.6] /Users/hsn/.gradle/caches/transforms-1/files-1.1/PhotoView-1.2.6.aar/1820fc78020194f7ded0c5fcce98266a/AndroidManifest.xml:2:1-12:12
+MERGED from [com.google.android.gms:play-services-auth:15.0.0] /Users/hsn/.gradle/caches/transforms-1/files-1.1/play-services-auth-15.0.0.aar/1b8001a7b96b815eb87bc3f75580058f/AndroidManifest.xml:17:1-39:12
+MERGED from [com.google.firebase:firebase-messaging:15.0.2] /Users/hsn/.gradle/caches/transforms-1/files-1.1/firebase-messaging-15.0.2.aar/653c97b890ec6dcdeadfdd47eff7d958/AndroidManifest.xml:17:1-37:12
+MERGED from [com.facebook.android:audience-network-sdk:5.6.0-beta] /Users/hsn/.gradle/caches/transforms-1/files-1.1/audience-network-sdk-5.6.0-beta.aar/7bd7236f7b3742f9997a44ce577196f4/AndroidManifest.xml:2:1-41:12
+MERGED from [com.google.android.gms:play-services-location:15.0.0] /Users/hsn/.gradle/caches/transforms-1/files-1.1/play-services-location-15.0.0.aar/28777c6c7cb4f2a45273b618a6ac291f/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-auth-api-phone:15.0.1] /Users/hsn/.gradle/caches/transforms-1/files-1.1/play-services-auth-api-phone-15.0.1.aar/1bdfb60f3cd390b2c926c46f670333c7/AndroidManifest.xml:2:1-7:12
+MERGED from [com.google.android.gms:play-services-auth-base:15.0.0] /Users/hsn/.gradle/caches/transforms-1/files-1.1/play-services-auth-base-15.0.0.aar/f5cbf1d6406b17f5ba5ef9d7026cdc60/AndroidManifest.xml:2:1-7:12
+MERGED from [com.google.firebase:firebase-ads:15.0.0] /Users/hsn/.gradle/caches/transforms-1/files-1.1/firebase-ads-15.0.0.aar/ff04cd551c66ba89a3978eb6836d3bbc/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.firebase:firebase-core:15.0.2] /Users/hsn/.gradle/caches/transforms-1/files-1.1/firebase-core-15.0.2.aar/780e8441749e44f21a5532fc840fc85c/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.firebase:firebase-measurement-connector-impl:15.0.0] /Users/hsn/.gradle/caches/transforms-1/files-1.1/firebase-measurement-connector-impl-15.0.0.aar/73cb752f8733eb494a0cc056cf4a3d53/AndroidManifest.xml:17:1-34:12
+MERGED from [com.google.firebase:firebase-analytics:15.0.2] /Users/hsn/.gradle/caches/transforms-1/files-1.1/firebase-analytics-15.0.2.aar/9c191c4289bf877acc1310df964af99f/AndroidManifest.xml:17:1-55:12
+MERGED from [com.google.firebase:firebase-analytics-impl:15.0.2] /Users/hsn/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-15.0.2.aar/6e0fb75cb20de02f52605afda6354e2d/AndroidManifest.xml:17:1-41:12
+MERGED from [com.google.firebase:firebase-iid:15.1.0] /Users/hsn/.gradle/caches/transforms-1/files-1.1/firebase-iid-15.1.0.aar/58de0fd6eb58672546bfd81a4c028c0b/AndroidManifest.xml:17:1-65:12
+MERGED from [com.google.firebase:firebase-iid-interop:15.0.0] /Users/hsn/.gradle/caches/transforms-1/files-1.1/firebase-iid-interop-15.0.0.aar/55a921135d7f408e9571c78f8e7fbe20/AndroidManifest.xml:2:1-10:12
+MERGED from [com.google.android.gms:play-services-base:15.0.1] /Users/hsn/.gradle/caches/transforms-1/files-1.1/play-services-base-15.0.1.aar/0333d3439c85a1674538bbefe05081db/AndroidManifest.xml:17:1-29:12
+MERGED from [com.google.firebase:firebase-common:15.0.1] /Users/hsn/.gradle/caches/transforms-1/files-1.1/firebase-common-15.0.1.aar/c4f8f5f230a5cddc79130d71d209481f/AndroidManifest.xml:2:1-15:12
+MERGED from [com.google.android.gms:play-services-tasks:15.0.1] /Users/hsn/.gradle/caches/transforms-1/files-1.1/play-services-tasks-15.0.1.aar/ee36a28e2e4ad5467ae95b25bf2892de/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.firebase:firebase-measurement-connector:15.0.0] /Users/hsn/.gradle/caches/transforms-1/files-1.1/firebase-measurement-connector-15.0.0.aar/d89a879a4dd50d0eac0ceec2d03e30c6/AndroidManifest.xml:17:1-25:12
+MERGED from [com.google.android.gms:play-services-ads:15.0.1] /Users/hsn/.gradle/caches/transforms-1/files-1.1/play-services-ads-15.0.1.aar/797025326c95e44db77bbddabea76d8c/AndroidManifest.xml:17:1-25:12
+MERGED from [com.google.android.gms:play-services-places-placereport:15.0.1] /Users/hsn/.gradle/caches/transforms-1/files-1.1/play-services-places-placereport-15.0.1.aar/eb31545818688700be87a3771a9175ff/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.gms:play-services-stats:15.0.1] /Users/hsn/.gradle/caches/transforms-1/files-1.1/play-services-stats-15.0.1.aar/a84240b6eba838504d01372d2c27c26d/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-ads-identifier:15.0.1] /Users/hsn/.gradle/caches/transforms-1/files-1.1/play-services-ads-identifier-15.0.1.aar/64c7c3cd380b9d6cc23592fa5966f24a/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.gms:play-services-ads-lite:15.0.1] /Users/hsn/.gradle/caches/transforms-1/files-1.1/play-services-ads-lite-15.0.1.aar/545116223360d7e99b38c1f19bbcc3d6/AndroidManifest.xml:17:1-36:12
+MERGED from [com.google.android.gms:play-services-gass:15.0.1] /Users/hsn/.gradle/caches/transforms-1/files-1.1/play-services-gass-15.0.1.aar/07e5643b2f81d6a20aff0f085416fd7a/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-basement:15.0.1] /Users/hsn/.gradle/caches/transforms-1/files-1.1/play-services-basement-15.0.1.aar/80b4bce63d5c3eef50cad6ac9b75113c/AndroidManifest.xml:17:1-28:12
+MERGED from [com.android.support:support-v4:28.0.0] /Users/hsn/.gradle/caches/transforms-1/files-1.1/support-v4-28.0.0.aar/dbc904b6b05b140634d3e80cdf891d04/AndroidManifest.xml:17:1-22:12
+MERGED from [com.orhanobut:hawk:2.0.1] /Users/hsn/.gradle/caches/transforms-1/files-1.1/hawk-2.0.1.aar/a5f1fe1ca4eddeca4e91433508ad3f5d/AndroidManifest.xml:2:1-8:12
+MERGED from [com.rm:rmswitch:1.2.2] /Users/hsn/.gradle/caches/transforms-1/files-1.1/rmswitch-1.2.2.aar/13595ada8630f16a0b7b3c67b974b588/AndroidManifest.xml:2:1-17:12
+MERGED from [de.hdodenhof:circleimageview:2.1.0] /Users/hsn/.gradle/caches/transforms-1/files-1.1/circleimageview-2.1.0.aar/326157bd841eb1c031eb912c74d66512/AndroidManifest.xml:2:1-11:12
+MERGED from [com.github.bhargavms:DotLoader:1.1.1] /Users/hsn/.gradle/caches/transforms-1/files-1.1/DotLoader-1.1.1.aar/f8490f85dc4df16a066c980c6191e7ec/AndroidManifest.xml:2:1-16:12
+MERGED from [com.google.android.exoplayer:exoplayer:r2.5.2] /Users/hsn/.gradle/caches/transforms-1/files-1.1/exoplayer-r2.5.2.aar/78479d0a55ff350efea97ce08bbd75ac/AndroidManifest.xml:17:1-25:12
+MERGED from [com.google.android.exoplayer:exoplayer-ui:r2.5.2] /Users/hsn/.gradle/caches/transforms-1/files-1.1/exoplayer-ui-r2.5.2.aar/68f1a65150fb2bd7ec96a28b95f6b59c/AndroidManifest.xml:17:1-25:12
+MERGED from [com.google.android.exoplayer:exoplayer-dash:r2.5.2] /Users/hsn/.gradle/caches/transforms-1/files-1.1/exoplayer-dash-r2.5.2.aar/983003717a587ce9ad59009d97b8ea95/AndroidManifest.xml:17:1-25:12
+MERGED from [com.google.android.exoplayer:exoplayer-hls:r2.5.2] /Users/hsn/.gradle/caches/transforms-1/files-1.1/exoplayer-hls-r2.5.2.aar/fce0c977b96090a344ffddc390a4a0a3/AndroidManifest.xml:17:1-25:12
+MERGED from [com.google.android.exoplayer:exoplayer-smoothstreaming:r2.5.2] /Users/hsn/.gradle/caches/transforms-1/files-1.1/exoplayer-smoothstreaming-r2.5.2.aar/e293d7233ce5054a85b98578cebc187d/AndroidManifest.xml:17:1-25:12
+MERGED from [com.google.android.exoplayer:exoplayer-core:r2.5.2] /Users/hsn/.gradle/caches/transforms-1/files-1.1/exoplayer-core-r2.5.2.aar/da11fd1e1e7b720fe8d2387428469763/AndroidManifest.xml:17:1-25:12
+MERGED from [com.gauravk.bubblenavigation:bubblenavigation:1.0.7] /Users/hsn/.gradle/caches/transforms-1/files-1.1/bubblenavigation-1.0.7.aar/72a99685e11b6cc3104d7cf8f73d8e69/AndroidManifest.xml:2:1-11:12
+MERGED from [jp.wasabeef:richeditor-android:1.2.2] /Users/hsn/.gradle/caches/transforms-1/files-1.1/richeditor-android-1.2.2.aar/d76ed069072e319b1ef676d21cd9b2f0/AndroidManifest.xml:2:1-12:12
+MERGED from [com.facebook.android:facebook-places:5.5.1] /Users/hsn/.gradle/caches/transforms-1/files-1.1/facebook-places-5.5.1.aar/3ad9b64845247c236cd546320aaf9c37/AndroidManifest.xml:21:1-31:12
+MERGED from [com.facebook.android:facebook-applinks:5.5.1] /Users/hsn/.gradle/caches/transforms-1/files-1.1/facebook-applinks-5.5.1.aar/f0a895cdee548bc0ac39c0bf7dc12c93/AndroidManifest.xml:21:1-31:12
+MERGED from [com.facebook.android:facebook-messenger:5.5.1] /Users/hsn/.gradle/caches/transforms-1/files-1.1/facebook-messenger-5.5.1.aar/fbd3d7d02c38069523bf726c936315e0/AndroidManifest.xml:21:1-31:12
+MERGED from [com.facebook.android:facebook-core:5.5.1] /Users/hsn/.gradle/caches/transforms-1/files-1.1/facebook-core-5.5.1.aar/bb4782663a902e969b1a3429a5a7e4d2/AndroidManifest.xml:21:1-61:12
+MERGED from [com.android.support:support-media-compat:28.0.0] /Users/hsn/.gradle/caches/transforms-1/files-1.1/support-media-compat-28.0.0.aar/191f404bc9ad395a42218d8987984757/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-fragment:28.0.0] /Users/hsn/.gradle/caches/transforms-1/files-1.1/support-fragment-28.0.0.aar/45fc960a1006592907d519b431a5f8f1/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:animated-vector-drawable:28.0.0] /Users/hsn/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-28.0.0.aar/0cba536276a293e71a4f0ac76780c41b/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-vector-drawable:28.0.0] /Users/hsn/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-28.0.0.aar/c060aa6c0eb602c3da1b3bdca187a154/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:recyclerview-v7:28.0.0] /Users/hsn/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-28.0.0.aar/24b40f9bf498ccd21f4b11c1bde4b432/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-ui:28.0.0] /Users/hsn/.gradle/caches/transforms-1/files-1.1/support-core-ui-28.0.0.aar/222ed081166f6c58f9e1a8e7d358a2f2/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-utils:28.0.0] /Users/hsn/.gradle/caches/transforms-1/files-1.1/support-core-utils-28.0.0.aar/98460bb7e8887766ee864315dcd93508/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:loader:28.0.0] /Users/hsn/.gradle/caches/transforms-1/files-1.1/loader-28.0.0.aar/11ce042ed38ff25158039a646dcbdbd5/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:viewpager:28.0.0] /Users/hsn/.gradle/caches/transforms-1/files-1.1/viewpager-28.0.0.aar/740f7b5c7a8a9c3da31d25df4a394089/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:coordinatorlayout:28.0.0] /Users/hsn/.gradle/caches/transforms-1/files-1.1/coordinatorlayout-28.0.0.aar/339f47dd6b46353f5780290d90c04210/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:drawerlayout:28.0.0] /Users/hsn/.gradle/caches/transforms-1/files-1.1/drawerlayout-28.0.0.aar/04f2df18586ad94879aa6a2701f28738/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:slidingpanelayout:28.0.0] /Users/hsn/.gradle/caches/transforms-1/files-1.1/slidingpanelayout-28.0.0.aar/bce237c3a79191dad38a1fcf2bede5be/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:customview:28.0.0] /Users/hsn/.gradle/caches/transforms-1/files-1.1/customview-28.0.0.aar/07e12c839993730823cb1c07da4346ee/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:swiperefreshlayout:28.0.0] /Users/hsn/.gradle/caches/transforms-1/files-1.1/swiperefreshlayout-28.0.0.aar/f401bcad8c09acb54071cf472d1372d9/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:asynclayoutinflater:28.0.0] /Users/hsn/.gradle/caches/transforms-1/files-1.1/asynclayoutinflater-28.0.0.aar/25fef6ae5b5168e55ac096191d02ccc7/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:transition:28.0.0] /Users/hsn/.gradle/caches/transforms-1/files-1.1/transition-28.0.0.aar/f0e9f2d98113565cea2ddfd7c167408e/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:customtabs:27.0.2] /Users/hsn/.gradle/caches/transforms-1/files-1.1/customtabs-27.0.2.aar/f18150dd1a1e41d7025aed9174263230/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-compat:28.0.0] /Users/hsn/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/495f1a39754f6388ab7cd0cec2dfab7b/AndroidManifest.xml:17:1-24:12
+MERGED from [com.android.support:versionedparcelable:28.0.0] /Users/hsn/.gradle/caches/transforms-1/files-1.1/versionedparcelable-28.0.0.aar/b96936513b9bf2fab4272e13acbddc53/AndroidManifest.xml:17:1-25:12
+MERGED from [com.android.support:cursoradapter:28.0.0] /Users/hsn/.gradle/caches/transforms-1/files-1.1/cursoradapter-28.0.0.aar/ce0647b5e52cf5681eaebd946f000a10/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] /Users/hsn/.gradle/caches/transforms-1/files-1.1/viewmodel-1.1.1.aar/ca9e829ad638bbb01de478ee5e40ebd5/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:livedata:1.1.1] /Users/hsn/.gradle/caches/transforms-1/files-1.1/livedata-1.1.1.aar/788fb2f2002e89d734c157c000d64932/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] /Users/hsn/.gradle/caches/transforms-1/files-1.1/livedata-core-1.1.1.aar/89d6e619d44e8907aa045e5cc669fd85/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:runtime:1.1.1] /Users/hsn/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/74b8b817d8a9dcc205df83b4129be755/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.core:runtime:1.1.1] /Users/hsn/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/bc05bf4a51ed5260b082caff0514bd9c/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:interpolator:28.0.0] /Users/hsn/.gradle/caches/transforms-1/files-1.1/interpolator-28.0.0.aar/57515c7fb0451c917a83efe7750a10cc/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:documentfile:28.0.0] /Users/hsn/.gradle/caches/transforms-1/files-1.1/documentfile-28.0.0.aar/27577b253a39fc515198f1753e753d54/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:localbroadcastmanager:28.0.0] /Users/hsn/.gradle/caches/transforms-1/files-1.1/localbroadcastmanager-28.0.0.aar/62a30539db49e0dbfe48e5180a87a8cd/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:print:28.0.0] /Users/hsn/.gradle/caches/transforms-1/files-1.1/print-28.0.0.aar/8614fc89bba9570a5caab834cff2f6aa/AndroidManifest.xml:17:1-22:12
+MERGED from [com.facebook.conceal:conceal:1.1.3] /Users/hsn/.gradle/caches/transforms-1/files-1.1/conceal-1.1.3.aar/eb10f73e9c407ea5edfd2452f40f71f8/AndroidManifest.xml:7:1-16:12
+MERGED from [com.google.android.gms:play-services-measurement-base:15.0.2] /Users/hsn/.gradle/caches/transforms-1/files-1.1/play-services-measurement-base-15.0.2.aar/ea1e0a77a015db1a44366c9eea9b3441/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.gms:play-services-ads-base:15.0.1] /Users/hsn/.gradle/caches/transforms-1/files-1.1/play-services-ads-base-15.0.1.aar/ef992056e211e329bc4aa8cd51a935ba/AndroidManifest.xml:17:1-24:12
+INJECTED from /Users/hsn/Desktop/My Projects/Ultimate News App V2/CodeCanyon/New/NewsApp/app/src/main/AndroidManifest.xml:2:1-183:12
+INJECTED from /Users/hsn/Desktop/My Projects/Ultimate News App V2/CodeCanyon/New/NewsApp/app/src/main/AndroidManifest.xml:2:1-183:12
+INJECTED from /Users/hsn/Desktop/My Projects/Ultimate News App V2/CodeCanyon/New/NewsApp/app/src/main/AndroidManifest.xml:2:1-183:12
+	package
+		ADDED from /Users/hsn/Desktop/My Projects/Ultimate News App V2/CodeCanyon/New/NewsApp/app/src/main/AndroidManifest.xml:3:5-35
+		INJECTED from /Users/hsn/Desktop/My Projects/Ultimate News App V2/CodeCanyon/New/NewsApp/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/hsn/Desktop/My Projects/Ultimate News App V2/CodeCanyon/New/NewsApp/app/src/main/AndroidManifest.xml
+	android:versionName
+		INJECTED from /Users/hsn/Desktop/My Projects/Ultimate News App V2/CodeCanyon/New/NewsApp/app/src/main/AndroidManifest.xml
+		ADDED from /Users/hsn/Desktop/My Projects/Ultimate News App V2/CodeCanyon/New/NewsApp/app/src/main/AndroidManifest.xml:2:1-183:12
+		INJECTED from /Users/hsn/Desktop/My Projects/Ultimate News App V2/CodeCanyon/New/NewsApp/app/src/main/AndroidManifest.xml
+	android:versionCode
+		INJECTED from /Users/hsn/Desktop/My Projects/Ultimate News App V2/CodeCanyon/New/NewsApp/app/src/main/AndroidManifest.xml
+		ADDED from /Users/hsn/Desktop/My Projects/Ultimate News App V2/CodeCanyon/New/NewsApp/app/src/main/AndroidManifest.xml:2:1-183:12
+		INJECTED from /Users/hsn/Desktop/My Projects/Ultimate News App V2/CodeCanyon/New/NewsApp/app/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /Users/hsn/Desktop/My Projects/Ultimate News App V2/CodeCanyon/New/NewsApp/app/src/main/AndroidManifest.xml:2:11-69
+uses-permission#android.permission.INTERNET
+ADDED from /Users/hsn/Desktop/My Projects/Ultimate News App V2/CodeCanyon/New/NewsApp/app/src/main/AndroidManifest.xml:5:5-67
+MERGED from [com.facebook.android:audience-network-sdk:5.6.0-beta] /Users/hsn/.gradle/caches/transforms-1/files-1.1/audience-network-sdk-5.6.0-beta.aar/7bd7236f7b3742f9997a44ce577196f4/AndroidManifest.xml:11:5-67
+MERGED from [com.facebook.android:audience-network-sdk:5.6.0-beta] /Users/hsn/.gradle/caches/transforms-1/files-1.1/audience-network-sdk-5.6.0-beta.aar/7bd7236f7b3742f9997a44ce577196f4/AndroidManifest.xml:11:5-67
+MERGED from [com.google.firebase:firebase-measurement-connector-impl:15.0.0] /Users/hsn/.gradle/caches/transforms-1/files-1.1/firebase-measurement-connector-impl-15.0.0.aar/73cb752f8733eb494a0cc056cf4a3d53/AndroidManifest.xml:22:5-67
+MERGED from [com.google.firebase:firebase-measurement-connector-impl:15.0.0] /Users/hsn/.gradle/caches/transforms-1/files-1.1/firebase-measurement-connector-impl-15.0.0.aar/73cb752f8733eb494a0cc056cf4a3d53/AndroidManifest.xml:22:5-67
+MERGED from [com.google.firebase:firebase-analytics:15.0.2] /Users/hsn/.gradle/caches/transforms-1/files-1.1/firebase-analytics-15.0.2.aar/9c191c4289bf877acc1310df964af99f/AndroidManifest.xml:23:5-67
+MERGED from [com.google.firebase:firebase-analytics:15.0.2] /Users/hsn/.gradle/caches/transforms-1/files-1.1/firebase-analytics-15.0.2.aar/9c191c4289bf877acc1310df964af99f/AndroidManifest.xml:23:5-67
+MERGED from [com.google.firebase:firebase-analytics-impl:15.0.2] /Users/hsn/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-15.0.2.aar/6e0fb75cb20de02f52605afda6354e2d/AndroidManifest.xml:23:5-67
+MERGED from [com.google.firebase:firebase-analytics-impl:15.0.2] /Users/hsn/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-15.0.2.aar/6e0fb75cb20de02f52605afda6354e2d/AndroidManifest.xml:23:5-67
+MERGED from [com.google.firebase:firebase-iid:15.1.0] /Users/hsn/.gradle/caches/transforms-1/files-1.1/firebase-iid-15.1.0.aar/58de0fd6eb58672546bfd81a4c028c0b/AndroidManifest.xml:23:5-67
+MERGED from [com.google.firebase:firebase-iid:15.1.0] /Users/hsn/.gradle/caches/transforms-1/files-1.1/firebase-iid-15.1.0.aar/58de0fd6eb58672546bfd81a4c028c0b/AndroidManifest.xml:23:5-67
+MERGED from [com.google.android.gms:play-services-ads-lite:15.0.1] /Users/hsn/.gradle/caches/transforms-1/files-1.1/play-services-ads-lite-15.0.1.aar/545116223360d7e99b38c1f19bbcc3d6/AndroidManifest.xml:23:5-67
+MERGED from [com.google.android.gms:play-services-ads-lite:15.0.1] /Users/hsn/.gradle/caches/transforms-1/files-1.1/play-services-ads-lite-15.0.1.aar/545116223360d7e99b38c1f19bbcc3d6/AndroidManifest.xml:23:5-67
+	android:name
+		ADDED from /Users/hsn/Desktop/My Projects/Ultimate News App V2/CodeCanyon/New/NewsApp/app/src/main/AndroidManifest.xml:5:22-64
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from /Users/hsn/Desktop/My Projects/Ultimate News App V2/CodeCanyon/New/NewsApp/app/src/main/AndroidManifest.xml:6:5-79
+MERGED from [com.facebook.android:audience-network-sdk:5.6.0-beta] /Users/hsn/.gradle/caches/transforms-1/files-1.1/audience-network-sdk-5.6.0-beta.aar/7bd7236f7b3742f9997a44ce577196f4/AndroidManifest.xml:12:5-79
+MERGED from [com.facebook.android:audience-network-sdk:5.6.0-beta] /Users/hsn/.gradle/caches/transforms-1/files-1.1/audience-network-sdk-5.6.0-beta.aar/7bd7236f7b3742f9997a44ce577196f4/AndroidManifest.xml:12:5-79
+MERGED from [com.google.firebase:firebase-measurement-connector-impl:15.0.0] /Users/hsn/.gradle/caches/transforms-1/files-1.1/firebase-measurement-connector-impl-15.0.0.aar/73cb752f8733eb494a0cc056cf4a3d53/AndroidManifest.xml:23:5-79
+MERGED from [com.google.firebase:firebase-measurement-connector-impl:15.0.0] /Users/hsn/.gradle/caches/transforms-1/files-1.1/firebase-measurement-connector-impl-15.0.0.aar/73cb752f8733eb494a0cc056cf4a3d53/AndroidManifest.xml:23:5-79
+MERGED from [com.google.firebase:firebase-analytics:15.0.2] /Users/hsn/.gradle/caches/transforms-1/files-1.1/firebase-analytics-15.0.2.aar/9c191c4289bf877acc1310df964af99f/AndroidManifest.xml:24:5-79
+MERGED from [com.google.firebase:firebase-analytics:15.0.2] /Users/hsn/.gradle/caches/transforms-1/files-1.1/firebase-analytics-15.0.2.aar/9c191c4289bf877acc1310df964af99f/AndroidManifest.xml:24:5-79
+MERGED from [com.google.firebase:firebase-analytics-impl:15.0.2] /Users/hsn/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-15.0.2.aar/6e0fb75cb20de02f52605afda6354e2d/AndroidManifest.xml:24:5-79
+MERGED from [com.google.firebase:firebase-analytics-impl:15.0.2] /Users/hsn/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-15.0.2.aar/6e0fb75cb20de02f52605afda6354e2d/AndroidManifest.xml:24:5-79
+MERGED from [com.google.firebase:firebase-iid:15.1.0] /Users/hsn/.gradle/caches/transforms-1/files-1.1/firebase-iid-15.1.0.aar/58de0fd6eb58672546bfd81a4c028c0b/AndroidManifest.xml:22:5-79
+MERGED from [com.google.firebase:firebase-iid:15.1.0] /Users/hsn/.gradle/caches/transforms-1/files-1.1/firebase-iid-15.1.0.aar/58de0fd6eb58672546bfd81a4c028c0b/AndroidManifest.xml:22:5-79
+MERGED from [com.google.android.gms:play-services-ads-lite:15.0.1] /Users/hsn/.gradle/caches/transforms-1/files-1.1/play-services-ads-lite-15.0.1.aar/545116223360d7e99b38c1f19bbcc3d6/AndroidManifest.xml:24:5-79
+MERGED from [com.google.android.gms:play-services-ads-lite:15.0.1] /Users/hsn/.gradle/caches/transforms-1/files-1.1/play-services-ads-lite-15.0.1.aar/545116223360d7e99b38c1f19bbcc3d6/AndroidManifest.xml:24:5-79
+	android:name
+		ADDED from /Users/hsn/Desktop/My Projects/Ultimate News App V2/CodeCanyon/New/NewsApp/app/src/main/AndroidManifest.xml:6:22-76
+uses-permission#android.permission.READ_PHONE_STATE
+ADDED from /Users/hsn/Desktop/My Projects/Ultimate News App V2/CodeCanyon/New/NewsApp/app/src/main/AndroidManifest.xml:7:5-75
+	android:name
+		ADDED from /Users/hsn/Desktop/My Projects/Ultimate News App V2/CodeCanyon/New/NewsApp/app/src/main/AndroidManifest.xml:7:22-72
+uses-permission#android.permission.READ_EXTERNAL_STORAGE
+ADDED from /Users/hsn/Desktop/My Projects/Ultimate News App V2/CodeCanyon/New/NewsApp/app/src/main/AndroidManifest.xml:8:5-80
+	android:name
+		ADDED from /Users/hsn/Desktop/My Projects/Ultimate News App V2/CodeCanyon/New/NewsApp/app/src/main/AndroidManifest.xml:8:22-77
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from /Users/hsn/Desktop/My Projects/Ultimate News App V2/CodeCanyon/New/NewsApp/app/src/main/AndroidManifest.xml:9:5-81
+	android:name
+		ADDED from /Users/hsn/Desktop/My Projects/Ultimate News App V2/CodeCanyon/New/NewsApp/app/src/main/AndroidManifest.xml:9:22-78
+uses-permission#android.permission.CLEAR_APP_CACHE
+ADDED from /Users/hsn/Desktop/My Projects/Ultimate News App V2/CodeCanyon/New/NewsApp/app/src/main/AndroidManifest.xml:10:5-74
+	android:name
+		ADDED from /Users/hsn/Desktop/My Projects/Ultimate News App V2/CodeCanyon/New/NewsApp/app/src/main/AndroidManifest.xml:10:22-71
+uses-permission#com.android.vending.BILLING
+ADDED from /Users/hsn/Desktop/My Projects/Ultimate News App V2/CodeCanyon/New/NewsApp/app/src/main/AndroidManifest.xml:11:5-67
+	android:name
+		ADDED from /Users/hsn/Desktop/My Projects/Ultimate News App V2/CodeCanyon/New/NewsApp/app/src/main/AndroidManifest.xml:11:22-64
+uses-permission#android.permission.WAKE_LOCK
+ADDED from /Users/hsn/Desktop/My Projects/Ultimate News App V2/CodeCanyon/New/NewsApp/app/src/main/AndroidManifest.xml:12:5-68
+MERGED from [com.google.firebase:firebase-measurement-connector-impl:15.0.0] /Users/hsn/.gradle/caches/transforms-1/files-1.1/firebase-measurement-connector-impl-15.0.0.aar/73cb752f8733eb494a0cc056cf4a3d53/AndroidManifest.xml:24:5-68
+MERGED from [com.google.firebase:firebase-measurement-connector-impl:15.0.0] /Users/hsn/.gradle/caches/transforms-1/files-1.1/firebase-measurement-connector-impl-15.0.0.aar/73cb752f8733eb494a0cc056cf4a3d53/AndroidManifest.xml:24:5-68
+MERGED from [com.google.firebase:firebase-analytics:15.0.2] /Users/hsn/.gradle/caches/transforms-1/files-1.1/firebase-analytics-15.0.2.aar/9c191c4289bf877acc1310df964af99f/AndroidManifest.xml:25:5-68
+MERGED from [com.google.firebase:firebase-analytics:15.0.2] /Users/hsn/.gradle/caches/transforms-1/files-1.1/firebase-analytics-15.0.2.aar/9c191c4289bf877acc1310df964af99f/AndroidManifest.xml:25:5-68
+MERGED from [com.google.firebase:firebase-analytics-impl:15.0.2] /Users/hsn/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-15.0.2.aar/6e0fb75cb20de02f52605afda6354e2d/AndroidManifest.xml:25:5-68
+MERGED from [com.google.firebase:firebase-analytics-impl:15.0.2] /Users/hsn/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-15.0.2.aar/6e0fb75cb20de02f52605afda6354e2d/AndroidManifest.xml:25:5-68
+MERGED from [com.google.firebase:firebase-iid:15.1.0] /Users/hsn/.gradle/caches/transforms-1/files-1.1/firebase-iid-15.1.0.aar/58de0fd6eb58672546bfd81a4c028c0b/AndroidManifest.xml:24:5-68
+MERGED from [com.google.firebase:firebase-iid:15.1.0] /Users/hsn/.gradle/caches/transforms-1/files-1.1/firebase-iid-15.1.0.aar/58de0fd6eb58672546bfd81a4c028c0b/AndroidManifest.xml:24:5-68
+	android:name
+		ADDED from /Users/hsn/Desktop/My Projects/Ultimate News App V2/CodeCanyon/New/NewsApp/app/src/main/AndroidManifest.xml:12:22-65
+uses-permission#android.permission.ACCESS_FINE_LOCATION
+ADDED from /Users/hsn/Desktop/My Projects/Ultimate News App V2/CodeCanyon/New/NewsApp/app/src/main/AndroidManifest.xml:13:5-79
+	android:name
+		ADDED from /Users/hsn/Desktop/My Projects/Ultimate News App V2/CodeCanyon/New/NewsApp/app/src/main/AndroidManifest.xml:13:22-76
+uses-permission#android.permission.ACCESS_COARSE_LOCATION
+ADDED from /Users/hsn/Desktop/My Projects/Ultimate News App V2/CodeCanyon/New/NewsApp/app/src/main/AndroidManifest.xml:14:5-81
+	android:name
+		ADDED from /Users/hsn/Desktop/My Projects/Ultimate News App V2/CodeCanyon/New/NewsApp/app/src/main/AndroidManifest.xml:14:22-78
+protected-broadcast
+ADDED from /Users/hsn/Desktop/My Projects/Ultimate News App V2/CodeCanyon/New/NewsApp/app/src/main/AndroidManifest.xml:16:5-79
+	android:name
+		ADDED from /Users/hsn/Desktop/My Projects/Ultimate News App V2/CodeCanyon/New/NewsApp/app/src/main/AndroidManifest.xml:16:26-76
+uses-permission#android.permission.VIBRATE
+ADDED from /Users/hsn/Desktop/My Projects/Ultimate News App V2/CodeCanyon/New/NewsApp/app/src/main/AndroidManifest.xml:18:5-66
+	android:name
+		ADDED from /Users/hsn/Desktop/My Projects/Ultimate News App V2/CodeCanyon/New/NewsApp/app/src/main/AndroidManifest.xml:18:22-63
+application
+ADDED from /Users/hsn/Desktop/My Projects/Ultimate News App V2/CodeCanyon/New/NewsApp/app/src/main/AndroidManifest.xml:20:5-181:19
+MERGED from [devlight.io:navigationtabbar:1.2.5] /Users/hsn/.gradle/caches/transforms-1/files-1.1/navigationtabbar-1.2.5.aar/b939a8e25a04ef403f2ccdaf29c2a6e4/AndroidManifest.xml:23:5-26:38
+MERGED from [devlight.io:navigationtabbar:1.2.5] /Users/hsn/.gradle/caches/transforms-1/files-1.1/navigationtabbar-1.2.5.aar/b939a8e25a04ef403f2ccdaf29c2a6e4/AndroidManifest.xml:23:5-26:38
+MERGED from [com.miguelcatalan:materialsearchview:1.4.0] /Users/hsn/.gradle/caches/transforms-1/files-1.1/materialsearchview-1.4.0.aar/081ef8ccb93426a470d959b5ac9bd020/AndroidManifest.xml:11:5-20
+MERGED from [com.miguelcatalan:materialsearchview:1.4.0] /Users/hsn/.gradle/caches/transforms-1/files-1.1/materialsearchview-1.4.0.aar/081ef8ccb93426a470d959b5ac9bd020/AndroidManifest.xml:11:5-20
+MERGED from [com.android.support:design:28.0.0] /Users/hsn/.gradle/caches/transforms-1/files-1.1/design-28.0.0.aar/555908e41d8a1cb745c84ed3a17d9ae4/AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:design:28.0.0] /Users/hsn/.gradle/caches/transforms-1/files-1.1/design-28.0.0.aar/555908e41d8a1cb745c84ed3a17d9ae4/AndroidManifest.xml:22:5-20
+MERGED from [com.github.jd-alexander:LikeButton:0.2.3] /Users/hsn/.gradle/caches/transforms-1/files-1.1/LikeButton-0.2.3.aar/c3e10604f6efbea75496f42a5bebeabb/AndroidManifest.xml:11:5-12:19
+MERGED from [com.github.jd-alexander:LikeButton:0.2.3] /Users/hsn/.gradle/caches/transforms-1/files-1.1/LikeButton-0.2.3.aar/c3e10604f6efbea75496f42a5bebeabb/AndroidManifest.xml:11:5-12:19
+MERGED from [com.github.generic-leo:SimpleArcLoader:bb0cc96c81] /Users/hsn/.gradle/caches/transforms-1/files-1.1/SimpleArcLoader-bb0cc96c81.aar/05b4cd9d7b6469e71863aa734e288fd8/AndroidManifest.xml:11:5-12:19
+MERGED from [com.github.generic-leo:SimpleArcLoader:bb0cc96c81] /Users/hsn/.gradle/caches/transforms-1/files-1.1/SimpleArcLoader-bb0cc96c81.aar/05b4cd9d7b6469e71863aa734e288fd8/AndroidManifest.xml:11:5-12:19
+MERGED from [com.github.QuadFlask:colorpicker:0.0.13] /Users/hsn/.gradle/caches/transforms-1/files-1.1/colorpicker-0.0.13.aar/68816f4df30e91fc13f5b739c1bc8190/AndroidManifest.xml:12:5-20
+MERGED from [com.github.QuadFlask:colorpicker:0.0.13] /Users/hsn/.gradle/caches/transforms-1/files-1.1/colorpicker-0.0.13.aar/68816f4df30e91fc13f5b739c1bc8190/AndroidManifest.xml:12:5-20
+MERGED from [com.facebook.android:facebook-android-sdk:5.5.1] /Users/hsn/.gradle/caches/transforms-1/files-1.1/facebook-android-sdk-5.5.1.aar/42e1ca6cbe7fff2f24b8d744259ae2e2/AndroidManifest.xml:28:5-29:19
+MERGED from [com.facebook.android:facebook-android-sdk:5.5.1] /Users/hsn/.gradle/caches/transforms-1/files-1.1/facebook-android-sdk-5.5.1.aar/42e1ca6cbe7fff2f24b8d744259ae2e2/AndroidManifest.xml:28:5-29:19
+MERGED from [com.facebook.android:facebook-login:5.5.1] /Users/hsn/.gradle/caches/transforms-1/files-1.1/facebook-login-5.5.1.aar/cca3bdf242637d5819f46d3c8e44b7bf/AndroidManifest.xml:28:5-29:19
+MERGED from [com.facebook.android:facebook-login:5.5.1] /Users/hsn/.gradle/caches/transforms-1/files-1.1/facebook-login-5.5.1.aar/cca3bdf242637d5819f46d3c8e44b7bf/AndroidManifest.xml:28:5-29:19
+MERGED from [com.facebook.android:facebook-share:5.5.1] /Users/hsn/.gradle/caches/transforms-1/files-1.1/facebook-share-5.5.1.aar/8d210ee4706a1baccd951c650e08720e/AndroidManifest.xml:28:5-29:19
+MERGED from [com.facebook.android:facebook-share:5.5.1] /Users/hsn/.gradle/caches/transforms-1/files-1.1/facebook-share-5.5.1.aar/8d210ee4706a1baccd951c650e08720e/AndroidManifest.xml:28:5-29:19
+MERGED from [com.facebook.android:facebook-common:5.5.1] /Users/hsn/.gradle/caches/transforms-1/files-1.1/facebook-common-5.5.1.aar/3613b5541ad39670f4e07043ea94c573/AndroidManifest.xml:28:5-35:19
+MERGED from [com.facebook.android:facebook-common:5.5.1] /Users/hsn/.gradle/caches/transforms-1/files-1.1/facebook-common-5.5.1.aar/3613b5541ad39670f4e07043ea94c573/AndroidManifest.xml:28:5-35:19
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] /Users/hsn/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.0.2.aar/da0ddc32d86ea1fe7745bcf0c1c88c67/AndroidManifest.xml:9:5-20
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] /Users/hsn/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.0.2.aar/da0ddc32d86ea1fe7745bcf0c1c88c67/AndroidManifest.xml:9:5-20
+MERGED from [com.google.android.gms:play-services-auth:15.0.0] /Users/hsn/.gradle/caches/transforms-1/files-1.1/play-services-auth-15.0.0.aar/1b8001a7b96b815eb87bc3f75580058f/AndroidManifest.xml:22:5-37:19
+MERGED from [com.google.android.gms:play-services-auth:15.0.0] /Users/hsn/.gradle/caches/transforms-1/files-1.1/play-services-auth-15.0.0.aar/1b8001a7b96b815eb87bc3f75580058f/AndroidManifest.xml:22:5-37:19
+MERGED from [com.google.firebase:firebase-messaging:15.0.2] /Users/hsn/.gradle/caches/transforms-1/files-1.1/firebase-messaging-15.0.2.aar/653c97b890ec6dcdeadfdd47eff7d958/AndroidManifest.xml:22:5-35:19
+MERGED from [com.google.firebase:firebase-messaging:15.0.2] /Users/hsn/.gradle/caches/transforms-1/files-1.1/firebase-messaging-15.0.2.aar/653c97b890ec6dcdeadfdd47eff7d958/AndroidManifest.xml:22:5-35:19
+MERGED from [com.facebook.android:audience-network-sdk:5.6.0-beta] /Users/hsn/.gradle/caches/transforms-1/files-1.1/audience-network-sdk-5.6.0-beta.aar/7bd7236f7b3742f9997a44ce577196f4/AndroidManifest.xml:14:5-39:19
+MERGED from [com.facebook.android:audience-network-sdk:5.6.0-beta] /Users/hsn/.gradle/caches/transforms-1/files-1.1/audience-network-sdk-5.6.0-beta.aar/7bd7236f7b3742f9997a44ce577196f4/AndroidManifest.xml:14:5-39:19
+MERGED from [com.google.android.gms:play-services-location:15.0.0] /Users/hsn/.gradle/caches/transforms-1/files-1.1/play-services-location-15.0.0.aar/28777c6c7cb4f2a45273b618a6ac291f/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-location:15.0.0] /Users/hsn/.gradle/caches/transforms-1/files-1.1/play-services-location-15.0.0.aar/28777c6c7cb4f2a45273b618a6ac291f/AndroidManifest.xml:7:5-20
+MERGED from [com.google.firebase:firebase-ads:15.0.0] /Users/hsn/.gradle/caches/transforms-1/files-1.1/firebase-ads-15.0.0.aar/ff04cd551c66ba89a3978eb6836d3bbc/AndroidManifest.xml:7:5-20
+MERGED from [com.google.firebase:firebase-ads:15.0.0] /Users/hsn/.gradle/caches/transforms-1/files-1.1/firebase-ads-15.0.0.aar/ff04cd551c66ba89a3978eb6836d3bbc/AndroidManifest.xml:7:5-20
+MERGED from [com.google.firebase:firebase-core:15.0.2] /Users/hsn/.gradle/caches/transforms-1/files-1.1/firebase-core-15.0.2.aar/780e8441749e44f21a5532fc840fc85c/AndroidManifest.xml:7:5-20
+MERGED from [com.google.firebase:firebase-core:15.0.2] /Users/hsn/.gradle/caches/transforms-1/files-1.1/firebase-core-15.0.2.aar/780e8441749e44f21a5532fc840fc85c/AndroidManifest.xml:7:5-20
+MERGED from [com.google.firebase:firebase-measurement-connector-impl:15.0.0] /Users/hsn/.gradle/caches/transforms-1/files-1.1/firebase-measurement-connector-impl-15.0.0.aar/73cb752f8733eb494a0cc056cf4a3d53/AndroidManifest.xml:26:5-32:19
+MERGED from [com.google.firebase:firebase-measurement-connector-impl:15.0.0] /Users/hsn/.gradle/caches/transforms-1/files-1.1/firebase-measurement-connector-impl-15.0.0.aar/73cb752f8733eb494a0cc056cf4a3d53/AndroidManifest.xml:26:5-32:19
+MERGED from [com.google.firebase:firebase-analytics:15.0.2] /Users/hsn/.gradle/caches/transforms-1/files-1.1/firebase-analytics-15.0.2.aar/9c191c4289bf877acc1310df964af99f/AndroidManifest.xml:28:5-53:19
+MERGED from [com.google.firebase:firebase-analytics:15.0.2] /Users/hsn/.gradle/caches/transforms-1/files-1.1/firebase-analytics-15.0.2.aar/9c191c4289bf877acc1310df964af99f/AndroidManifest.xml:28:5-53:19
+MERGED from [com.google.firebase:firebase-analytics-impl:15.0.2] /Users/hsn/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-15.0.2.aar/6e0fb75cb20de02f52605afda6354e2d/AndroidManifest.xml:28:5-39:19
+MERGED from [com.google.firebase:firebase-analytics-impl:15.0.2] /Users/hsn/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-15.0.2.aar/6e0fb75cb20de02f52605afda6354e2d/AndroidManifest.xml:28:5-39:19
+MERGED from [com.google.firebase:firebase-iid:15.1.0] /Users/hsn/.gradle/caches/transforms-1/files-1.1/firebase-iid-15.1.0.aar/58de0fd6eb58672546bfd81a4c028c0b/AndroidManifest.xml:34:5-63:19
+MERGED from [com.google.firebase:firebase-iid:15.1.0] /Users/hsn/.gradle/caches/transforms-1/files-1.1/firebase-iid-15.1.0.aar/58de0fd6eb58672546bfd81a4c028c0b/AndroidManifest.xml:34:5-63:19
+MERGED from [com.google.firebase:firebase-iid-interop:15.0.0] /Users/hsn/.gradle/caches/transforms-1/files-1.1/firebase-iid-interop-15.0.0.aar/55a921135d7f408e9571c78f8e7fbe20/AndroidManifest.xml:7:5-8:19
+MERGED from [com.google.firebase:firebase-iid-interop:15.0.0] /Users/hsn/.gradle/caches/transforms-1/files-1.1/firebase-iid-interop-15.0.0.aar/55a921135d7f408e9571c78f8e7fbe20/AndroidManifest.xml:7:5-8:19
+MERGED from [com.google.android.gms:play-services-base:15.0.1] /Users/hsn/.gradle/caches/transforms-1/files-1.1/play-services-base-15.0.1.aar/0333d3439c85a1674538bbefe05081db/AndroidManifest.xml:22:5-27:19
+MERGED from [com.google.android.gms:play-services-base:15.0.1] /Users/hsn/.gradle/caches/transforms-1/files-1.1/play-services-base-15.0.1.aar/0333d3439c85a1674538bbefe05081db/AndroidManifest.xml:22:5-27:19
+MERGED from [com.google.firebase:firebase-common:15.0.1] /Users/hsn/.gradle/caches/transforms-1/files-1.1/firebase-common-15.0.1.aar/c4f8f5f230a5cddc79130d71d209481f/AndroidManifest.xml:7:5-13:19
+MERGED from [com.google.firebase:firebase-common:15.0.1] /Users/hsn/.gradle/caches/transforms-1/files-1.1/firebase-common-15.0.1.aar/c4f8f5f230a5cddc79130d71d209481f/AndroidManifest.xml:7:5-13:19
+MERGED from [com.google.android.gms:play-services-tasks:15.0.1] /Users/hsn/.gradle/caches/transforms-1/files-1.1/play-services-tasks-15.0.1.aar/ee36a28e2e4ad5467ae95b25bf2892de/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-tasks:15.0.1] /Users/hsn/.gradle/caches/transforms-1/files-1.1/play-services-tasks-15.0.1.aar/ee36a28e2e4ad5467ae95b25bf2892de/AndroidManifest.xml:7:5-20
+MERGED from [com.google.firebase:firebase-measurement-connector:15.0.0] /Users/hsn/.gradle/caches/transforms-1/files-1.1/firebase-measurement-connector-15.0.0.aar/d89a879a4dd50d0eac0ceec2d03e30c6/AndroidManifest.xml:22:5-23:19
+MERGED from [com.google.firebase:firebase-measurement-connector:15.0.0] /Users/hsn/.gradle/caches/transforms-1/files-1.1/firebase-measurement-connector-15.0.0.aar/d89a879a4dd50d0eac0ceec2d03e30c6/AndroidManifest.xml:22:5-23:19
+MERGED from [com.google.android.gms:play-services-places-placereport:15.0.1] /Users/hsn/.gradle/caches/transforms-1/files-1.1/play-services-places-placereport-15.0.1.aar/eb31545818688700be87a3771a9175ff/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-places-placereport:15.0.1] /Users/hsn/.gradle/caches/transforms-1/files-1.1/play-services-places-placereport-15.0.1.aar/eb31545818688700be87a3771a9175ff/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-stats:15.0.1] /Users/hsn/.gradle/caches/transforms-1/files-1.1/play-services-stats-15.0.1.aar/a84240b6eba838504d01372d2c27c26d/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-stats:15.0.1] /Users/hsn/.gradle/caches/transforms-1/files-1.1/play-services-stats-15.0.1.aar/a84240b6eba838504d01372d2c27c26d/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-ads-identifier:15.0.1] /Users/hsn/.gradle/caches/transforms-1/files-1.1/play-services-ads-identifier-15.0.1.aar/64c7c3cd380b9d6cc23592fa5966f24a/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-ads-identifier:15.0.1] /Users/hsn/.gradle/caches/transforms-1/files-1.1/play-services-ads-identifier-15.0.1.aar/64c7c3cd380b9d6cc23592fa5966f24a/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-ads-lite:15.0.1] /Users/hsn/.gradle/caches/transforms-1/files-1.1/play-services-ads-lite-15.0.1.aar/545116223360d7e99b38c1f19bbcc3d6/AndroidManifest.xml:26:5-34:19
+MERGED from [com.google.android.gms:play-services-ads-lite:15.0.1] /Users/hsn/.gradle/caches/transforms-1/files-1.1/play-services-ads-lite-15.0.1.aar/545116223360d7e99b38c1f19bbcc3d6/AndroidManifest.xml:26:5-34:19
+MERGED from [com.google.android.gms:play-services-gass:15.0.1] /Users/hsn/.gradle/caches/transforms-1/files-1.1/play-services-gass-15.0.1.aar/07e5643b2f81d6a20aff0f085416fd7a/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-gass:15.0.1] /Users/hsn/.gradle/caches/transforms-1/files-1.1/play-services-gass-15.0.1.aar/07e5643b2f81d6a20aff0f085416fd7a/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-basement:15.0.1] /Users/hsn/.gradle/caches/transforms-1/files-1.1/play-services-basement-15.0.1.aar/80b4bce63d5c3eef50cad6ac9b75113c/AndroidManifest.xml:22:5-26:19
+MERGED from [com.google.android.gms:play-services-basement:15.0.1] /Users/hsn/.gradle/caches/transforms-1/files-1.1/play-services-basement-15.0.1.aar/80b4bce63d5c3eef50cad6ac9b75113c/AndroidManifest.xml:22:5-26:19
+MERGED from [com.rm:rmswitch:1.2.2] /Users/hsn/.gradle/caches/transforms-1/files-1.1/rmswitch-1.2.2.aar/13595ada8630f16a0b7b3c67b974b588/AndroidManifest.xml:11:5-15:19
+MERGED from [com.rm:rmswitch:1.2.2] /Users/hsn/.gradle/caches/transforms-1/files-1.1/rmswitch-1.2.2.aar/13595ada8630f16a0b7b3c67b974b588/AndroidManifest.xml:11:5-15:19
+MERGED from [de.hdodenhof:circleimageview:2.1.0] /Users/hsn/.gradle/caches/transforms-1/files-1.1/circleimageview-2.1.0.aar/326157bd841eb1c031eb912c74d66512/AndroidManifest.xml:9:5-20
+MERGED from [de.hdodenhof:circleimageview:2.1.0] /Users/hsn/.gradle/caches/transforms-1/files-1.1/circleimageview-2.1.0.aar/326157bd841eb1c031eb912c74d66512/AndroidManifest.xml:9:5-20
+MERGED from [com.github.bhargavms:DotLoader:1.1.1] /Users/hsn/.gradle/caches/transforms-1/files-1.1/DotLoader-1.1.1.aar/f8490f85dc4df16a066c980c6191e7ec/AndroidManifest.xml:11:5-14:19
+MERGED from [com.github.bhargavms:DotLoader:1.1.1] /Users/hsn/.gradle/caches/transforms-1/files-1.1/DotLoader-1.1.1.aar/f8490f85dc4df16a066c980c6191e7ec/AndroidManifest.xml:11:5-14:19
+MERGED from [com.facebook.android:facebook-places:5.5.1] /Users/hsn/.gradle/caches/transforms-1/files-1.1/facebook-places-5.5.1.aar/3ad9b64845247c236cd546320aaf9c37/AndroidManifest.xml:28:5-29:19
+MERGED from [com.facebook.android:facebook-places:5.5.1] /Users/hsn/.gradle/caches/transforms-1/files-1.1/facebook-places-5.5.1.aar/3ad9b64845247c236cd546320aaf9c37/AndroidManifest.xml:28:5-29:19
+MERGED from [com.facebook.android:facebook-applinks:5.5.1] /Users/hsn/.gradle/caches/transforms-1/files-1.1/facebook-applinks-5.5.1.aar/f0a895cdee548bc0ac39c0bf7dc12c93/AndroidManifest.xml:28:5-29:19
+MERGED from [com.facebook.android:facebook-applinks:5.5.1] /Users/hsn/.gradle/caches/transforms-1/files-1.1/facebook-applinks-5.5.1.aar/f0a895cdee548bc0ac39c0bf7dc12c93/AndroidManifest.xml:28:5-29:19
+MERGED from [com.facebook.android:facebook-messenger:5.5.1] /Users/hsn/.gradle/caches/transforms-1/files-1.1/facebook-messenger-5.5.1.aar/fbd3d7d02c38069523bf726c936315e0/AndroidManifest.xml:28:5-29:19
+MERGED from [com.facebook.android:facebook-messenger:5.5.1] /Users/hsn/.gradle/caches/transforms-1/files-1.1/facebook-messenger-5.5.1.aar/fbd3d7d02c38069523bf726c936315e0/AndroidManifest.xml:28:5-29:19
+MERGED from [com.facebook.android:facebook-core:5.5.1] /Users/hsn/.gradle/caches/transforms-1/files-1.1/facebook-core-5.5.1.aar/bb4782663a902e969b1a3429a5a7e4d2/AndroidManifest.xml:28:5-59:19
+MERGED from [com.facebook.android:facebook-core:5.5.1] /Users/hsn/.gradle/caches/transforms-1/files-1.1/facebook-core-5.5.1.aar/bb4782663a902e969b1a3429a5a7e4d2/AndroidManifest.xml:28:5-59:19
+MERGED from [com.android.support:support-compat:28.0.0] /Users/hsn/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/495f1a39754f6388ab7cd0cec2dfab7b/AndroidManifest.xml:22:5-94
+MERGED from [com.android.support:support-compat:28.0.0] /Users/hsn/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/495f1a39754f6388ab7cd0cec2dfab7b/AndroidManifest.xml:22:5-94
+MERGED from [com.android.support:versionedparcelable:28.0.0] /Users/hsn/.gradle/caches/transforms-1/files-1.1/versionedparcelable-28.0.0.aar/b96936513b9bf2fab4272e13acbddc53/AndroidManifest.xml:22:5-23:19
+MERGED from [com.android.support:versionedparcelable:28.0.0] /Users/hsn/.gradle/caches/transforms-1/files-1.1/versionedparcelable-28.0.0.aar/b96936513b9bf2fab4272e13acbddc53/AndroidManifest.xml:22:5-23:19
+MERGED from [com.google.android.gms:play-services-measurement-base:15.0.2] /Users/hsn/.gradle/caches/transforms-1/files-1.1/play-services-measurement-base-15.0.2.aar/ea1e0a77a015db1a44366c9eea9b3441/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-measurement-base:15.0.2] /Users/hsn/.gradle/caches/transforms-1/files-1.1/play-services-measurement-base-15.0.2.aar/ea1e0a77a015db1a44366c9eea9b3441/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-ads-base:15.0.1] /Users/hsn/.gradle/caches/transforms-1/files-1.1/play-services-ads-base-15.0.1.aar/ef992056e211e329bc4aa8cd51a935ba/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-ads-base:15.0.1] /Users/hsn/.gradle/caches/transforms-1/files-1.1/play-services-ads-base-15.0.1.aar/ef992056e211e329bc4aa8cd51a935ba/AndroidManifest.xml:22:5-20
+	android:appComponentFactory
+		ADDED from [com.android.support:support-compat:28.0.0] /Users/hsn/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/495f1a39754f6388ab7cd0cec2dfab7b/AndroidManifest.xml:22:18-91
+	android:supportsRtl
+		ADDED from /Users/hsn/Desktop/My Projects/Ultimate News App V2/CodeCanyon/New/NewsApp/app/src/main/AndroidManifest.xml:27:9-35
+	android:label
+		ADDED from /Users/hsn/Desktop/My Projects/Ultimate News App V2/CodeCanyon/New/NewsApp/app/src/main/AndroidManifest.xml:24:9-41
+	android:roundIcon
+		ADDED from /Users/hsn/Desktop/My Projects/Ultimate News App V2/CodeCanyon/New/NewsApp/app/src/main/AndroidManifest.xml:26:9-54
+	android:largeHeap
+		ADDED from /Users/hsn/Desktop/My Projects/Ultimate News App V2/CodeCanyon/New/NewsApp/app/src/main/AndroidManifest.xml:25:9-33
+	android:icon
+		ADDED from /Users/hsn/Desktop/My Projects/Ultimate News App V2/CodeCanyon/New/NewsApp/app/src/main/AndroidManifest.xml:23:9-43
+	android:allowBackup
+		ADDED from /Users/hsn/Desktop/My Projects/Ultimate News App V2/CodeCanyon/New/NewsApp/app/src/main/AndroidManifest.xml:22:9-35
+	android:theme
+		ADDED from /Users/hsn/Desktop/My Projects/Ultimate News App V2/CodeCanyon/New/NewsApp/app/src/main/AndroidManifest.xml:28:9-40
+	android:usesCleartextTraffic
+		ADDED from /Users/hsn/Desktop/My Projects/Ultimate News App V2/CodeCanyon/New/NewsApp/app/src/main/AndroidManifest.xml:29:9-44
+	android:name
+		ADDED from /Users/hsn/Desktop/My Projects/Ultimate News App V2/CodeCanyon/New/NewsApp/app/src/main/AndroidManifest.xml:21:9-48
+meta-data#com.google.android.gms.ads.APPLICATION_ID
+ADDED from /Users/hsn/Desktop/My Projects/Ultimate News App V2/CodeCanyon/New/NewsApp/app/src/main/AndroidManifest.xml:30:9-32:70
+	android:value
+		ADDED from /Users/hsn/Desktop/My Projects/Ultimate News App V2/CodeCanyon/New/NewsApp/app/src/main/AndroidManifest.xml:32:13-67
+	android:name
+		ADDED from /Users/hsn/Desktop/My Projects/Ultimate News App V2/CodeCanyon/New/NewsApp/app/src/main/AndroidManifest.xml:31:13-69
+meta-data#com.google.android.gms.cast.framework.OPTIONS_PROVIDER_CLASS_NAME
+ADDED from /Users/hsn/Desktop/My Projects/Ultimate News App V2/CodeCanyon/New/NewsApp/app/src/main/AndroidManifest.xml:44:9-46:97
+	android:value
+		ADDED from /Users/hsn/Desktop/My Projects/Ultimate News App V2/CodeCanyon/New/NewsApp/app/src/main/AndroidManifest.xml:46:13-94
+	android:name
+		ADDED from /Users/hsn/Desktop/My Projects/Ultimate News App V2/CodeCanyon/New/NewsApp/app/src/main/AndroidManifest.xml:45:13-93
+meta-data#com.facebook.sdk.ApplicationId
+ADDED from /Users/hsn/Desktop/My Projects/Ultimate News App V2/CodeCanyon/New/NewsApp/app/src/main/AndroidManifest.xml:47:9-49:55
+	android:value
+		ADDED from /Users/hsn/Desktop/My Projects/Ultimate News App V2/CodeCanyon/New/NewsApp/app/src/main/AndroidManifest.xml:49:13-52
+	android:name
+		ADDED from /Users/hsn/Desktop/My Projects/Ultimate News App V2/CodeCanyon/New/NewsApp/app/src/main/AndroidManifest.xml:48:13-58
+activity#com.facebook.FacebookActivity
+ADDED from /Users/hsn/Desktop/My Projects/Ultimate News App V2/CodeCanyon/New/NewsApp/app/src/main/AndroidManifest.xml:51:9-54:48
+MERGED from [com.facebook.android:facebook-common:5.5.1] /Users/hsn/.gradle/caches/transforms-1/files-1.1/facebook-common-5.5.1.aar/3613b5541ad39670f4e07043ea94c573/AndroidManifest.xml:29:9-32:66
+MERGED from [com.facebook.android:facebook-common:5.5.1] /Users/hsn/.gradle/caches/transforms-1/files-1.1/facebook-common-5.5.1.aar/3613b5541ad39670f4e07043ea94c573/AndroidManifest.xml:29:9-32:66
+	android:label
+		ADDED from /Users/hsn/Desktop/My Projects/Ultimate News App V2/CodeCanyon/New/NewsApp/app/src/main/AndroidManifest.xml:54:13-45
+	android:configChanges
+		ADDED from /Users/hsn/Desktop/My Projects/Ultimate News App V2/CodeCanyon/New/NewsApp/app/src/main/AndroidManifest.xml:53:13-96
+	android:theme
+		ADDED from [com.facebook.android:facebook-common:5.5.1] /Users/hsn/.gradle/caches/transforms-1/files-1.1/facebook-common-5.5.1.aar/3613b5541ad39670f4e07043ea94c573/AndroidManifest.xml:32:13-63
+	android:name
+		ADDED from /Users/hsn/Desktop/My Projects/Ultimate News App V2/CodeCanyon/New/NewsApp/app/src/main/AndroidManifest.xml:52:13-57
+activity#com.facebook.CustomTabActivity
+ADDED from /Users/hsn/Desktop/My Projects/Ultimate News App V2/CodeCanyon/New/NewsApp/app/src/main/AndroidManifest.xml:55:9-66:20
+MERGED from [com.facebook.android:facebook-common:5.5.1] /Users/hsn/.gradle/caches/transforms-1/files-1.1/facebook-common-5.5.1.aar/3613b5541ad39670f4e07043ea94c573/AndroidManifest.xml:34:9-67
+MERGED from [com.facebook.android:facebook-common:5.5.1] /Users/hsn/.gradle/caches/transforms-1/files-1.1/facebook-common-5.5.1.aar/3613b5541ad39670f4e07043ea94c573/AndroidManifest.xml:34:9-67
+	android:exported
+		ADDED from /Users/hsn/Desktop/My Projects/Ultimate News App V2/CodeCanyon/New/NewsApp/app/src/main/AndroidManifest.xml:57:13-36
+	android:name
+		ADDED from /Users/hsn/Desktop/My Projects/Ultimate News App V2/CodeCanyon/New/NewsApp/app/src/main/AndroidManifest.xml:56:13-58
+intent-filter#action:name:android.intent.action.VIEW+category:name:android.intent.category.BROWSABLE+category:name:android.intent.category.DEFAULT+data:scheme:@string/fb_login_protocol_scheme
+ADDED from /Users/hsn/Desktop/My Projects/Ultimate News App V2/CodeCanyon/New/NewsApp/app/src/main/AndroidManifest.xml:58:13-65:29
+action#android.intent.action.VIEW
+ADDED from /Users/hsn/Desktop/My Projects/Ultimate News App V2/CodeCanyon/New/NewsApp/app/src/main/AndroidManifest.xml:59:17-69
+	android:name
+		ADDED from /Users/hsn/Desktop/My Projects/Ultimate News App V2/CodeCanyon/New/NewsApp/app/src/main/AndroidManifest.xml:59:25-66
+category#android.intent.category.DEFAULT
+ADDED from /Users/hsn/Desktop/My Projects/Ultimate News App V2/CodeCanyon/New/NewsApp/app/src/main/AndroidManifest.xml:61:17-76
+	android:name
+		ADDED from /Users/hsn/Desktop/My Projects/Ultimate News App V2/CodeCanyon/New/NewsApp/app/src/main/AndroidManifest.xml:61:27-73
+category#android.intent.category.BROWSABLE
+ADDED from /Users/hsn/Desktop/My Projects/Ultimate News App V2/CodeCanyon/New/NewsApp/app/src/main/AndroidManifest.xml:62:17-78
+	android:name
+		ADDED from /Users/hsn/Desktop/My Projects/Ultimate News App V2/CodeCanyon/New/NewsApp/app/src/main/AndroidManifest.xml:62:27-75
+data
+ADDED from /Users/hsn/Desktop/My Projects/Ultimate News App V2/CodeCanyon/New/NewsApp/app/src/main/AndroidManifest.xml:64:17-75
+	android:host
+		ADDED from /Users/hsn/Desktop/My Projects/Ultimate News App V2/CodeCanyon/New/NewsApp/app/src/main/AndroidManifest.xml:147:23-55
+	android:scheme
+		ADDED from /Users/hsn/Desktop/My Projects/Ultimate News App V2/CodeCanyon/New/NewsApp/app/src/main/AndroidManifest.xml:64:23-72
+service#com.virmana.news_app.services.FirebaseIDService
+ADDED from /Users/hsn/Desktop/My Projects/Ultimate News App V2/CodeCanyon/New/NewsApp/app/src/main/AndroidManifest.xml:68:9-72:19
+	android:name
+		ADDED from /Users/hsn/Desktop/My Projects/Ultimate News App V2/CodeCanyon/New/NewsApp/app/src/main/AndroidManifest.xml:68:18-80
+intent-filter#action:name:com.google.firebase.INSTANCE_ID_EVENT
+ADDED from /Users/hsn/Desktop/My Projects/Ultimate News App V2/CodeCanyon/New/NewsApp/app/src/main/AndroidManifest.xml:69:13-71:29
+action#com.google.firebase.INSTANCE_ID_EVENT
+ADDED from /Users/hsn/Desktop/My Projects/Ultimate News App V2/CodeCanyon/New/NewsApp/app/src/main/AndroidManifest.xml:70:17-80
+	android:name
+		ADDED from /Users/hsn/Desktop/My Projects/Ultimate News App V2/CodeCanyon/New/NewsApp/app/src/main/AndroidManifest.xml:70:25-77
+service#com.virmana.news_app.services.NotifFirebaseMessagingService
+ADDED from /Users/hsn/Desktop/My Projects/Ultimate News App V2/CodeCanyon/New/NewsApp/app/src/main/AndroidManifest.xml:73:9-77:19
+	android:name
+		ADDED from /Users/hsn/Desktop/My Projects/Ultimate News App V2/CodeCanyon/New/NewsApp/app/src/main/AndroidManifest.xml:73:18-92
+intent-filter#action:name:com.google.firebase.MESSAGING_EVENT
+ADDED from /Users/hsn/Desktop/My Projects/Ultimate News App V2/CodeCanyon/New/NewsApp/app/src/main/AndroidManifest.xml:74:13-76:29
+action#com.google.firebase.MESSAGING_EVENT
+ADDED from /Users/hsn/Desktop/My Projects/Ultimate News App V2/CodeCanyon/New/NewsApp/app/src/main/AndroidManifest.xml:75:17-78
+	android:name
+		ADDED from /Users/hsn/Desktop/My Projects/Ultimate News App V2/CodeCanyon/New/NewsApp/app/src/main/AndroidManifest.xml:75:25-75
+activity#com.virmana.news_app.ui.Activities.SlideActivity
+ADDED from /Users/hsn/Desktop/My Projects/Ultimate News App V2/CodeCanyon/New/NewsApp/app/src/main/AndroidManifest.xml:79:9-81:59
+	android:theme
+		ADDED from /Users/hsn/Desktop/My Projects/Ultimate News App V2/CodeCanyon/New/NewsApp/app/src/main/AndroidManifest.xml:81:13-56
+	android:name
+		ADDED from /Users/hsn/Desktop/My Projects/Ultimate News App V2/CodeCanyon/New/NewsApp/app/src/main/AndroidManifest.xml:80:13-76
+activity#com.virmana.news_app.ui.Activities.MainActivity
+ADDED from /Users/hsn/Desktop/My Projects/Ultimate News App V2/CodeCanyon/New/NewsApp/app/src/main/AndroidManifest.xml:82:9-87:68
+	android:label
+		ADDED from /Users/hsn/Desktop/My Projects/Ultimate News App V2/CodeCanyon/New/NewsApp/app/src/main/AndroidManifest.xml:84:13-56
+	android:windowSoftInputMode
+		ADDED from /Users/hsn/Desktop/My Projects/Ultimate News App V2/CodeCanyon/New/NewsApp/app/src/main/AndroidManifest.xml:87:13-65
+	android:noHistory
+		ADDED from /Users/hsn/Desktop/My Projects/Ultimate News App V2/CodeCanyon/New/NewsApp/app/src/main/AndroidManifest.xml:85:13-40
+	android:theme
+		ADDED from /Users/hsn/Desktop/My Projects/Ultimate News App V2/CodeCanyon/New/NewsApp/app/src/main/AndroidManifest.xml:86:13-56
+	android:name
+		ADDED from /Users/hsn/Desktop/My Projects/Ultimate News App V2/CodeCanyon/New/NewsApp/app/src/main/AndroidManifest.xml:83:13-75
+activity#com.virmana.news_app.ui.Activities.CategoryActivity
+ADDED from /Users/hsn/Desktop/My Projects/Ultimate News App V2/CodeCanyon/New/NewsApp/app/src/main/AndroidManifest.xml:88:9-90:59
+	android:theme
+		ADDED from /Users/hsn/Desktop/My Projects/Ultimate News App V2/CodeCanyon/New/NewsApp/app/src/main/AndroidManifest.xml:90:13-56
+	android:name
+		ADDED from /Users/hsn/Desktop/My Projects/Ultimate News App V2/CodeCanyon/New/NewsApp/app/src/main/AndroidManifest.xml:89:13-79
+activity#com.virmana.news_app.ui.Activities.PermissionActivity
+ADDED from /Users/hsn/Desktop/My Projects/Ultimate News App V2/CodeCanyon/New/NewsApp/app/src/main/AndroidManifest.xml:91:9-93:59
+	android:theme
+		ADDED from /Users/hsn/Desktop/My Projects/Ultimate News App V2/CodeCanyon/New/NewsApp/app/src/main/AndroidManifest.xml:93:13-56
+	android:name
+		ADDED from /Users/hsn/Desktop/My Projects/Ultimate News App V2/CodeCanyon/New/NewsApp/app/src/main/AndroidManifest.xml:92:13-81
+activity#com.virmana.news_app.ui.Activities.LoginActivity
+ADDED from /Users/hsn/Desktop/My Projects/Ultimate News App V2/CodeCanyon/New/NewsApp/app/src/main/AndroidManifest.xml:94:9-96:55
+	android:theme
+		ADDED from /Users/hsn/Desktop/My Projects/Ultimate News App V2/CodeCanyon/New/NewsApp/app/src/main/AndroidManifest.xml:96:13-52
+	android:name
+		ADDED from /Users/hsn/Desktop/My Projects/Ultimate News App V2/CodeCanyon/New/NewsApp/app/src/main/AndroidManifest.xml:95:13-76
+activity#com.virmana.news_app.ui.Activities.SplashActivity
+ADDED from /Users/hsn/Desktop/My Projects/Ultimate News App V2/CodeCanyon/New/NewsApp/app/src/main/AndroidManifest.xml:97:9-105:20
+	android:theme
+		ADDED from /Users/hsn/Desktop/My Projects/Ultimate News App V2/CodeCanyon/New/NewsApp/app/src/main/AndroidManifest.xml:99:13-56
+	android:name
+		ADDED from /Users/hsn/Desktop/My Projects/Ultimate News App V2/CodeCanyon/New/NewsApp/app/src/main/AndroidManifest.xml:98:13-77
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from /Users/hsn/Desktop/My Projects/Ultimate News App V2/CodeCanyon/New/NewsApp/app/src/main/AndroidManifest.xml:100:13-104:29
+action#android.intent.action.MAIN
+ADDED from /Users/hsn/Desktop/My Projects/Ultimate News App V2/CodeCanyon/New/NewsApp/app/src/main/AndroidManifest.xml:101:17-69
+	android:name
+		ADDED from /Users/hsn/Desktop/My Projects/Ultimate News App V2/CodeCanyon/New/NewsApp/app/src/main/AndroidManifest.xml:101:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /Users/hsn/Desktop/My Projects/Ultimate News App V2/CodeCanyon/New/NewsApp/app/src/main/AndroidManifest.xml:103:17-77
+	android:name
+		ADDED from /Users/hsn/Desktop/My Projects/Ultimate News App V2/CodeCanyon/New/NewsApp/app/src/main/AndroidManifest.xml:103:27-74
+activity#com.virmana.news_app.ui.Activities.SupportActivity
+ADDED from /Users/hsn/Desktop/My Projects/Ultimate News App V2/CodeCanyon/New/NewsApp/app/src/main/AndroidManifest.xml:106:9-108:59
+	android:theme
+		ADDED from /Users/hsn/Desktop/My Projects/Ultimate News App V2/CodeCanyon/New/NewsApp/app/src/main/AndroidManifest.xml:108:13-56
+	android:name
+		ADDED from /Users/hsn/Desktop/My Projects/Ultimate News App V2/CodeCanyon/New/NewsApp/app/src/main/AndroidManifest.xml:107:13-78
+activity#com.virmana.news_app.ui.Activities.PolicyActivity
+ADDED from /Users/hsn/Desktop/My Projects/Ultimate News App V2/CodeCanyon/New/NewsApp/app/src/main/AndroidManifest.xml:109:9-111:59
+	android:theme
+		ADDED from /Users/hsn/Desktop/My Projects/Ultimate News App V2/CodeCanyon/New/NewsApp/app/src/main/AndroidManifest.xml:111:13-56
+	android:name
+		ADDED from /Users/hsn/Desktop/My Projects/Ultimate News App V2/CodeCanyon/New/NewsApp/app/src/main/AndroidManifest.xml:110:13-77
+activity#com.virmana.news_app.ui.Activities.SettingsActivity
+ADDED from /Users/hsn/Desktop/My Projects/Ultimate News App V2/CodeCanyon/New/NewsApp/app/src/main/AndroidManifest.xml:112:9-114:59
+	android:theme
+		ADDED from /Users/hsn/Desktop/My Projects/Ultimate News App V2/CodeCanyon/New/NewsApp/app/src/main/AndroidManifest.xml:114:13-56
+	android:name
+		ADDED from /Users/hsn/Desktop/My Projects/Ultimate News App V2/CodeCanyon/New/NewsApp/app/src/main/AndroidManifest.xml:113:13-79
+activity#com.virmana.news_app.ui.Activities.SearchActivity
+ADDED from /Users/hsn/Desktop/My Projects/Ultimate News App V2/CodeCanyon/New/NewsApp/app/src/main/AndroidManifest.xml:115:9-117:59
+	android:theme
+		ADDED from /Users/hsn/Desktop/My Projects/Ultimate News App V2/CodeCanyon/New/NewsApp/app/src/main/AndroidManifest.xml:117:13-56
+	android:name
+		ADDED from /Users/hsn/Desktop/My Projects/Ultimate News App V2/CodeCanyon/New/NewsApp/app/src/main/AndroidManifest.xml:116:13-77
+activity#com.virmana.news_app.ui.Activities.LanguageActivity
+ADDED from /Users/hsn/Desktop/My Projects/Ultimate News App V2/CodeCanyon/New/NewsApp/app/src/main/AndroidManifest.xml:118:9-120:55
+	android:theme
+		ADDED from /Users/hsn/Desktop/My Projects/Ultimate News App V2/CodeCanyon/New/NewsApp/app/src/main/AndroidManifest.xml:120:13-52
+	android:name
+		ADDED from /Users/hsn/Desktop/My Projects/Ultimate News App V2/CodeCanyon/New/NewsApp/app/src/main/AndroidManifest.xml:119:13-79
+activity#com.virmana.news_app.ui.Activities.AllCategoryActivity
+ADDED from /Users/hsn/Desktop/My Projects/Ultimate News App V2/CodeCanyon/New/NewsApp/app/src/main/AndroidManifest.xml:121:9-123:59
+	android:theme
+		ADDED from /Users/hsn/Desktop/My Projects/Ultimate News App V2/CodeCanyon/New/NewsApp/app/src/main/AndroidManifest.xml:123:13-56
+	android:name
+		ADDED from /Users/hsn/Desktop/My Projects/Ultimate News App V2/CodeCanyon/New/NewsApp/app/src/main/AndroidManifest.xml:122:13-82
+activity#com.virmana.news_app.ui.Activities.UserActivity
+ADDED from /Users/hsn/Desktop/My Projects/Ultimate News App V2/CodeCanyon/New/NewsApp/app/src/main/AndroidManifest.xml:124:9-126:59
+	android:theme
+		ADDED from /Users/hsn/Desktop/My Projects/Ultimate News App V2/CodeCanyon/New/NewsApp/app/src/main/AndroidManifest.xml:126:13-56
+	android:name
+		ADDED from /Users/hsn/Desktop/My Projects/Ultimate News App V2/CodeCanyon/New/NewsApp/app/src/main/AndroidManifest.xml:125:13-75
+activity#com.virmana.news_app.ui.Activities.EditActivity
+ADDED from /Users/hsn/Desktop/My Projects/Ultimate News App V2/CodeCanyon/New/NewsApp/app/src/main/AndroidManifest.xml:127:9-129:59
+	android:theme
+		ADDED from /Users/hsn/Desktop/My Projects/Ultimate News App V2/CodeCanyon/New/NewsApp/app/src/main/AndroidManifest.xml:129:13-56
+	android:name
+		ADDED from /Users/hsn/Desktop/My Projects/Ultimate News App V2/CodeCanyon/New/NewsApp/app/src/main/AndroidManifest.xml:128:13-75
+activity#com.virmana.news_app.ui.Activities.PostActivity
+ADDED from /Users/hsn/Desktop/My Projects/Ultimate News App V2/CodeCanyon/New/NewsApp/app/src/main/AndroidManifest.xml:130:9-132:59
+	android:theme
+		ADDED from /Users/hsn/Desktop/My Projects/Ultimate News App V2/CodeCanyon/New/NewsApp/app/src/main/AndroidManifest.xml:132:13-56
+	android:name
+		ADDED from /Users/hsn/Desktop/My Projects/Ultimate News App V2/CodeCanyon/New/NewsApp/app/src/main/AndroidManifest.xml:131:13-75
+activity#com.virmana.news_app.ui.Activities.LoadActivity
+ADDED from /Users/hsn/Desktop/My Projects/Ultimate News App V2/CodeCanyon/New/NewsApp/app/src/main/AndroidManifest.xml:133:9-149:20
+	android:theme
+		ADDED from /Users/hsn/Desktop/My Projects/Ultimate News App V2/CodeCanyon/New/NewsApp/app/src/main/AndroidManifest.xml:135:13-56
+	android:name
+		ADDED from /Users/hsn/Desktop/My Projects/Ultimate News App V2/CodeCanyon/New/NewsApp/app/src/main/AndroidManifest.xml:134:13-75
+intent-filter#action:name:android.intent.action.SEND+action:name:android.intent.action.VIEW+category:name:android.intent.category.BROWSABLE+category:name:android.intent.category.DEFAULT+data:host:@string/panel_url+data:scheme:http+data:scheme:https
+ADDED from /Users/hsn/Desktop/My Projects/Ultimate News App V2/CodeCanyon/New/NewsApp/app/src/main/AndroidManifest.xml:136:13-148:29
+action#android.intent.action.SEND
+ADDED from /Users/hsn/Desktop/My Projects/Ultimate News App V2/CodeCanyon/New/NewsApp/app/src/main/AndroidManifest.xml:137:17-69
+	android:name
+		ADDED from /Users/hsn/Desktop/My Projects/Ultimate News App V2/CodeCanyon/New/NewsApp/app/src/main/AndroidManifest.xml:137:25-66
+activity#com.virmana.news_app.ui.Activities.FullScreenActivity
+ADDED from /Users/hsn/Desktop/My Projects/Ultimate News App V2/CodeCanyon/New/NewsApp/app/src/main/AndroidManifest.xml:150:9-152:59
+	android:theme
+		ADDED from /Users/hsn/Desktop/My Projects/Ultimate News App V2/CodeCanyon/New/NewsApp/app/src/main/AndroidManifest.xml:152:13-56
+	android:name
+		ADDED from /Users/hsn/Desktop/My Projects/Ultimate News App V2/CodeCanyon/New/NewsApp/app/src/main/AndroidManifest.xml:151:13-81
+activity#com.virmana.news_app.ui.Activities.AddPostActivity
+ADDED from /Users/hsn/Desktop/My Projects/Ultimate News App V2/CodeCanyon/New/NewsApp/app/src/main/AndroidManifest.xml:153:9-155:59
+	android:theme
+		ADDED from /Users/hsn/Desktop/My Projects/Ultimate News App V2/CodeCanyon/New/NewsApp/app/src/main/AndroidManifest.xml:155:13-56
+	android:name
+		ADDED from /Users/hsn/Desktop/My Projects/Ultimate News App V2/CodeCanyon/New/NewsApp/app/src/main/AndroidManifest.xml:154:13-78
+activity#com.virmana.news_app.ui.Activities.EditPostActivity
+ADDED from /Users/hsn/Desktop/My Projects/Ultimate News App V2/CodeCanyon/New/NewsApp/app/src/main/AndroidManifest.xml:156:9-158:59
+	android:theme
+		ADDED from /Users/hsn/Desktop/My Projects/Ultimate News App V2/CodeCanyon/New/NewsApp/app/src/main/AndroidManifest.xml:158:13-56
+	android:name
+		ADDED from /Users/hsn/Desktop/My Projects/Ultimate News App V2/CodeCanyon/New/NewsApp/app/src/main/AndroidManifest.xml:157:13-79
+activity#com.virmana.news_app.ui.Activities.VideoActivity
+ADDED from /Users/hsn/Desktop/My Projects/Ultimate News App V2/CodeCanyon/New/NewsApp/app/src/main/AndroidManifest.xml:159:9-161:59
+	android:theme
+		ADDED from /Users/hsn/Desktop/My Projects/Ultimate News App V2/CodeCanyon/New/NewsApp/app/src/main/AndroidManifest.xml:161:13-56
+	android:name
+		ADDED from /Users/hsn/Desktop/My Projects/Ultimate News App V2/CodeCanyon/New/NewsApp/app/src/main/AndroidManifest.xml:160:13-76
+activity#com.virmana.news_app.ui.Activities.YoutubeActivity
+ADDED from /Users/hsn/Desktop/My Projects/Ultimate News App V2/CodeCanyon/New/NewsApp/app/src/main/AndroidManifest.xml:162:9-164:59
+	android:theme
+		ADDED from /Users/hsn/Desktop/My Projects/Ultimate News App V2/CodeCanyon/New/NewsApp/app/src/main/AndroidManifest.xml:164:13-56
+	android:name
+		ADDED from /Users/hsn/Desktop/My Projects/Ultimate News App V2/CodeCanyon/New/NewsApp/app/src/main/AndroidManifest.xml:163:13-78
+activity#com.virmana.news_app.ui.Activities.AddVideoActivity
+ADDED from /Users/hsn/Desktop/My Projects/Ultimate News App V2/CodeCanyon/New/NewsApp/app/src/main/AndroidManifest.xml:165:9-167:59
+	android:theme
+		ADDED from /Users/hsn/Desktop/My Projects/Ultimate News App V2/CodeCanyon/New/NewsApp/app/src/main/AndroidManifest.xml:167:13-56
+	android:name
+		ADDED from /Users/hsn/Desktop/My Projects/Ultimate News App V2/CodeCanyon/New/NewsApp/app/src/main/AndroidManifest.xml:166:13-79
+activity#com.virmana.news_app.ui.Activities.AddYoutubeActivity
+ADDED from /Users/hsn/Desktop/My Projects/Ultimate News App V2/CodeCanyon/New/NewsApp/app/src/main/AndroidManifest.xml:168:9-170:59
+	android:theme
+		ADDED from /Users/hsn/Desktop/My Projects/Ultimate News App V2/CodeCanyon/New/NewsApp/app/src/main/AndroidManifest.xml:170:13-56
+	android:name
+		ADDED from /Users/hsn/Desktop/My Projects/Ultimate News App V2/CodeCanyon/New/NewsApp/app/src/main/AndroidManifest.xml:169:13-81
+activity#com.virmana.news_app.ui.Activities.EditVideoActivity
+ADDED from /Users/hsn/Desktop/My Projects/Ultimate News App V2/CodeCanyon/New/NewsApp/app/src/main/AndroidManifest.xml:171:9-173:59
+	android:theme
+		ADDED from /Users/hsn/Desktop/My Projects/Ultimate News App V2/CodeCanyon/New/NewsApp/app/src/main/AndroidManifest.xml:173:13-56
+	android:name
+		ADDED from /Users/hsn/Desktop/My Projects/Ultimate News App V2/CodeCanyon/New/NewsApp/app/src/main/AndroidManifest.xml:172:13-80
+activity#com.virmana.news_app.ui.Activities.EditYoutubeActivity
+ADDED from /Users/hsn/Desktop/My Projects/Ultimate News App V2/CodeCanyon/New/NewsApp/app/src/main/AndroidManifest.xml:174:9-176:59
+	android:theme
+		ADDED from /Users/hsn/Desktop/My Projects/Ultimate News App V2/CodeCanyon/New/NewsApp/app/src/main/AndroidManifest.xml:176:13-56
+	android:name
+		ADDED from /Users/hsn/Desktop/My Projects/Ultimate News App V2/CodeCanyon/New/NewsApp/app/src/main/AndroidManifest.xml:175:13-82
+activity#com.virmana.news_app.ui.Activities.FullVideoActivity
+ADDED from /Users/hsn/Desktop/My Projects/Ultimate News App V2/CodeCanyon/New/NewsApp/app/src/main/AndroidManifest.xml:177:9-180:68
+	android:label
+		ADDED from /Users/hsn/Desktop/My Projects/Ultimate News App V2/CodeCanyon/New/NewsApp/app/src/main/AndroidManifest.xml:179:13-62
+	android:configChanges
+		ADDED from /Users/hsn/Desktop/My Projects/Ultimate News App V2/CodeCanyon/New/NewsApp/app/src/main/AndroidManifest.xml:178:13-74
+	android:theme
+		ADDED from /Users/hsn/Desktop/My Projects/Ultimate News App V2/CodeCanyon/New/NewsApp/app/src/main/AndroidManifest.xml:180:13-56
+	android:name
+		ADDED from /Users/hsn/Desktop/My Projects/Ultimate News App V2/CodeCanyon/New/NewsApp/app/src/main/AndroidManifest.xml:177:19-86
+uses-sdk
+INJECTED from /Users/hsn/Desktop/My Projects/Ultimate News App V2/CodeCanyon/New/NewsApp/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /Users/hsn/Desktop/My Projects/Ultimate News App V2/CodeCanyon/New/NewsApp/app/src/main/AndroidManifest.xml
+INJECTED from /Users/hsn/Desktop/My Projects/Ultimate News App V2/CodeCanyon/New/NewsApp/app/src/main/AndroidManifest.xml
+MERGED from [com.android.support:multidex:1.0.3] /Users/hsn/.gradle/caches/transforms-1/files-1.1/multidex-1.0.3.aar/5ceb6672982cf1ae5f8949ff780307b8/AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:multidex:1.0.3] /Users/hsn/.gradle/caches/transforms-1/files-1.1/multidex-1.0.3.aar/5ceb6672982cf1ae5f8949ff780307b8/AndroidManifest.xml:20:5-43
+MERGED from [devlight.io:navigationtabbar:1.2.5] /Users/hsn/.gradle/caches/transforms-1/files-1.1/navigationtabbar-1.2.5.aar/b939a8e25a04ef403f2ccdaf29c2a6e4/AndroidManifest.xml:19:5-21:41
+MERGED from [devlight.io:navigationtabbar:1.2.5] /Users/hsn/.gradle/caches/transforms-1/files-1.1/navigationtabbar-1.2.5.aar/b939a8e25a04ef403f2ccdaf29c2a6e4/AndroidManifest.xml:19:5-21:41
+MERGED from [com.miguelcatalan:materialsearchview:1.4.0] /Users/hsn/.gradle/caches/transforms-1/files-1.1/materialsearchview-1.4.0.aar/081ef8ccb93426a470d959b5ac9bd020/AndroidManifest.xml:7:5-9:41
+MERGED from [com.miguelcatalan:materialsearchview:1.4.0] /Users/hsn/.gradle/caches/transforms-1/files-1.1/materialsearchview-1.4.0.aar/081ef8ccb93426a470d959b5ac9bd020/AndroidManifest.xml:7:5-9:41
+MERGED from [com.leinardi.android:speed-dial:2.0.1] /Users/hsn/.gradle/caches/transforms-1/files-1.1/speed-dial-2.0.1.aar/601006fd1c6ed7ee65d92bb10f332922/AndroidManifest.xml:22:5-24:41
+MERGED from [com.leinardi.android:speed-dial:2.0.1] /Users/hsn/.gradle/caches/transforms-1/files-1.1/speed-dial-2.0.1.aar/601006fd1c6ed7ee65d92bb10f332922/AndroidManifest.xml:22:5-24:41
+MERGED from [com.android.support:design:28.0.0] /Users/hsn/.gradle/caches/transforms-1/files-1.1/design-28.0.0.aar/555908e41d8a1cb745c84ed3a17d9ae4/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:design:28.0.0] /Users/hsn/.gradle/caches/transforms-1/files-1.1/design-28.0.0.aar/555908e41d8a1cb745c84ed3a17d9ae4/AndroidManifest.xml:20:5-44
+MERGED from [com.github.vivchar:ViewPagerIndicator:1.1.0] /Users/hsn/.gradle/caches/transforms-1/files-1.1/ViewPagerIndicator-1.1.0.aar/bedfb5ac5f0bf91e75679832be6dba95/AndroidManifest.xml:8:5-10:41
+MERGED from [com.github.vivchar:ViewPagerIndicator:1.1.0] /Users/hsn/.gradle/caches/transforms-1/files-1.1/ViewPagerIndicator-1.1.0.aar/bedfb5ac5f0bf91e75679832be6dba95/AndroidManifest.xml:8:5-10:41
+MERGED from [com.github.jd-alexander:LikeButton:0.2.3] /Users/hsn/.gradle/caches/transforms-1/files-1.1/LikeButton-0.2.3.aar/c3e10604f6efbea75496f42a5bebeabb/AndroidManifest.xml:7:5-9:41
+MERGED from [com.github.jd-alexander:LikeButton:0.2.3] /Users/hsn/.gradle/caches/transforms-1/files-1.1/LikeButton-0.2.3.aar/c3e10604f6efbea75496f42a5bebeabb/AndroidManifest.xml:7:5-9:41
+MERGED from [com.github.generic-leo:SimpleArcLoader:bb0cc96c81] /Users/hsn/.gradle/caches/transforms-1/files-1.1/SimpleArcLoader-bb0cc96c81.aar/05b4cd9d7b6469e71863aa734e288fd8/AndroidManifest.xml:7:5-9:41
+MERGED from [com.github.generic-leo:SimpleArcLoader:bb0cc96c81] /Users/hsn/.gradle/caches/transforms-1/files-1.1/SimpleArcLoader-bb0cc96c81.aar/05b4cd9d7b6469e71863aa734e288fd8/AndroidManifest.xml:7:5-9:41
+MERGED from [com.github.GrenderG:Toasty:1.4.0] /Users/hsn/.gradle/caches/transforms-1/files-1.1/Toasty-1.4.0.aar/6f7b8b74e298a9f4f8057fd0efc4940e/AndroidManifest.xml:7:5-9:41
+MERGED from [com.github.GrenderG:Toasty:1.4.0] /Users/hsn/.gradle/caches/transforms-1/files-1.1/Toasty-1.4.0.aar/6f7b8b74e298a9f4f8057fd0efc4940e/AndroidManifest.xml:7:5-9:41
+MERGED from [com.google.android.ads.consent:consent-library:1.0.3] /Users/hsn/.gradle/caches/transforms-1/files-1.1/consent-library-1.0.3.aar/a455537859a6eb94ae80349be63a2985/AndroidManifest.xml:5:5-7:41
+MERGED from [com.google.android.ads.consent:consent-library:1.0.3] /Users/hsn/.gradle/caches/transforms-1/files-1.1/consent-library-1.0.3.aar/a455537859a6eb94ae80349be63a2985/AndroidManifest.xml:5:5-7:41
+MERGED from [com.github.codemybrainsout:smart-app-rate:1.0.8] /Users/hsn/.gradle/caches/transforms-1/files-1.1/smart-app-rate-1.0.8.aar/794ad2c14c38af18c3e105e717746316/AndroidManifest.xml:7:5-9:41
+MERGED from [com.github.codemybrainsout:smart-app-rate:1.0.8] /Users/hsn/.gradle/caches/transforms-1/files-1.1/smart-app-rate-1.0.8.aar/794ad2c14c38af18c3e105e717746316/AndroidManifest.xml:7:5-9:41
+MERGED from [com.github.QuadFlask:colorpicker:0.0.13] /Users/hsn/.gradle/caches/transforms-1/files-1.1/colorpicker-0.0.13.aar/68816f4df30e91fc13f5b739c1bc8190/AndroidManifest.xml:8:5-10:41
+MERGED from [com.github.QuadFlask:colorpicker:0.0.13] /Users/hsn/.gradle/caches/transforms-1/files-1.1/colorpicker-0.0.13.aar/68816f4df30e91fc13f5b739c1bc8190/AndroidManifest.xml:8:5-10:41
+MERGED from [com.facebook.android:facebook-android-sdk:5.5.1] /Users/hsn/.gradle/caches/transforms-1/files-1.1/facebook-android-sdk-5.5.1.aar/42e1ca6cbe7fff2f24b8d744259ae2e2/AndroidManifest.xml:24:5-26:41
+MERGED from [com.facebook.android:facebook-android-sdk:5.5.1] /Users/hsn/.gradle/caches/transforms-1/files-1.1/facebook-android-sdk-5.5.1.aar/42e1ca6cbe7fff2f24b8d744259ae2e2/AndroidManifest.xml:24:5-26:41
+MERGED from [com.facebook.android:facebook-login:5.5.1] /Users/hsn/.gradle/caches/transforms-1/files-1.1/facebook-login-5.5.1.aar/cca3bdf242637d5819f46d3c8e44b7bf/AndroidManifest.xml:24:5-26:41
+MERGED from [com.facebook.android:facebook-login:5.5.1] /Users/hsn/.gradle/caches/transforms-1/files-1.1/facebook-login-5.5.1.aar/cca3bdf242637d5819f46d3c8e44b7bf/AndroidManifest.xml:24:5-26:41
+MERGED from [com.facebook.android:facebook-share:5.5.1] /Users/hsn/.gradle/caches/transforms-1/files-1.1/facebook-share-5.5.1.aar/8d210ee4706a1baccd951c650e08720e/AndroidManifest.xml:24:5-26:41
+MERGED from [com.facebook.android:facebook-share:5.5.1] /Users/hsn/.gradle/caches/transforms-1/files-1.1/facebook-share-5.5.1.aar/8d210ee4706a1baccd951c650e08720e/AndroidManifest.xml:24:5-26:41
+MERGED from [com.facebook.android:facebook-common:5.5.1] /Users/hsn/.gradle/caches/transforms-1/files-1.1/facebook-common-5.5.1.aar/3613b5541ad39670f4e07043ea94c573/AndroidManifest.xml:24:5-26:41
+MERGED from [com.facebook.android:facebook-common:5.5.1] /Users/hsn/.gradle/caches/transforms-1/files-1.1/facebook-common-5.5.1.aar/3613b5541ad39670f4e07043ea94c573/AndroidManifest.xml:24:5-26:41
+MERGED from [com.android.support:appcompat-v7:28.0.0] /Users/hsn/.gradle/caches/transforms-1/files-1.1/appcompat-v7-28.0.0.aar/301e91b37a67d6320b5cf715295a25ef/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:appcompat-v7:28.0.0] /Users/hsn/.gradle/caches/transforms-1/files-1.1/appcompat-v7-28.0.0.aar/301e91b37a67d6320b5cf715295a25ef/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] /Users/hsn/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.0.2.aar/da0ddc32d86ea1fe7745bcf0c1c88c67/AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] /Users/hsn/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.0.2.aar/da0ddc32d86ea1fe7745bcf0c1c88c67/AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support:cardview-v7:28.0.0] /Users/hsn/.gradle/caches/transforms-1/files-1.1/cardview-v7-28.0.0.aar/fa8e8e9fb0c3aa4f9bcfbd65af50c6dd/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cardview-v7:28.0.0] /Users/hsn/.gradle/caches/transforms-1/files-1.1/cardview-v7-28.0.0.aar/fa8e8e9fb0c3aa4f9bcfbd65af50c6dd/AndroidManifest.xml:20:5-44
+MERGED from [com.github.chrisbanes:PhotoView:1.2.6] /Users/hsn/.gradle/caches/transforms-1/files-1.1/PhotoView-1.2.6.aar/1820fc78020194f7ded0c5fcce98266a/AndroidManifest.xml:8:5-10:41
+MERGED from [com.github.chrisbanes:PhotoView:1.2.6] /Users/hsn/.gradle/caches/transforms-1/files-1.1/PhotoView-1.2.6.aar/1820fc78020194f7ded0c5fcce98266a/AndroidManifest.xml:8:5-10:41
+MERGED from [com.google.android.gms:play-services-auth:15.0.0] /Users/hsn/.gradle/caches/transforms-1/files-1.1/play-services-auth-15.0.0.aar/1b8001a7b96b815eb87bc3f75580058f/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-auth:15.0.0] /Users/hsn/.gradle/caches/transforms-1/files-1.1/play-services-auth-15.0.0.aar/1b8001a7b96b815eb87bc3f75580058f/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-messaging:15.0.2] /Users/hsn/.gradle/caches/transforms-1/files-1.1/firebase-messaging-15.0.2.aar/653c97b890ec6dcdeadfdd47eff7d958/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-messaging:15.0.2] /Users/hsn/.gradle/caches/transforms-1/files-1.1/firebase-messaging-15.0.2.aar/653c97b890ec6dcdeadfdd47eff7d958/AndroidManifest.xml:20:5-44
+MERGED from [com.facebook.android:audience-network-sdk:5.6.0-beta] /Users/hsn/.gradle/caches/transforms-1/files-1.1/audience-network-sdk-5.6.0-beta.aar/7bd7236f7b3742f9997a44ce577196f4/AndroidManifest.xml:7:5-9:41
+MERGED from [com.facebook.android:audience-network-sdk:5.6.0-beta] /Users/hsn/.gradle/caches/transforms-1/files-1.1/audience-network-sdk-5.6.0-beta.aar/7bd7236f7b3742f9997a44ce577196f4/AndroidManifest.xml:7:5-9:41
+MERGED from [com.google.android.gms:play-services-location:15.0.0] /Users/hsn/.gradle/caches/transforms-1/files-1.1/play-services-location-15.0.0.aar/28777c6c7cb4f2a45273b618a6ac291f/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-location:15.0.0] /Users/hsn/.gradle/caches/transforms-1/files-1.1/play-services-location-15.0.0.aar/28777c6c7cb4f2a45273b618a6ac291f/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-auth-api-phone:15.0.1] /Users/hsn/.gradle/caches/transforms-1/files-1.1/play-services-auth-api-phone-15.0.1.aar/1bdfb60f3cd390b2c926c46f670333c7/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-auth-api-phone:15.0.1] /Users/hsn/.gradle/caches/transforms-1/files-1.1/play-services-auth-api-phone-15.0.1.aar/1bdfb60f3cd390b2c926c46f670333c7/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-auth-base:15.0.0] /Users/hsn/.gradle/caches/transforms-1/files-1.1/play-services-auth-base-15.0.0.aar/f5cbf1d6406b17f5ba5ef9d7026cdc60/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-auth-base:15.0.0] /Users/hsn/.gradle/caches/transforms-1/files-1.1/play-services-auth-base-15.0.0.aar/f5cbf1d6406b17f5ba5ef9d7026cdc60/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-ads:15.0.0] /Users/hsn/.gradle/caches/transforms-1/files-1.1/firebase-ads-15.0.0.aar/ff04cd551c66ba89a3978eb6836d3bbc/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-ads:15.0.0] /Users/hsn/.gradle/caches/transforms-1/files-1.1/firebase-ads-15.0.0.aar/ff04cd551c66ba89a3978eb6836d3bbc/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-core:15.0.2] /Users/hsn/.gradle/caches/transforms-1/files-1.1/firebase-core-15.0.2.aar/780e8441749e44f21a5532fc840fc85c/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-core:15.0.2] /Users/hsn/.gradle/caches/transforms-1/files-1.1/firebase-core-15.0.2.aar/780e8441749e44f21a5532fc840fc85c/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-measurement-connector-impl:15.0.0] /Users/hsn/.gradle/caches/transforms-1/files-1.1/firebase-measurement-connector-impl-15.0.0.aar/73cb752f8733eb494a0cc056cf4a3d53/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-measurement-connector-impl:15.0.0] /Users/hsn/.gradle/caches/transforms-1/files-1.1/firebase-measurement-connector-impl-15.0.0.aar/73cb752f8733eb494a0cc056cf4a3d53/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-analytics:15.0.2] /Users/hsn/.gradle/caches/transforms-1/files-1.1/firebase-analytics-15.0.2.aar/9c191c4289bf877acc1310df964af99f/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-analytics:15.0.2] /Users/hsn/.gradle/caches/transforms-1/files-1.1/firebase-analytics-15.0.2.aar/9c191c4289bf877acc1310df964af99f/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-analytics-impl:15.0.2] /Users/hsn/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-15.0.2.aar/6e0fb75cb20de02f52605afda6354e2d/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-analytics-impl:15.0.2] /Users/hsn/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-15.0.2.aar/6e0fb75cb20de02f52605afda6354e2d/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-iid:15.1.0] /Users/hsn/.gradle/caches/transforms-1/files-1.1/firebase-iid-15.1.0.aar/58de0fd6eb58672546bfd81a4c028c0b/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-iid:15.1.0] /Users/hsn/.gradle/caches/transforms-1/files-1.1/firebase-iid-15.1.0.aar/58de0fd6eb58672546bfd81a4c028c0b/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-iid-interop:15.0.0] /Users/hsn/.gradle/caches/transforms-1/files-1.1/firebase-iid-interop-15.0.0.aar/55a921135d7f408e9571c78f8e7fbe20/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-iid-interop:15.0.0] /Users/hsn/.gradle/caches/transforms-1/files-1.1/firebase-iid-interop-15.0.0.aar/55a921135d7f408e9571c78f8e7fbe20/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-base:15.0.1] /Users/hsn/.gradle/caches/transforms-1/files-1.1/play-services-base-15.0.1.aar/0333d3439c85a1674538bbefe05081db/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-base:15.0.1] /Users/hsn/.gradle/caches/transforms-1/files-1.1/play-services-base-15.0.1.aar/0333d3439c85a1674538bbefe05081db/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-common:15.0.1] /Users/hsn/.gradle/caches/transforms-1/files-1.1/firebase-common-15.0.1.aar/c4f8f5f230a5cddc79130d71d209481f/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-common:15.0.1] /Users/hsn/.gradle/caches/transforms-1/files-1.1/firebase-common-15.0.1.aar/c4f8f5f230a5cddc79130d71d209481f/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-tasks:15.0.1] /Users/hsn/.gradle/caches/transforms-1/files-1.1/play-services-tasks-15.0.1.aar/ee36a28e2e4ad5467ae95b25bf2892de/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-tasks:15.0.1] /Users/hsn/.gradle/caches/transforms-1/files-1.1/play-services-tasks-15.0.1.aar/ee36a28e2e4ad5467ae95b25bf2892de/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-measurement-connector:15.0.0] /Users/hsn/.gradle/caches/transforms-1/files-1.1/firebase-measurement-connector-15.0.0.aar/d89a879a4dd50d0eac0ceec2d03e30c6/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-measurement-connector:15.0.0] /Users/hsn/.gradle/caches/transforms-1/files-1.1/firebase-measurement-connector-15.0.0.aar/d89a879a4dd50d0eac0ceec2d03e30c6/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-ads:15.0.1] /Users/hsn/.gradle/caches/transforms-1/files-1.1/play-services-ads-15.0.1.aar/797025326c95e44db77bbddabea76d8c/AndroidManifest.xml:21:5-23:62
+MERGED from [com.google.android.gms:play-services-ads:15.0.1] /Users/hsn/.gradle/caches/transforms-1/files-1.1/play-services-ads-15.0.1.aar/797025326c95e44db77bbddabea76d8c/AndroidManifest.xml:21:5-23:62
+MERGED from [com.google.android.gms:play-services-places-placereport:15.0.1] /Users/hsn/.gradle/caches/transforms-1/files-1.1/play-services-places-placereport-15.0.1.aar/eb31545818688700be87a3771a9175ff/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-places-placereport:15.0.1] /Users/hsn/.gradle/caches/transforms-1/files-1.1/play-services-places-placereport-15.0.1.aar/eb31545818688700be87a3771a9175ff/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-stats:15.0.1] /Users/hsn/.gradle/caches/transforms-1/files-1.1/play-services-stats-15.0.1.aar/a84240b6eba838504d01372d2c27c26d/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-stats:15.0.1] /Users/hsn/.gradle/caches/transforms-1/files-1.1/play-services-stats-15.0.1.aar/a84240b6eba838504d01372d2c27c26d/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-ads-identifier:15.0.1] /Users/hsn/.gradle/caches/transforms-1/files-1.1/play-services-ads-identifier-15.0.1.aar/64c7c3cd380b9d6cc23592fa5966f24a/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-ads-identifier:15.0.1] /Users/hsn/.gradle/caches/transforms-1/files-1.1/play-services-ads-identifier-15.0.1.aar/64c7c3cd380b9d6cc23592fa5966f24a/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-ads-lite:15.0.1] /Users/hsn/.gradle/caches/transforms-1/files-1.1/play-services-ads-lite-15.0.1.aar/545116223360d7e99b38c1f19bbcc3d6/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-ads-lite:15.0.1] /Users/hsn/.gradle/caches/transforms-1/files-1.1/play-services-ads-lite-15.0.1.aar/545116223360d7e99b38c1f19bbcc3d6/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-gass:15.0.1] /Users/hsn/.gradle/caches/transforms-1/files-1.1/play-services-gass-15.0.1.aar/07e5643b2f81d6a20aff0f085416fd7a/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-gass:15.0.1] /Users/hsn/.gradle/caches/transforms-1/files-1.1/play-services-gass-15.0.1.aar/07e5643b2f81d6a20aff0f085416fd7a/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-basement:15.0.1] /Users/hsn/.gradle/caches/transforms-1/files-1.1/play-services-basement-15.0.1.aar/80b4bce63d5c3eef50cad6ac9b75113c/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-basement:15.0.1] /Users/hsn/.gradle/caches/transforms-1/files-1.1/play-services-basement-15.0.1.aar/80b4bce63d5c3eef50cad6ac9b75113c/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v4:28.0.0] /Users/hsn/.gradle/caches/transforms-1/files-1.1/support-v4-28.0.0.aar/dbc904b6b05b140634d3e80cdf891d04/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v4:28.0.0] /Users/hsn/.gradle/caches/transforms-1/files-1.1/support-v4-28.0.0.aar/dbc904b6b05b140634d3e80cdf891d04/AndroidManifest.xml:20:5-44
+MERGED from [com.orhanobut:hawk:2.0.1] /Users/hsn/.gradle/caches/transforms-1/files-1.1/hawk-2.0.1.aar/a5f1fe1ca4eddeca4e91433508ad3f5d/AndroidManifest.xml:6:5-44
+MERGED from [com.orhanobut:hawk:2.0.1] /Users/hsn/.gradle/caches/transforms-1/files-1.1/hawk-2.0.1.aar/a5f1fe1ca4eddeca4e91433508ad3f5d/AndroidManifest.xml:6:5-44
+MERGED from [com.rm:rmswitch:1.2.2] /Users/hsn/.gradle/caches/transforms-1/files-1.1/rmswitch-1.2.2.aar/13595ada8630f16a0b7b3c67b974b588/AndroidManifest.xml:7:5-9:41
+MERGED from [com.rm:rmswitch:1.2.2] /Users/hsn/.gradle/caches/transforms-1/files-1.1/rmswitch-1.2.2.aar/13595ada8630f16a0b7b3c67b974b588/AndroidManifest.xml:7:5-9:41
+MERGED from [de.hdodenhof:circleimageview:2.1.0] /Users/hsn/.gradle/caches/transforms-1/files-1.1/circleimageview-2.1.0.aar/326157bd841eb1c031eb912c74d66512/AndroidManifest.xml:5:5-7:41
+MERGED from [de.hdodenhof:circleimageview:2.1.0] /Users/hsn/.gradle/caches/transforms-1/files-1.1/circleimageview-2.1.0.aar/326157bd841eb1c031eb912c74d66512/AndroidManifest.xml:5:5-7:41
+MERGED from [com.github.bhargavms:DotLoader:1.1.1] /Users/hsn/.gradle/caches/transforms-1/files-1.1/DotLoader-1.1.1.aar/f8490f85dc4df16a066c980c6191e7ec/AndroidManifest.xml:7:5-9:41
+MERGED from [com.github.bhargavms:DotLoader:1.1.1] /Users/hsn/.gradle/caches/transforms-1/files-1.1/DotLoader-1.1.1.aar/f8490f85dc4df16a066c980c6191e7ec/AndroidManifest.xml:7:5-9:41
+MERGED from [com.google.android.exoplayer:exoplayer:r2.5.2] /Users/hsn/.gradle/caches/transforms-1/files-1.1/exoplayer-r2.5.2.aar/78479d0a55ff350efea97ce08bbd75ac/AndroidManifest.xml:21:5-23:41
+MERGED from [com.google.android.exoplayer:exoplayer:r2.5.2] /Users/hsn/.gradle/caches/transforms-1/files-1.1/exoplayer-r2.5.2.aar/78479d0a55ff350efea97ce08bbd75ac/AndroidManifest.xml:21:5-23:41
+MERGED from [com.google.android.exoplayer:exoplayer-ui:r2.5.2] /Users/hsn/.gradle/caches/transforms-1/files-1.1/exoplayer-ui-r2.5.2.aar/68f1a65150fb2bd7ec96a28b95f6b59c/AndroidManifest.xml:21:5-23:41
+MERGED from [com.google.android.exoplayer:exoplayer-ui:r2.5.2] /Users/hsn/.gradle/caches/transforms-1/files-1.1/exoplayer-ui-r2.5.2.aar/68f1a65150fb2bd7ec96a28b95f6b59c/AndroidManifest.xml:21:5-23:41
+MERGED from [com.google.android.exoplayer:exoplayer-dash:r2.5.2] /Users/hsn/.gradle/caches/transforms-1/files-1.1/exoplayer-dash-r2.5.2.aar/983003717a587ce9ad59009d97b8ea95/AndroidManifest.xml:21:5-23:41
+MERGED from [com.google.android.exoplayer:exoplayer-dash:r2.5.2] /Users/hsn/.gradle/caches/transforms-1/files-1.1/exoplayer-dash-r2.5.2.aar/983003717a587ce9ad59009d97b8ea95/AndroidManifest.xml:21:5-23:41
+MERGED from [com.google.android.exoplayer:exoplayer-hls:r2.5.2] /Users/hsn/.gradle/caches/transforms-1/files-1.1/exoplayer-hls-r2.5.2.aar/fce0c977b96090a344ffddc390a4a0a3/AndroidManifest.xml:21:5-23:41
+MERGED from [com.google.android.exoplayer:exoplayer-hls:r2.5.2] /Users/hsn/.gradle/caches/transforms-1/files-1.1/exoplayer-hls-r2.5.2.aar/fce0c977b96090a344ffddc390a4a0a3/AndroidManifest.xml:21:5-23:41
+MERGED from [com.google.android.exoplayer:exoplayer-smoothstreaming:r2.5.2] /Users/hsn/.gradle/caches/transforms-1/files-1.1/exoplayer-smoothstreaming-r2.5.2.aar/e293d7233ce5054a85b98578cebc187d/AndroidManifest.xml:21:5-23:41
+MERGED from [com.google.android.exoplayer:exoplayer-smoothstreaming:r2.5.2] /Users/hsn/.gradle/caches/transforms-1/files-1.1/exoplayer-smoothstreaming-r2.5.2.aar/e293d7233ce5054a85b98578cebc187d/AndroidManifest.xml:21:5-23:41
+MERGED from [com.google.android.exoplayer:exoplayer-core:r2.5.2] /Users/hsn/.gradle/caches/transforms-1/files-1.1/exoplayer-core-r2.5.2.aar/da11fd1e1e7b720fe8d2387428469763/AndroidManifest.xml:21:5-23:41
+MERGED from [com.google.android.exoplayer:exoplayer-core:r2.5.2] /Users/hsn/.gradle/caches/transforms-1/files-1.1/exoplayer-core-r2.5.2.aar/da11fd1e1e7b720fe8d2387428469763/AndroidManifest.xml:21:5-23:41
+MERGED from [com.gauravk.bubblenavigation:bubblenavigation:1.0.7] /Users/hsn/.gradle/caches/transforms-1/files-1.1/bubblenavigation-1.0.7.aar/72a99685e11b6cc3104d7cf8f73d8e69/AndroidManifest.xml:7:5-9:41
+MERGED from [com.gauravk.bubblenavigation:bubblenavigation:1.0.7] /Users/hsn/.gradle/caches/transforms-1/files-1.1/bubblenavigation-1.0.7.aar/72a99685e11b6cc3104d7cf8f73d8e69/AndroidManifest.xml:7:5-9:41
+MERGED from [jp.wasabeef:richeditor-android:1.2.2] /Users/hsn/.gradle/caches/transforms-1/files-1.1/richeditor-android-1.2.2.aar/d76ed069072e319b1ef676d21cd9b2f0/AndroidManifest.xml:8:5-10:41
+MERGED from [jp.wasabeef:richeditor-android:1.2.2] /Users/hsn/.gradle/caches/transforms-1/files-1.1/richeditor-android-1.2.2.aar/d76ed069072e319b1ef676d21cd9b2f0/AndroidManifest.xml:8:5-10:41
+MERGED from [com.facebook.android:facebook-places:5.5.1] /Users/hsn/.gradle/caches/transforms-1/files-1.1/facebook-places-5.5.1.aar/3ad9b64845247c236cd546320aaf9c37/AndroidManifest.xml:24:5-26:41
+MERGED from [com.facebook.android:facebook-places:5.5.1] /Users/hsn/.gradle/caches/transforms-1/files-1.1/facebook-places-5.5.1.aar/3ad9b64845247c236cd546320aaf9c37/AndroidManifest.xml:24:5-26:41
+MERGED from [com.facebook.android:facebook-applinks:5.5.1] /Users/hsn/.gradle/caches/transforms-1/files-1.1/facebook-applinks-5.5.1.aar/f0a895cdee548bc0ac39c0bf7dc12c93/AndroidManifest.xml:24:5-26:41
+MERGED from [com.facebook.android:facebook-applinks:5.5.1] /Users/hsn/.gradle/caches/transforms-1/files-1.1/facebook-applinks-5.5.1.aar/f0a895cdee548bc0ac39c0bf7dc12c93/AndroidManifest.xml:24:5-26:41
+MERGED from [com.facebook.android:facebook-messenger:5.5.1] /Users/hsn/.gradle/caches/transforms-1/files-1.1/facebook-messenger-5.5.1.aar/fbd3d7d02c38069523bf726c936315e0/AndroidManifest.xml:24:5-26:41
+MERGED from [com.facebook.android:facebook-messenger:5.5.1] /Users/hsn/.gradle/caches/transforms-1/files-1.1/facebook-messenger-5.5.1.aar/fbd3d7d02c38069523bf726c936315e0/AndroidManifest.xml:24:5-26:41
+MERGED from [com.facebook.android:facebook-core:5.5.1] /Users/hsn/.gradle/caches/transforms-1/files-1.1/facebook-core-5.5.1.aar/bb4782663a902e969b1a3429a5a7e4d2/AndroidManifest.xml:24:5-26:41
+MERGED from [com.facebook.android:facebook-core:5.5.1] /Users/hsn/.gradle/caches/transforms-1/files-1.1/facebook-core-5.5.1.aar/bb4782663a902e969b1a3429a5a7e4d2/AndroidManifest.xml:24:5-26:41
+MERGED from [com.android.support:support-media-compat:28.0.0] /Users/hsn/.gradle/caches/transforms-1/files-1.1/support-media-compat-28.0.0.aar/191f404bc9ad395a42218d8987984757/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-media-compat:28.0.0] /Users/hsn/.gradle/caches/transforms-1/files-1.1/support-media-compat-28.0.0.aar/191f404bc9ad395a42218d8987984757/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:28.0.0] /Users/hsn/.gradle/caches/transforms-1/files-1.1/support-fragment-28.0.0.aar/45fc960a1006592907d519b431a5f8f1/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:28.0.0] /Users/hsn/.gradle/caches/transforms-1/files-1.1/support-fragment-28.0.0.aar/45fc960a1006592907d519b431a5f8f1/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:28.0.0] /Users/hsn/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-28.0.0.aar/0cba536276a293e71a4f0ac76780c41b/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:28.0.0] /Users/hsn/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-28.0.0.aar/0cba536276a293e71a4f0ac76780c41b/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:28.0.0] /Users/hsn/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-28.0.0.aar/c060aa6c0eb602c3da1b3bdca187a154/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:28.0.0] /Users/hsn/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-28.0.0.aar/c060aa6c0eb602c3da1b3bdca187a154/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:recyclerview-v7:28.0.0] /Users/hsn/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-28.0.0.aar/24b40f9bf498ccd21f4b11c1bde4b432/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:recyclerview-v7:28.0.0] /Users/hsn/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-28.0.0.aar/24b40f9bf498ccd21f4b11c1bde4b432/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:28.0.0] /Users/hsn/.gradle/caches/transforms-1/files-1.1/support-core-ui-28.0.0.aar/222ed081166f6c58f9e1a8e7d358a2f2/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:28.0.0] /Users/hsn/.gradle/caches/transforms-1/files-1.1/support-core-ui-28.0.0.aar/222ed081166f6c58f9e1a8e7d358a2f2/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:28.0.0] /Users/hsn/.gradle/caches/transforms-1/files-1.1/support-core-utils-28.0.0.aar/98460bb7e8887766ee864315dcd93508/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:28.0.0] /Users/hsn/.gradle/caches/transforms-1/files-1.1/support-core-utils-28.0.0.aar/98460bb7e8887766ee864315dcd93508/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:loader:28.0.0] /Users/hsn/.gradle/caches/transforms-1/files-1.1/loader-28.0.0.aar/11ce042ed38ff25158039a646dcbdbd5/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:loader:28.0.0] /Users/hsn/.gradle/caches/transforms-1/files-1.1/loader-28.0.0.aar/11ce042ed38ff25158039a646dcbdbd5/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:viewpager:28.0.0] /Users/hsn/.gradle/caches/transforms-1/files-1.1/viewpager-28.0.0.aar/740f7b5c7a8a9c3da31d25df4a394089/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:viewpager:28.0.0] /Users/hsn/.gradle/caches/transforms-1/files-1.1/viewpager-28.0.0.aar/740f7b5c7a8a9c3da31d25df4a394089/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:coordinatorlayout:28.0.0] /Users/hsn/.gradle/caches/transforms-1/files-1.1/coordinatorlayout-28.0.0.aar/339f47dd6b46353f5780290d90c04210/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:coordinatorlayout:28.0.0] /Users/hsn/.gradle/caches/transforms-1/files-1.1/coordinatorlayout-28.0.0.aar/339f47dd6b46353f5780290d90c04210/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:drawerlayout:28.0.0] /Users/hsn/.gradle/caches/transforms-1/files-1.1/drawerlayout-28.0.0.aar/04f2df18586ad94879aa6a2701f28738/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:drawerlayout:28.0.0] /Users/hsn/.gradle/caches/transforms-1/files-1.1/drawerlayout-28.0.0.aar/04f2df18586ad94879aa6a2701f28738/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:slidingpanelayout:28.0.0] /Users/hsn/.gradle/caches/transforms-1/files-1.1/slidingpanelayout-28.0.0.aar/bce237c3a79191dad38a1fcf2bede5be/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:slidingpanelayout:28.0.0] /Users/hsn/.gradle/caches/transforms-1/files-1.1/slidingpanelayout-28.0.0.aar/bce237c3a79191dad38a1fcf2bede5be/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:customview:28.0.0] /Users/hsn/.gradle/caches/transforms-1/files-1.1/customview-28.0.0.aar/07e12c839993730823cb1c07da4346ee/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:customview:28.0.0] /Users/hsn/.gradle/caches/transforms-1/files-1.1/customview-28.0.0.aar/07e12c839993730823cb1c07da4346ee/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:swiperefreshlayout:28.0.0] /Users/hsn/.gradle/caches/transforms-1/files-1.1/swiperefreshlayout-28.0.0.aar/f401bcad8c09acb54071cf472d1372d9/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:swiperefreshlayout:28.0.0] /Users/hsn/.gradle/caches/transforms-1/files-1.1/swiperefreshlayout-28.0.0.aar/f401bcad8c09acb54071cf472d1372d9/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:asynclayoutinflater:28.0.0] /Users/hsn/.gradle/caches/transforms-1/files-1.1/asynclayoutinflater-28.0.0.aar/25fef6ae5b5168e55ac096191d02ccc7/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:asynclayoutinflater:28.0.0] /Users/hsn/.gradle/caches/transforms-1/files-1.1/asynclayoutinflater-28.0.0.aar/25fef6ae5b5168e55ac096191d02ccc7/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:transition:28.0.0] /Users/hsn/.gradle/caches/transforms-1/files-1.1/transition-28.0.0.aar/f0e9f2d98113565cea2ddfd7c167408e/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:transition:28.0.0] /Users/hsn/.gradle/caches/transforms-1/files-1.1/transition-28.0.0.aar/f0e9f2d98113565cea2ddfd7c167408e/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:customtabs:27.0.2] /Users/hsn/.gradle/caches/transforms-1/files-1.1/customtabs-27.0.2.aar/f18150dd1a1e41d7025aed9174263230/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:customtabs:27.0.2] /Users/hsn/.gradle/caches/transforms-1/files-1.1/customtabs-27.0.2.aar/f18150dd1a1e41d7025aed9174263230/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:28.0.0] /Users/hsn/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/495f1a39754f6388ab7cd0cec2dfab7b/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:28.0.0] /Users/hsn/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/495f1a39754f6388ab7cd0cec2dfab7b/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:versionedparcelable:28.0.0] /Users/hsn/.gradle/caches/transforms-1/files-1.1/versionedparcelable-28.0.0.aar/b96936513b9bf2fab4272e13acbddc53/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:versionedparcelable:28.0.0] /Users/hsn/.gradle/caches/transforms-1/files-1.1/versionedparcelable-28.0.0.aar/b96936513b9bf2fab4272e13acbddc53/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cursoradapter:28.0.0] /Users/hsn/.gradle/caches/transforms-1/files-1.1/cursoradapter-28.0.0.aar/ce0647b5e52cf5681eaebd946f000a10/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cursoradapter:28.0.0] /Users/hsn/.gradle/caches/transforms-1/files-1.1/cursoradapter-28.0.0.aar/ce0647b5e52cf5681eaebd946f000a10/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] /Users/hsn/.gradle/caches/transforms-1/files-1.1/viewmodel-1.1.1.aar/ca9e829ad638bbb01de478ee5e40ebd5/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] /Users/hsn/.gradle/caches/transforms-1/files-1.1/viewmodel-1.1.1.aar/ca9e829ad638bbb01de478ee5e40ebd5/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata:1.1.1] /Users/hsn/.gradle/caches/transforms-1/files-1.1/livedata-1.1.1.aar/788fb2f2002e89d734c157c000d64932/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata:1.1.1] /Users/hsn/.gradle/caches/transforms-1/files-1.1/livedata-1.1.1.aar/788fb2f2002e89d734c157c000d64932/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] /Users/hsn/.gradle/caches/transforms-1/files-1.1/livedata-core-1.1.1.aar/89d6e619d44e8907aa045e5cc669fd85/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] /Users/hsn/.gradle/caches/transforms-1/files-1.1/livedata-core-1.1.1.aar/89d6e619d44e8907aa045e5cc669fd85/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.1] /Users/hsn/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/74b8b817d8a9dcc205df83b4129be755/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.1] /Users/hsn/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/74b8b817d8a9dcc205df83b4129be755/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.1] /Users/hsn/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/bc05bf4a51ed5260b082caff0514bd9c/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.1] /Users/hsn/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/bc05bf4a51ed5260b082caff0514bd9c/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:interpolator:28.0.0] /Users/hsn/.gradle/caches/transforms-1/files-1.1/interpolator-28.0.0.aar/57515c7fb0451c917a83efe7750a10cc/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:interpolator:28.0.0] /Users/hsn/.gradle/caches/transforms-1/files-1.1/interpolator-28.0.0.aar/57515c7fb0451c917a83efe7750a10cc/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:documentfile:28.0.0] /Users/hsn/.gradle/caches/transforms-1/files-1.1/documentfile-28.0.0.aar/27577b253a39fc515198f1753e753d54/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:documentfile:28.0.0] /Users/hsn/.gradle/caches/transforms-1/files-1.1/documentfile-28.0.0.aar/27577b253a39fc515198f1753e753d54/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:localbroadcastmanager:28.0.0] /Users/hsn/.gradle/caches/transforms-1/files-1.1/localbroadcastmanager-28.0.0.aar/62a30539db49e0dbfe48e5180a87a8cd/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:localbroadcastmanager:28.0.0] /Users/hsn/.gradle/caches/transforms-1/files-1.1/localbroadcastmanager-28.0.0.aar/62a30539db49e0dbfe48e5180a87a8cd/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:print:28.0.0] /Users/hsn/.gradle/caches/transforms-1/files-1.1/print-28.0.0.aar/8614fc89bba9570a5caab834cff2f6aa/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:print:28.0.0] /Users/hsn/.gradle/caches/transforms-1/files-1.1/print-28.0.0.aar/8614fc89bba9570a5caab834cff2f6aa/AndroidManifest.xml:20:5-44
+MERGED from [com.facebook.conceal:conceal:1.1.3] /Users/hsn/.gradle/caches/transforms-1/files-1.1/conceal-1.1.3.aar/eb10f73e9c407ea5edfd2452f40f71f8/AndroidManifest.xml:12:5-14:41
+MERGED from [com.facebook.conceal:conceal:1.1.3] /Users/hsn/.gradle/caches/transforms-1/files-1.1/conceal-1.1.3.aar/eb10f73e9c407ea5edfd2452f40f71f8/AndroidManifest.xml:12:5-14:41
+MERGED from [com.google.android.gms:play-services-measurement-base:15.0.2] /Users/hsn/.gradle/caches/transforms-1/files-1.1/play-services-measurement-base-15.0.2.aar/ea1e0a77a015db1a44366c9eea9b3441/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-base:15.0.2] /Users/hsn/.gradle/caches/transforms-1/files-1.1/play-services-measurement-base-15.0.2.aar/ea1e0a77a015db1a44366c9eea9b3441/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-ads-base:15.0.1] /Users/hsn/.gradle/caches/transforms-1/files-1.1/play-services-ads-base-15.0.1.aar/ef992056e211e329bc4aa8cd51a935ba/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-ads-base:15.0.1] /Users/hsn/.gradle/caches/transforms-1/files-1.1/play-services-ads-base-15.0.1.aar/ef992056e211e329bc4aa8cd51a935ba/AndroidManifest.xml:20:5-44
+INJECTED from /Users/hsn/Desktop/My Projects/Ultimate News App V2/CodeCanyon/New/NewsApp/app/src/main/AndroidManifest.xml
+INJECTED from /Users/hsn/Desktop/My Projects/Ultimate News App V2/CodeCanyon/New/NewsApp/app/src/main/AndroidManifest.xml
+	tools:overrideLibrary
+		ADDED from [com.google.android.gms:play-services-ads:15.0.1] /Users/hsn/.gradle/caches/transforms-1/files-1.1/play-services-ads-15.0.1.aar/797025326c95e44db77bbddabea76d8c/AndroidManifest.xml:23:9-59
+	android:targetSdkVersion
+		INJECTED from /Users/hsn/Desktop/My Projects/Ultimate News App V2/CodeCanyon/New/NewsApp/app/src/main/AndroidManifest.xml
+		ADDED from /Users/hsn/Desktop/My Projects/Ultimate News App V2/CodeCanyon/New/NewsApp/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/hsn/Desktop/My Projects/Ultimate News App V2/CodeCanyon/New/NewsApp/app/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /Users/hsn/Desktop/My Projects/Ultimate News App V2/CodeCanyon/New/NewsApp/app/src/main/AndroidManifest.xml
+		ADDED from /Users/hsn/Desktop/My Projects/Ultimate News App V2/CodeCanyon/New/NewsApp/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/hsn/Desktop/My Projects/Ultimate News App V2/CodeCanyon/New/NewsApp/app/src/main/AndroidManifest.xml
+meta-data#android.support.FILE_PROVIDER_PATHS
+ADDED from /Users/hsn/Desktop/My Projects/Ultimate News App V2/CodeCanyon/New/NewsApp/app/src/main/AndroidManifest.xml:39:13-41:58
+	android:resource
+		ADDED from /Users/hsn/Desktop/My Projects/Ultimate News App V2/CodeCanyon/New/NewsApp/app/src/main/AndroidManifest.xml:41:17-55
+	android:name
+		ADDED from /Users/hsn/Desktop/My Projects/Ultimate News App V2/CodeCanyon/New/NewsApp/app/src/main/AndroidManifest.xml:40:17-67
+activity#com.facebook.CustomTabMainActivity
+ADDED from [com.facebook.android:facebook-common:5.5.1] /Users/hsn/.gradle/caches/transforms-1/files-1.1/facebook-common-5.5.1.aar/3613b5541ad39670f4e07043ea94c573/AndroidManifest.xml:33:9-71
+	android:name
+		ADDED from [com.facebook.android:facebook-common:5.5.1] /Users/hsn/.gradle/caches/transforms-1/files-1.1/facebook-common-5.5.1.aar/3613b5541ad39670f4e07043ea94c573/AndroidManifest.xml:33:19-68
+activity#com.google.android.gms.auth.api.signin.internal.SignInHubActivity
+ADDED from [com.google.android.gms:play-services-auth:15.0.0] /Users/hsn/.gradle/caches/transforms-1/files-1.1/play-services-auth-15.0.0.aar/1b8001a7b96b815eb87bc3f75580058f/AndroidManifest.xml:23:9-27:75
+	android:excludeFromRecents
+		ADDED from [com.google.android.gms:play-services-auth:15.0.0] /Users/hsn/.gradle/caches/transforms-1/files-1.1/play-services-auth-15.0.0.aar/1b8001a7b96b815eb87bc3f75580058f/AndroidManifest.xml:25:13-46
+	android:exported
+		ADDED from [com.google.android.gms:play-services-auth:15.0.0] /Users/hsn/.gradle/caches/transforms-1/files-1.1/play-services-auth-15.0.0.aar/1b8001a7b96b815eb87bc3f75580058f/AndroidManifest.xml:26:13-37
+	android:theme
+		ADDED from [com.google.android.gms:play-services-auth:15.0.0] /Users/hsn/.gradle/caches/transforms-1/files-1.1/play-services-auth-15.0.0.aar/1b8001a7b96b815eb87bc3f75580058f/AndroidManifest.xml:27:13-72
+	android:name
+		ADDED from [com.google.android.gms:play-services-auth:15.0.0] /Users/hsn/.gradle/caches/transforms-1/files-1.1/play-services-auth-15.0.0.aar/1b8001a7b96b815eb87bc3f75580058f/AndroidManifest.xml:24:13-93
+service#com.google.android.gms.auth.api.signin.RevocationBoundService
+ADDED from [com.google.android.gms:play-services-auth:15.0.0] /Users/hsn/.gradle/caches/transforms-1/files-1.1/play-services-auth-15.0.0.aar/1b8001a7b96b815eb87bc3f75580058f/AndroidManifest.xml:33:9-36:110
+	android:exported
+		ADDED from [com.google.android.gms:play-services-auth:15.0.0] /Users/hsn/.gradle/caches/transforms-1/files-1.1/play-services-auth-15.0.0.aar/1b8001a7b96b815eb87bc3f75580058f/AndroidManifest.xml:35:13-36
+	android:permission
+		ADDED from [com.google.android.gms:play-services-auth:15.0.0] /Users/hsn/.gradle/caches/transforms-1/files-1.1/play-services-auth-15.0.0.aar/1b8001a7b96b815eb87bc3f75580058f/AndroidManifest.xml:36:13-107
+	android:name
+		ADDED from [com.google.android.gms:play-services-auth:15.0.0] /Users/hsn/.gradle/caches/transforms-1/files-1.1/play-services-auth-15.0.0.aar/1b8001a7b96b815eb87bc3f75580058f/AndroidManifest.xml:34:13-89
+service#com.google.firebase.messaging.FirebaseMessagingService
+ADDED from [com.google.firebase:firebase-messaging:15.0.2] /Users/hsn/.gradle/caches/transforms-1/files-1.1/firebase-messaging-15.0.2.aar/653c97b890ec6dcdeadfdd47eff7d958/AndroidManifest.xml:28:9-34:19
+	android:exported
+		ADDED from [com.google.firebase:firebase-messaging:15.0.2] /Users/hsn/.gradle/caches/transforms-1/files-1.1/firebase-messaging-15.0.2.aar/653c97b890ec6dcdeadfdd47eff7d958/AndroidManifest.xml:30:13-36
+	android:name
+		ADDED from [com.google.firebase:firebase-messaging:15.0.2] /Users/hsn/.gradle/caches/transforms-1/files-1.1/firebase-messaging-15.0.2.aar/653c97b890ec6dcdeadfdd47eff7d958/AndroidManifest.xml:29:13-82
+activity#com.facebook.ads.AudienceNetworkActivity
+ADDED from [com.facebook.android:audience-network-sdk:5.6.0-beta] /Users/hsn/.gradle/caches/transforms-1/files-1.1/audience-network-sdk-5.6.0-beta.aar/7bd7236f7b3742f9997a44ce577196f4/AndroidManifest.xml:15:9-19:75
+	android:exported
+		ADDED from [com.facebook.android:audience-network-sdk:5.6.0-beta] /Users/hsn/.gradle/caches/transforms-1/files-1.1/audience-network-sdk-5.6.0-beta.aar/7bd7236f7b3742f9997a44ce577196f4/AndroidManifest.xml:18:13-37
+	android:configChanges
+		ADDED from [com.facebook.android:audience-network-sdk:5.6.0-beta] /Users/hsn/.gradle/caches/transforms-1/files-1.1/audience-network-sdk-5.6.0-beta.aar/7bd7236f7b3742f9997a44ce577196f4/AndroidManifest.xml:17:13-74
+	android:theme
+		ADDED from [com.facebook.android:audience-network-sdk:5.6.0-beta] /Users/hsn/.gradle/caches/transforms-1/files-1.1/audience-network-sdk-5.6.0-beta.aar/7bd7236f7b3742f9997a44ce577196f4/AndroidManifest.xml:19:13-72
+	android:name
+		ADDED from [com.facebook.android:audience-network-sdk:5.6.0-beta] /Users/hsn/.gradle/caches/transforms-1/files-1.1/audience-network-sdk-5.6.0-beta.aar/7bd7236f7b3742f9997a44ce577196f4/AndroidManifest.xml:16:13-68
+activity#com.facebook.ads.internal.ipc.RemoteANActivity
+ADDED from [com.facebook.android:audience-network-sdk:5.6.0-beta] /Users/hsn/.gradle/caches/transforms-1/files-1.1/audience-network-sdk-5.6.0-beta.aar/7bd7236f7b3742f9997a44ce577196f4/AndroidManifest.xml:20:9-25:75
+	android:process
+		ADDED from [com.facebook.android:audience-network-sdk:5.6.0-beta] /Users/hsn/.gradle/caches/transforms-1/files-1.1/audience-network-sdk-5.6.0-beta.aar/7bd7236f7b3742f9997a44ce577196f4/AndroidManifest.xml:24:13-36
+	android:exported
+		ADDED from [com.facebook.android:audience-network-sdk:5.6.0-beta] /Users/hsn/.gradle/caches/transforms-1/files-1.1/audience-network-sdk-5.6.0-beta.aar/7bd7236f7b3742f9997a44ce577196f4/AndroidManifest.xml:23:13-37
+	android:configChanges
+		ADDED from [com.facebook.android:audience-network-sdk:5.6.0-beta] /Users/hsn/.gradle/caches/transforms-1/files-1.1/audience-network-sdk-5.6.0-beta.aar/7bd7236f7b3742f9997a44ce577196f4/AndroidManifest.xml:22:13-74
+	android:theme
+		ADDED from [com.facebook.android:audience-network-sdk:5.6.0-beta] /Users/hsn/.gradle/caches/transforms-1/files-1.1/audience-network-sdk-5.6.0-beta.aar/7bd7236f7b3742f9997a44ce577196f4/AndroidManifest.xml:25:13-72
+	android:name
+		ADDED from [com.facebook.android:audience-network-sdk:5.6.0-beta] /Users/hsn/.gradle/caches/transforms-1/files-1.1/audience-network-sdk-5.6.0-beta.aar/7bd7236f7b3742f9997a44ce577196f4/AndroidManifest.xml:21:13-74
+service#com.facebook.ads.internal.ipc.AdsProcessPriorityService
+ADDED from [com.facebook.android:audience-network-sdk:5.6.0-beta] /Users/hsn/.gradle/caches/transforms-1/files-1.1/audience-network-sdk-5.6.0-beta.aar/7bd7236f7b3742f9997a44ce577196f4/AndroidManifest.xml:27:9-29:40
+	android:exported
+		ADDED from [com.facebook.android:audience-network-sdk:5.6.0-beta] /Users/hsn/.gradle/caches/transforms-1/files-1.1/audience-network-sdk-5.6.0-beta.aar/7bd7236f7b3742f9997a44ce577196f4/AndroidManifest.xml:29:13-37
+	android:name
+		ADDED from [com.facebook.android:audience-network-sdk:5.6.0-beta] /Users/hsn/.gradle/caches/transforms-1/files-1.1/audience-network-sdk-5.6.0-beta.aar/7bd7236f7b3742f9997a44ce577196f4/AndroidManifest.xml:28:13-83
+service#com.facebook.ads.internal.ipc.AdsMessengerService
+ADDED from [com.facebook.android:audience-network-sdk:5.6.0-beta] /Users/hsn/.gradle/caches/transforms-1/files-1.1/audience-network-sdk-5.6.0-beta.aar/7bd7236f7b3742f9997a44ce577196f4/AndroidManifest.xml:30:9-33:39
+	android:process
+		ADDED from [com.facebook.android:audience-network-sdk:5.6.0-beta] /Users/hsn/.gradle/caches/transforms-1/files-1.1/audience-network-sdk-5.6.0-beta.aar/7bd7236f7b3742f9997a44ce577196f4/AndroidManifest.xml:33:13-36
+	android:exported
+		ADDED from [com.facebook.android:audience-network-sdk:5.6.0-beta] /Users/hsn/.gradle/caches/transforms-1/files-1.1/audience-network-sdk-5.6.0-beta.aar/7bd7236f7b3742f9997a44ce577196f4/AndroidManifest.xml:32:13-37
+	android:name
+		ADDED from [com.facebook.android:audience-network-sdk:5.6.0-beta] /Users/hsn/.gradle/caches/transforms-1/files-1.1/audience-network-sdk-5.6.0-beta.aar/7bd7236f7b3742f9997a44ce577196f4/AndroidManifest.xml:31:13-77
+provider#com.facebook.ads.AudienceNetworkContentProvider
+ADDED from [com.facebook.android:audience-network-sdk:5.6.0-beta] /Users/hsn/.gradle/caches/transforms-1/files-1.1/audience-network-sdk-5.6.0-beta.aar/7bd7236f7b3742f9997a44ce577196f4/AndroidManifest.xml:35:9-38:40
+	android:authorities
+		ADDED from [com.facebook.android:audience-network-sdk:5.6.0-beta] /Users/hsn/.gradle/caches/transforms-1/files-1.1/audience-network-sdk-5.6.0-beta.aar/7bd7236f7b3742f9997a44ce577196f4/AndroidManifest.xml:37:13-82
+	android:exported
+		ADDED from [com.facebook.android:audience-network-sdk:5.6.0-beta] /Users/hsn/.gradle/caches/transforms-1/files-1.1/audience-network-sdk-5.6.0-beta.aar/7bd7236f7b3742f9997a44ce577196f4/AndroidManifest.xml:38:13-37
+	android:name
+		ADDED from [com.facebook.android:audience-network-sdk:5.6.0-beta] /Users/hsn/.gradle/caches/transforms-1/files-1.1/audience-network-sdk-5.6.0-beta.aar/7bd7236f7b3742f9997a44ce577196f4/AndroidManifest.xml:36:13-75
+service#com.google.firebase.components.ComponentDiscoveryService
+ADDED from [com.google.firebase:firebase-measurement-connector-impl:15.0.0] /Users/hsn/.gradle/caches/transforms-1/files-1.1/firebase-measurement-connector-impl-15.0.0.aar/73cb752f8733eb494a0cc056cf4a3d53/AndroidManifest.xml:27:9-31:19
+MERGED from [com.google.firebase:firebase-iid:15.1.0] /Users/hsn/.gradle/caches/transforms-1/files-1.1/firebase-iid-15.1.0.aar/58de0fd6eb58672546bfd81a4c028c0b/AndroidManifest.xml:35:9-39:19
+MERGED from [com.google.firebase:firebase-iid:15.1.0] /Users/hsn/.gradle/caches/transforms-1/files-1.1/firebase-iid-15.1.0.aar/58de0fd6eb58672546bfd81a4c028c0b/AndroidManifest.xml:35:9-39:19
+	android:name
+		ADDED from [com.google.firebase:firebase-measurement-connector-impl:15.0.0] /Users/hsn/.gradle/caches/transforms-1/files-1.1/firebase-measurement-connector-impl-15.0.0.aar/73cb752f8733eb494a0cc056cf4a3d53/AndroidManifest.xml:27:18-89
+meta-data#com.google.firebase.components:com.google.firebase.analytics.connector.internal.AnalyticsConnectorRegistrar
+ADDED from [com.google.firebase:firebase-measurement-connector-impl:15.0.0] /Users/hsn/.gradle/caches/transforms-1/files-1.1/firebase-measurement-connector-impl-15.0.0.aar/73cb752f8733eb494a0cc056cf4a3d53/AndroidManifest.xml:28:13-30:85
+	android:value
+		ADDED from [com.google.firebase:firebase-measurement-connector-impl:15.0.0] /Users/hsn/.gradle/caches/transforms-1/files-1.1/firebase-measurement-connector-impl-15.0.0.aar/73cb752f8733eb494a0cc056cf4a3d53/AndroidManifest.xml:30:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-measurement-connector-impl:15.0.0] /Users/hsn/.gradle/caches/transforms-1/files-1.1/firebase-measurement-connector-impl-15.0.0.aar/73cb752f8733eb494a0cc056cf4a3d53/AndroidManifest.xml:29:17-139
+uses-permission#com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE
+ADDED from [com.google.firebase:firebase-analytics:15.0.2] /Users/hsn/.gradle/caches/transforms-1/files-1.1/firebase-analytics-15.0.2.aar/9c191c4289bf877acc1310df964af99f/AndroidManifest.xml:26:5-110
+MERGED from [com.google.firebase:firebase-analytics-impl:15.0.2] /Users/hsn/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-15.0.2.aar/6e0fb75cb20de02f52605afda6354e2d/AndroidManifest.xml:26:5-110
+MERGED from [com.google.firebase:firebase-analytics-impl:15.0.2] /Users/hsn/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-15.0.2.aar/6e0fb75cb20de02f52605afda6354e2d/AndroidManifest.xml:26:5-110
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics:15.0.2] /Users/hsn/.gradle/caches/transforms-1/files-1.1/firebase-analytics-15.0.2.aar/9c191c4289bf877acc1310df964af99f/AndroidManifest.xml:26:22-107
+receiver#com.google.android.gms.measurement.AppMeasurementReceiver
+ADDED from [com.google.firebase:firebase-analytics:15.0.2] /Users/hsn/.gradle/caches/transforms-1/files-1.1/firebase-analytics-15.0.2.aar/9c191c4289bf877acc1310df964af99f/AndroidManifest.xml:29:9-33:20
+MERGED from [com.google.firebase:firebase-analytics-impl:15.0.2] /Users/hsn/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-15.0.2.aar/6e0fb75cb20de02f52605afda6354e2d/AndroidManifest.xml:29:9-33:20
+MERGED from [com.google.firebase:firebase-analytics-impl:15.0.2] /Users/hsn/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-15.0.2.aar/6e0fb75cb20de02f52605afda6354e2d/AndroidManifest.xml:29:9-33:20
+	android:enabled
+		ADDED from [com.google.firebase:firebase-analytics:15.0.2] /Users/hsn/.gradle/caches/transforms-1/files-1.1/firebase-analytics-15.0.2.aar/9c191c4289bf877acc1310df964af99f/AndroidManifest.xml:31:13-35
+	android:exported
+		ADDED from [com.google.firebase:firebase-analytics:15.0.2] /Users/hsn/.gradle/caches/transforms-1/files-1.1/firebase-analytics-15.0.2.aar/9c191c4289bf877acc1310df964af99f/AndroidManifest.xml:32:13-37
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics:15.0.2] /Users/hsn/.gradle/caches/transforms-1/files-1.1/firebase-analytics-15.0.2.aar/9c191c4289bf877acc1310df964af99f/AndroidManifest.xml:30:13-85
+receiver#com.google.android.gms.measurement.AppMeasurementInstallReferrerReceiver
+ADDED from [com.google.firebase:firebase-analytics:15.0.2] /Users/hsn/.gradle/caches/transforms-1/files-1.1/firebase-analytics-15.0.2.aar/9c191c4289bf877acc1310df964af99f/AndroidManifest.xml:34:9-42:20
+	android:enabled
+		ADDED from [com.google.firebase:firebase-analytics:15.0.2] /Users/hsn/.gradle/caches/transforms-1/files-1.1/firebase-analytics-15.0.2.aar/9c191c4289bf877acc1310df964af99f/AndroidManifest.xml:36:13-35
+	android:exported
+		ADDED from [com.google.firebase:firebase-analytics:15.0.2] /Users/hsn/.gradle/caches/transforms-1/files-1.1/firebase-analytics-15.0.2.aar/9c191c4289bf877acc1310df964af99f/AndroidManifest.xml:37:13-36
+	android:permission
+		ADDED from [com.google.firebase:firebase-analytics:15.0.2] /Users/hsn/.gradle/caches/transforms-1/files-1.1/firebase-analytics-15.0.2.aar/9c191c4289bf877acc1310df964af99f/AndroidManifest.xml:38:13-69
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics:15.0.2] /Users/hsn/.gradle/caches/transforms-1/files-1.1/firebase-analytics-15.0.2.aar/9c191c4289bf877acc1310df964af99f/AndroidManifest.xml:35:13-100
+intent-filter#action:name:com.android.vending.INSTALL_REFERRER
+ADDED from [com.google.firebase:firebase-analytics:15.0.2] /Users/hsn/.gradle/caches/transforms-1/files-1.1/firebase-analytics-15.0.2.aar/9c191c4289bf877acc1310df964af99f/AndroidManifest.xml:39:13-41:29
+action#com.android.vending.INSTALL_REFERRER
+ADDED from [com.google.firebase:firebase-analytics:15.0.2] /Users/hsn/.gradle/caches/transforms-1/files-1.1/firebase-analytics-15.0.2.aar/9c191c4289bf877acc1310df964af99f/AndroidManifest.xml:40:17-79
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics:15.0.2] /Users/hsn/.gradle/caches/transforms-1/files-1.1/firebase-analytics-15.0.2.aar/9c191c4289bf877acc1310df964af99f/AndroidManifest.xml:40:25-76
+service#com.google.android.gms.measurement.AppMeasurementService
+ADDED from [com.google.firebase:firebase-analytics:15.0.2] /Users/hsn/.gradle/caches/transforms-1/files-1.1/firebase-analytics-15.0.2.aar/9c191c4289bf877acc1310df964af99f/AndroidManifest.xml:44:9-47:40
+MERGED from [com.google.firebase:firebase-analytics-impl:15.0.2] /Users/hsn/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-15.0.2.aar/6e0fb75cb20de02f52605afda6354e2d/AndroidManifest.xml:35:9-38:40
+MERGED from [com.google.firebase:firebase-analytics-impl:15.0.2] /Users/hsn/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-15.0.2.aar/6e0fb75cb20de02f52605afda6354e2d/AndroidManifest.xml:35:9-38:40
+	android:enabled
+		ADDED from [com.google.firebase:firebase-analytics:15.0.2] /Users/hsn/.gradle/caches/transforms-1/files-1.1/firebase-analytics-15.0.2.aar/9c191c4289bf877acc1310df964af99f/AndroidManifest.xml:46:13-35
+	android:exported
+		ADDED from [com.google.firebase:firebase-analytics:15.0.2] /Users/hsn/.gradle/caches/transforms-1/files-1.1/firebase-analytics-15.0.2.aar/9c191c4289bf877acc1310df964af99f/AndroidManifest.xml:47:13-37
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics:15.0.2] /Users/hsn/.gradle/caches/transforms-1/files-1.1/firebase-analytics-15.0.2.aar/9c191c4289bf877acc1310df964af99f/AndroidManifest.xml:45:13-84
+service#com.google.android.gms.measurement.AppMeasurementJobService
+ADDED from [com.google.firebase:firebase-analytics:15.0.2] /Users/hsn/.gradle/caches/transforms-1/files-1.1/firebase-analytics-15.0.2.aar/9c191c4289bf877acc1310df964af99f/AndroidManifest.xml:48:9-52:72
+	android:enabled
+		ADDED from [com.google.firebase:firebase-analytics:15.0.2] /Users/hsn/.gradle/caches/transforms-1/files-1.1/firebase-analytics-15.0.2.aar/9c191c4289bf877acc1310df964af99f/AndroidManifest.xml:50:13-35
+	android:exported
+		ADDED from [com.google.firebase:firebase-analytics:15.0.2] /Users/hsn/.gradle/caches/transforms-1/files-1.1/firebase-analytics-15.0.2.aar/9c191c4289bf877acc1310df964af99f/AndroidManifest.xml:51:13-37
+	android:permission
+		ADDED from [com.google.firebase:firebase-analytics:15.0.2] /Users/hsn/.gradle/caches/transforms-1/files-1.1/firebase-analytics-15.0.2.aar/9c191c4289bf877acc1310df964af99f/AndroidManifest.xml:52:13-69
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics:15.0.2] /Users/hsn/.gradle/caches/transforms-1/files-1.1/firebase-analytics-15.0.2.aar/9c191c4289bf877acc1310df964af99f/AndroidManifest.xml:49:13-87
+uses-permission#com.google.android.c2dm.permission.RECEIVE
+ADDED from [com.google.firebase:firebase-iid:15.1.0] /Users/hsn/.gradle/caches/transforms-1/files-1.1/firebase-iid-15.1.0.aar/58de0fd6eb58672546bfd81a4c028c0b/AndroidManifest.xml:26:5-82
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:15.1.0] /Users/hsn/.gradle/caches/transforms-1/files-1.1/firebase-iid-15.1.0.aar/58de0fd6eb58672546bfd81a4c028c0b/AndroidManifest.xml:26:22-79
+permission#${applicationId}.permission.C2D_MESSAGE
+ADDED from [com.google.firebase:firebase-iid:15.1.0] /Users/hsn/.gradle/caches/transforms-1/files-1.1/firebase-iid-15.1.0.aar/58de0fd6eb58672546bfd81a4c028c0b/AndroidManifest.xml:28:5-30:47
+	android:protectionLevel
+		ADDED from [com.google.firebase:firebase-iid:15.1.0] /Users/hsn/.gradle/caches/transforms-1/files-1.1/firebase-iid-15.1.0.aar/58de0fd6eb58672546bfd81a4c028c0b/AndroidManifest.xml:30:9-44
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:15.1.0] /Users/hsn/.gradle/caches/transforms-1/files-1.1/firebase-iid-15.1.0.aar/58de0fd6eb58672546bfd81a4c028c0b/AndroidManifest.xml:29:9-63
+permission#com.virmana.news_app.permission.C2D_MESSAGE
+ADDED from [com.google.firebase:firebase-iid:15.1.0] /Users/hsn/.gradle/caches/transforms-1/files-1.1/firebase-iid-15.1.0.aar/58de0fd6eb58672546bfd81a4c028c0b/AndroidManifest.xml:28:5-30:47
+	android:protectionLevel
+		ADDED from [com.google.firebase:firebase-iid:15.1.0] /Users/hsn/.gradle/caches/transforms-1/files-1.1/firebase-iid-15.1.0.aar/58de0fd6eb58672546bfd81a4c028c0b/AndroidManifest.xml:30:9-44
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:15.1.0] /Users/hsn/.gradle/caches/transforms-1/files-1.1/firebase-iid-15.1.0.aar/58de0fd6eb58672546bfd81a4c028c0b/AndroidManifest.xml:29:9-63
+uses-permission#${applicationId}.permission.C2D_MESSAGE
+ADDED from [com.google.firebase:firebase-iid:15.1.0] /Users/hsn/.gradle/caches/transforms-1/files-1.1/firebase-iid-15.1.0.aar/58de0fd6eb58672546bfd81a4c028c0b/AndroidManifest.xml:32:5-79
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:15.1.0] /Users/hsn/.gradle/caches/transforms-1/files-1.1/firebase-iid-15.1.0.aar/58de0fd6eb58672546bfd81a4c028c0b/AndroidManifest.xml:32:22-76
+uses-permission#com.virmana.news_app.permission.C2D_MESSAGE
+ADDED from [com.google.firebase:firebase-iid:15.1.0] /Users/hsn/.gradle/caches/transforms-1/files-1.1/firebase-iid-15.1.0.aar/58de0fd6eb58672546bfd81a4c028c0b/AndroidManifest.xml:32:5-79
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:15.1.0] /Users/hsn/.gradle/caches/transforms-1/files-1.1/firebase-iid-15.1.0.aar/58de0fd6eb58672546bfd81a4c028c0b/AndroidManifest.xml:32:22-76
+meta-data#com.google.firebase.components:com.google.firebase.iid.Registrar
+ADDED from [com.google.firebase:firebase-iid:15.1.0] /Users/hsn/.gradle/caches/transforms-1/files-1.1/firebase-iid-15.1.0.aar/58de0fd6eb58672546bfd81a4c028c0b/AndroidManifest.xml:36:13-38:85
+	android:value
+		ADDED from [com.google.firebase:firebase-iid:15.1.0] /Users/hsn/.gradle/caches/transforms-1/files-1.1/firebase-iid-15.1.0.aar/58de0fd6eb58672546bfd81a4c028c0b/AndroidManifest.xml:38:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:15.1.0] /Users/hsn/.gradle/caches/transforms-1/files-1.1/firebase-iid-15.1.0.aar/58de0fd6eb58672546bfd81a4c028c0b/AndroidManifest.xml:37:17-96
+receiver#com.google.firebase.iid.FirebaseInstanceIdReceiver
+ADDED from [com.google.firebase:firebase-iid:15.1.0] /Users/hsn/.gradle/caches/transforms-1/files-1.1/firebase-iid-15.1.0.aar/58de0fd6eb58672546bfd81a4c028c0b/AndroidManifest.xml:41:9-50:20
+	android:exported
+		ADDED from [com.google.firebase:firebase-iid:15.1.0] /Users/hsn/.gradle/caches/transforms-1/files-1.1/firebase-iid-15.1.0.aar/58de0fd6eb58672546bfd81a4c028c0b/AndroidManifest.xml:43:13-36
+	android:permission
+		ADDED from [com.google.firebase:firebase-iid:15.1.0] /Users/hsn/.gradle/caches/transforms-1/files-1.1/firebase-iid-15.1.0.aar/58de0fd6eb58672546bfd81a4c028c0b/AndroidManifest.xml:44:13-73
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:15.1.0] /Users/hsn/.gradle/caches/transforms-1/files-1.1/firebase-iid-15.1.0.aar/58de0fd6eb58672546bfd81a4c028c0b/AndroidManifest.xml:42:13-78
+intent-filter#action:name:com.google.android.c2dm.intent.RECEIVE+category:name:${applicationId}
+ADDED from [com.google.firebase:firebase-iid:15.1.0] /Users/hsn/.gradle/caches/transforms-1/files-1.1/firebase-iid-15.1.0.aar/58de0fd6eb58672546bfd81a4c028c0b/AndroidManifest.xml:45:13-49:29
+intent-filter#action:name:com.google.android.c2dm.intent.RECEIVE+category:name:com.virmana.news_app
+ADDED from [com.google.firebase:firebase-iid:15.1.0] /Users/hsn/.gradle/caches/transforms-1/files-1.1/firebase-iid-15.1.0.aar/58de0fd6eb58672546bfd81a4c028c0b/AndroidManifest.xml:45:13-49:29
+action#com.google.android.c2dm.intent.RECEIVE
+ADDED from [com.google.firebase:firebase-iid:15.1.0] /Users/hsn/.gradle/caches/transforms-1/files-1.1/firebase-iid-15.1.0.aar/58de0fd6eb58672546bfd81a4c028c0b/AndroidManifest.xml:46:17-81
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:15.1.0] /Users/hsn/.gradle/caches/transforms-1/files-1.1/firebase-iid-15.1.0.aar/58de0fd6eb58672546bfd81a4c028c0b/AndroidManifest.xml:46:25-78
+category#${applicationId}
+ADDED from [com.google.firebase:firebase-iid:15.1.0] /Users/hsn/.gradle/caches/transforms-1/files-1.1/firebase-iid-15.1.0.aar/58de0fd6eb58672546bfd81a4c028c0b/AndroidManifest.xml:48:17-61
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:15.1.0] /Users/hsn/.gradle/caches/transforms-1/files-1.1/firebase-iid-15.1.0.aar/58de0fd6eb58672546bfd81a4c028c0b/AndroidManifest.xml:48:27-58
+category#com.virmana.news_app
+ADDED from [com.google.firebase:firebase-iid:15.1.0] /Users/hsn/.gradle/caches/transforms-1/files-1.1/firebase-iid-15.1.0.aar/58de0fd6eb58672546bfd81a4c028c0b/AndroidManifest.xml:48:17-61
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:15.1.0] /Users/hsn/.gradle/caches/transforms-1/files-1.1/firebase-iid-15.1.0.aar/58de0fd6eb58672546bfd81a4c028c0b/AndroidManifest.xml:48:27-58
+service#com.google.firebase.iid.FirebaseInstanceIdService
+ADDED from [com.google.firebase:firebase-iid:15.1.0] /Users/hsn/.gradle/caches/transforms-1/files-1.1/firebase-iid-15.1.0.aar/58de0fd6eb58672546bfd81a4c028c0b/AndroidManifest.xml:56:9-62:19
+	android:exported
+		ADDED from [com.google.firebase:firebase-iid:15.1.0] /Users/hsn/.gradle/caches/transforms-1/files-1.1/firebase-iid-15.1.0.aar/58de0fd6eb58672546bfd81a4c028c0b/AndroidManifest.xml:58:13-36
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:15.1.0] /Users/hsn/.gradle/caches/transforms-1/files-1.1/firebase-iid-15.1.0.aar/58de0fd6eb58672546bfd81a4c028c0b/AndroidManifest.xml:57:13-77
+activity#com.google.android.gms.common.api.GoogleApiActivity
+ADDED from [com.google.android.gms:play-services-base:15.0.1] /Users/hsn/.gradle/caches/transforms-1/files-1.1/play-services-base-15.0.1.aar/0333d3439c85a1674538bbefe05081db/AndroidManifest.xml:23:9-26:75
+	android:exported
+		ADDED from [com.google.android.gms:play-services-base:15.0.1] /Users/hsn/.gradle/caches/transforms-1/files-1.1/play-services-base-15.0.1.aar/0333d3439c85a1674538bbefe05081db/AndroidManifest.xml:25:13-37
+	android:theme
+		ADDED from [com.google.android.gms:play-services-base:15.0.1] /Users/hsn/.gradle/caches/transforms-1/files-1.1/play-services-base-15.0.1.aar/0333d3439c85a1674538bbefe05081db/AndroidManifest.xml:26:13-72
+	android:name
+		ADDED from [com.google.android.gms:play-services-base:15.0.1] /Users/hsn/.gradle/caches/transforms-1/files-1.1/play-services-base-15.0.1.aar/0333d3439c85a1674538bbefe05081db/AndroidManifest.xml:24:13-79
+provider#com.google.firebase.provider.FirebaseInitProvider
+ADDED from [com.google.firebase:firebase-common:15.0.1] /Users/hsn/.gradle/caches/transforms-1/files-1.1/firebase-common-15.0.1.aar/c4f8f5f230a5cddc79130d71d209481f/AndroidManifest.xml:8:9-12:39
+	android:authorities
+		ADDED from [com.google.firebase:firebase-common:15.0.1] /Users/hsn/.gradle/caches/transforms-1/files-1.1/firebase-common-15.0.1.aar/c4f8f5f230a5cddc79130d71d209481f/AndroidManifest.xml:10:13-72
+	android:exported
+		ADDED from [com.google.firebase:firebase-common:15.0.1] /Users/hsn/.gradle/caches/transforms-1/files-1.1/firebase-common-15.0.1.aar/c4f8f5f230a5cddc79130d71d209481f/AndroidManifest.xml:11:13-37
+	android:initOrder
+		ADDED from [com.google.firebase:firebase-common:15.0.1] /Users/hsn/.gradle/caches/transforms-1/files-1.1/firebase-common-15.0.1.aar/c4f8f5f230a5cddc79130d71d209481f/AndroidManifest.xml:12:13-36
+	android:name
+		ADDED from [com.google.firebase:firebase-common:15.0.1] /Users/hsn/.gradle/caches/transforms-1/files-1.1/firebase-common-15.0.1.aar/c4f8f5f230a5cddc79130d71d209481f/AndroidManifest.xml:9:13-77
+activity#com.google.android.gms.ads.AdActivity
+ADDED from [com.google.android.gms:play-services-ads-lite:15.0.1] /Users/hsn/.gradle/caches/transforms-1/files-1.1/play-services-ads-lite-15.0.1.aar/545116223360d7e99b38c1f19bbcc3d6/AndroidManifest.xml:29:9-33:64
+	android:exported
+		ADDED from [com.google.android.gms:play-services-ads-lite:15.0.1] /Users/hsn/.gradle/caches/transforms-1/files-1.1/play-services-ads-lite-15.0.1.aar/545116223360d7e99b38c1f19bbcc3d6/AndroidManifest.xml:32:13-37
+	android:configChanges
+		ADDED from [com.google.android.gms:play-services-ads-lite:15.0.1] /Users/hsn/.gradle/caches/transforms-1/files-1.1/play-services-ads-lite-15.0.1.aar/545116223360d7e99b38c1f19bbcc3d6/AndroidManifest.xml:31:13-122
+	android:theme
+		ADDED from [com.google.android.gms:play-services-ads-lite:15.0.1] /Users/hsn/.gradle/caches/transforms-1/files-1.1/play-services-ads-lite-15.0.1.aar/545116223360d7e99b38c1f19bbcc3d6/AndroidManifest.xml:33:13-61
+	android:name
+		ADDED from [com.google.android.gms:play-services-ads-lite:15.0.1] /Users/hsn/.gradle/caches/transforms-1/files-1.1/play-services-ads-lite-15.0.1.aar/545116223360d7e99b38c1f19bbcc3d6/AndroidManifest.xml:30:13-65
+meta-data#com.google.android.gms.version
+ADDED from [com.google.android.gms:play-services-basement:15.0.1] /Users/hsn/.gradle/caches/transforms-1/files-1.1/play-services-basement-15.0.1.aar/80b4bce63d5c3eef50cad6ac9b75113c/AndroidManifest.xml:23:9-25:69
+	android:value
+		ADDED from [com.google.android.gms:play-services-basement:15.0.1] /Users/hsn/.gradle/caches/transforms-1/files-1.1/play-services-basement-15.0.1.aar/80b4bce63d5c3eef50cad6ac9b75113c/AndroidManifest.xml:25:13-66
+	android:name
+		ADDED from [com.google.android.gms:play-services-basement:15.0.1] /Users/hsn/.gradle/caches/transforms-1/files-1.1/play-services-basement-15.0.1.aar/80b4bce63d5c3eef50cad6ac9b75113c/AndroidManifest.xml:24:13-58
+provider#com.facebook.internal.FacebookInitProvider
+ADDED from [com.facebook.android:facebook-core:5.5.1] /Users/hsn/.gradle/caches/transforms-1/files-1.1/facebook-core-5.5.1.aar/bb4782663a902e969b1a3429a5a7e4d2/AndroidManifest.xml:39:9-42:40
+	android:authorities
+		ADDED from [com.facebook.android:facebook-core:5.5.1] /Users/hsn/.gradle/caches/transforms-1/files-1.1/facebook-core-5.5.1.aar/bb4782663a902e969b1a3429a5a7e4d2/AndroidManifest.xml:41:13-72
+	android:exported
+		ADDED from [com.facebook.android:facebook-core:5.5.1] /Users/hsn/.gradle/caches/transforms-1/files-1.1/facebook-core-5.5.1.aar/bb4782663a902e969b1a3429a5a7e4d2/AndroidManifest.xml:42:13-37
+	android:name
+		ADDED from [com.facebook.android:facebook-core:5.5.1] /Users/hsn/.gradle/caches/transforms-1/files-1.1/facebook-core-5.5.1.aar/bb4782663a902e969b1a3429a5a7e4d2/AndroidManifest.xml:40:13-70
+receiver#com.facebook.CurrentAccessTokenExpirationBroadcastReceiver
+ADDED from [com.facebook.android:facebook-core:5.5.1] /Users/hsn/.gradle/caches/transforms-1/files-1.1/facebook-core-5.5.1.aar/bb4782663a902e969b1a3429a5a7e4d2/AndroidManifest.xml:44:9-50:20
+	android:exported
+		ADDED from [com.facebook.android:facebook-core:5.5.1] /Users/hsn/.gradle/caches/transforms-1/files-1.1/facebook-core-5.5.1.aar/bb4782663a902e969b1a3429a5a7e4d2/AndroidManifest.xml:46:13-37
+	android:name
+		ADDED from [com.facebook.android:facebook-core:5.5.1] /Users/hsn/.gradle/caches/transforms-1/files-1.1/facebook-core-5.5.1.aar/bb4782663a902e969b1a3429a5a7e4d2/AndroidManifest.xml:45:13-86
+intent-filter#action:name:com.facebook.sdk.ACTION_CURRENT_ACCESS_TOKEN_CHANGED
+ADDED from [com.facebook.android:facebook-core:5.5.1] /Users/hsn/.gradle/caches/transforms-1/files-1.1/facebook-core-5.5.1.aar/bb4782663a902e969b1a3429a5a7e4d2/AndroidManifest.xml:47:13-49:29
+action#com.facebook.sdk.ACTION_CURRENT_ACCESS_TOKEN_CHANGED
+ADDED from [com.facebook.android:facebook-core:5.5.1] /Users/hsn/.gradle/caches/transforms-1/files-1.1/facebook-core-5.5.1.aar/bb4782663a902e969b1a3429a5a7e4d2/AndroidManifest.xml:48:17-95
+	android:name
+		ADDED from [com.facebook.android:facebook-core:5.5.1] /Users/hsn/.gradle/caches/transforms-1/files-1.1/facebook-core-5.5.1.aar/bb4782663a902e969b1a3429a5a7e4d2/AndroidManifest.xml:48:25-92
+receiver#com.facebook.CampaignTrackingReceiver
+ADDED from [com.facebook.android:facebook-core:5.5.1] /Users/hsn/.gradle/caches/transforms-1/files-1.1/facebook-core-5.5.1.aar/bb4782663a902e969b1a3429a5a7e4d2/AndroidManifest.xml:51:9-58:20
+	android:exported
+		ADDED from [com.facebook.android:facebook-core:5.5.1] /Users/hsn/.gradle/caches/transforms-1/files-1.1/facebook-core-5.5.1.aar/bb4782663a902e969b1a3429a5a7e4d2/AndroidManifest.xml:53:13-36
+	android:permission
+		ADDED from [com.facebook.android:facebook-core:5.5.1] /Users/hsn/.gradle/caches/transforms-1/files-1.1/facebook-core-5.5.1.aar/bb4782663a902e969b1a3429a5a7e4d2/AndroidManifest.xml:54:13-69
+	android:name
+		ADDED from [com.facebook.android:facebook-core:5.5.1] /Users/hsn/.gradle/caches/transforms-1/files-1.1/facebook-core-5.5.1.aar/bb4782663a902e969b1a3429a5a7e4d2/AndroidManifest.xml:52:13-65

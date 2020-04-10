@@ -1,0 +1,103 @@
+{% extends "AppBundle::layout.html.twig" %}
+{% block body%}
+<div class="container-fluid">
+    <div class="row">
+		<div class="col-md-12" style=" height: auto; text-align:center;background-image:url({{asset(user.image)}});background-position: center;background-size: 100%;text-align: center;">
+		    <img src="{{asset(user.image)}}" alt="" style="border-radius:300px;margin:10px;height:100px;width:100px;border: 5px solid rgb(255, 247, 247);">
+		    <h3 style=" color: white; font-weight: bold">{{user.name}}</h3>
+		</div>
+        <div  class="col-md-12" style="border:1px solid #ccc;height:70px;background:white">
+                <div class="row">
+                    <div  class="col-md-2" style="border-right:1px solid #ccc;height:70px;background:white">
+                        <a href="{{path("user_user_edit",{"id":user.id})}}" style="color:black;font-size:20px;line-height: 70px;font-weight: bold;">Edit infos</a>
+                    </div>
+                    <div  class="col-md-2" style="border-right:1px solid #ccc;height:70px;background:white">
+                        <a href="{{path("user_user_followings",{"id":user.id})}}" style="color:black;font-size:20px;line-height: 70px;font-weight: bold;">{{user.users|length}} Following </a>
+                    </div>
+                    <div  class="col-md-2" style="border-right:1px solid #ccc;height:70px;background:white">
+                        <a href="{{path("user_user_followers",{"id":user.id})}}" style="color:black;font-size:20px;line-height: 70px;font-weight: bold;">{{user.followers|length}} Followers </a>
+                    </div>
+                    <div  class="col-md-2" style="border-right:1px solid #ccc;height:70px;background:white">
+                        <a href="{{path("user_user_post",{"id":user.id})}}" style="color:black;font-size:20px;line-height: 70px;font-weight: bold;">{{user.posts|length}} Posts </a>
+                    </div>
+                    <div  class="col-md-2" style="border-right:1px solid #ccc;height:70px;background:white">
+                        <a href="{{path("user_user_comments",{"id":user.id})}}" style="color:black;font-size:20px;line-height: 70px;font-weight: bold;">{{user.comments|length}} Comments </a>
+                    </div>
+                    <div  class="col-md-2" style="border-right:1px solid #ccc;height:70px;background:white">
+                        <a href="{{path("user_user_ratings",{"id":user.id})}}" style="color:black;font-size:20px;line-height: 70px;font-weight: bold;">{{user.ratings|length}} Ratings </a>
+                    </div>
+                </div>       
+        </div>
+        <div  class="col-md-12" >
+        	<br>
+        	<br>
+	 		<div class="row">
+					{% for rate in pagination %}
+                        <div class="col-md-6">
+		                    <ul class="timeline timeline-simple">
+		                        <li class="timeline-inverted">
+		                            <div class="timeline-badge danger">
+		                                <img src="{{rate.user.image}}"  class="img-profile">
+		                            </div>
+		                            <div class="timeline-panel">
+		                                <div class="timeline-heading">
+		                               		<a href="{{path("user_user_edit",{id:rate.user.id})}}" title="">
+		                                    	<span class="label label-danger">{{rate.user.name}}</span>
+		                                	</a>
+		                                </div>
+		                                <div class="timeline-body">
+		                                    <p>	
+		                                    <div style="float: left;">				
+		                                    	{% set rate_value = rate.value %}
+									       		{% for i in 1..5 %}
+						                            {% if rate_value >= 1 %} 
+						                                <img src="{{asset("img/star.png")}}" style="height:50px;width:50px">
+						                            {% endif %}
+						                            {% if rate_value >= 0.25 and  rate_value < 0.75 %}
+						                                <img src="{{asset("img/star_h.png")}}" style="height:50px;width:50px">
+						                            {% endif %}
+						                            {% if rate_value >= 0.75 and  rate_value < 1 %}
+						                                <img src="{{asset("img/star.png")}}" style="height:50px;width:50px">
+						                            {% endif %}
+						                            {% if rate_value < 0.25 %}
+						                                <img src="{{asset("img/star_e.png")}}" style="height:50px;width:50px">
+						                            {% endif %}
+						                            {% set rate_value  =  rate_value - 1 %}
+						                        {% endfor %}  
+	                                        </div>
+	                                        <span style="line-height: 50px;display: inline-block;font-size: 56pt;font-weight: bold;padding-left: 20px;">{{rate.value}}</span> 
+							                        <br>
+							                    </p>
+			                                </div>
+		                                <hr>
+		                                <a href="{{path("app_post_view",{id:rate.post.id})}}" title="">
+		                                <small class="label label-rose">
+		                                     <span>{{rate.post.title}}</span>
+		                                </small>
+		                                </a>
+		                                <small class="pull-right label label-rose">
+		                                     <span>{{rate.created|ago}}</span>
+		                                </small>
+		                            </div>
+		                        </li>
+		                       
+		                    </ul>
+		                </div>
+			         {% else %}
+						<div class="card"  style="text-align: center;" >
+							<br>
+							<br>
+							<img src="{{asset("img/bg_empty.png")}}"  style="width: auto !important;" ="">
+							<br>
+							<br>
+						</div>
+		            {% endfor %}
+				    <div class=" pull-right">
+				        {{ knp_pagination_render(pagination) }}
+				    </div>    
+	        </div>
+    	</div>
+    </div>
+</div>
+
+{% endblock%}

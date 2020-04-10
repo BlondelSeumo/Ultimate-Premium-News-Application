@@ -1,0 +1,223 @@
+<resources>
+    <string name="app_name">Ultimate News App</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="panel_url">news.virmana.com</string>
+
+
+    <string name="facebook_app_id">432018854098881</string>
+    <string name="fb_login_protocol_scheme">fb432018854098881</string>
+
+    <string name="my_google_play">https://play.google.com/store/apps/dev?id=xxxxxxxxxxxxxx</string>
+
+    <!-- Admob Published For GDPR -->
+    <string name="publisher_id">pub-xxxxxxxxxxxxxx</string>
+
+    <string name="AD_MOB_TIME">15</string>
+    <string name="ad_unit_id_interstitial">ca-app-pub-xxxxxxxxxxxxxx/xxxxxxxxxxxxxx</string>
+    <string name="ad_unit_id_banner">ca-app-pub-xxxxxxxxxxxxxx/xxxxxxxxxxxxxx</string>
+    <string name="ad_unit_id_native">ca-app-pub-xxxxxxxxxxxxxx/xxxxxxxxxxxxxx</string>
+
+
+    <string name="NATIVE_ADS_ITEM_BETWWEN_ADS">4</string>
+    <string name="NATIVE_ADS_TYPE">both</string> <!-- facebook/admob/both -->
+
+    <!-- FACEBOOK ADS -->
+    <string name="FACEBOOK_ADS_NATIVE_BANNER_PLACEMENT_ID">XXXXXXXXXXXXXXX_XXXXXXXXXXXXXXX</string>
+    <string name="FACEBOOK_ADS_NATIVE_PLACEMENT_ID">XXXXXXXXXXXXXXX_XXXXXXXXXXXXXXX</string>
+    <!-- enable / disbale NATIVE BANNER -->
+
+    <string name="FACEBOOK_ADS_ENABLED_BANNER">true</string>
+    <!-- enable / disbale NATIVE ADS BETWEEN ITEM -->
+    <string name="FACEBOOK_ADS_ENABLED_NATIVE">true</string>
+    <!-- NUMBER OF WALLPAPER BETWEEN ADS -->
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <array name="colors_load">
+        <item>@color/white</item>
+        <item>@color/white</item>
+    </array>
+
+    <array name="colors_load_img">
+        <item>@color/black</item>
+        <item>@color/dark_gray</item>
+    </array>
+    <string name="action_settings">Settings</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+
+    <string name="action_infos"><![CDATA[Report bug & Help]]></string>
+    <string name="error_short_value">Your field is too short</string>
+    <string name="error_mail_valide">Please enter a valid E-mail</string>
+    <string name="message_sended">Message has been sent successfully</string>
+    <string name="progress_login">Work in progress</string>
+    <string name="policy_privacy">Policy privacy</string>
+    <string name="action_rate">Rate App</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="language_label">Choose your languages</string>
+    <string name="loading_language">Loading Languages ...</string>
+    <string name="error_server">Check your internet connexion</string>
+    <string name="try_again">Try agin</string>
+    <string name="favorite">Favorite</string>
+    <string name="download">Download</string>
+    <string name="share">Share</string>
+    <string name="copy">Copy</string>
+    <string name="permission_desc">Now we need your permission to continue use the application perfectly</string>
+    <string name="permission_title">Everything is okey</string>
+    <string name="menu_popular">Popular</string>
+    <string name="menu_latest">Latest</string>
+    <string name="upload_image">Upload Image</string>
+    <string name="edit_text_upload_title_error">Title very short , please a write correct title</string>
+    <string name="edit_text_upload_description_error">Description very short , please a write correct Description</string>
+    <string name="image_upload_error">Please select an image</string>
+    <string name="video_upload_error">Please select an image</string>
+    <string name="gif_upload_error">Please select an image</string>
+    <string name="post_upload_success">Your Post has been successfully Created</string>
+    <string name="step_upload_success">Your Step has been successfully Added</string>
+    <string name="gif_upload_success">Your GIF has been successfully added</string>
+    <string name="no_connexion">Connection problem</string>
+    <string name="retry">Retry</string>
+    <string name="upload_gif">Upload GIF</string>
+    <string name="please_login">Login to your account</string>
+    <string name="welcome_login">Login to use More</string>
+    <string name="welcome_login_text">Login to upload , image ,video ....</string>
+    <string name="operation_progress">Operation in progress</string>
+    <string name="account_disabled">Sorry your account has been locked</string>
+    <string name="login_gg_text">Login with google</string>
+    <string name="message_logout">You are successfully logout</string>
+    <string name="update_now">Update Now</string>
+    <string name="exit">Exit</string>
+    <string name="go_pro">GO PRO</string>
+    <string name="hint_message">Your message</string>
+    <string name="send_support">Send Message</string>
+    <string name="hint_email">E-mail</string>
+    <string name="hint_name">Full name</string>
+    <string name="about_us">About us</string>
+    <string name="version_label">Version</string>
+    <string name="title_notification">Enable push notifiction</string>
+    <string name="label_notification">Receive push notification</string>
+    <string name="clear_cache">Clear Cache</string>
+    <string name="label_cache">Clear locally cached images. Currently : </string>
+    <string name="contact_us">Contact us</string>
+
+    <string name="download_more_from_link">Get more from == http://google.com ==</string>
+    <string name="upload_video">Post Video</string>
+    <string name="share_as_image">Share \n as image</string>
+    <string name="share_as_text">Share \n as text</string>
+    <string name="add_to_favorite">Add to \n favorites</string>
+    <string name="copy_joke">Copy \n  Joke</string>
+    <string name="comment">Comment</string>
+    <string name="write_comment">Write comment</string>
+    <string name="comment_hidden">Comment Hidden</string>
+    <string name="now_time">Now</string>
+    <string name="all_categories">Show all</string>
+
+    <string name="loading">Loading</string>
+    <string name="invalide_url">Invalide Url</string>
+    <string name="loading_user_data">Loading user data</string>
+    <string name="edit_my_profile">Edit my profile</string>
+
+    <string name="hint_facebook">Facebook url</string>
+    <string name="hint_twitter">Twitter url</string>
+    <string name="hint_instragram">Instagram Url</string>
+    <string name="save">Save</string>
+    <string name="menu_me">Me</string>
+    <string name="comments">  Comments</string>
+    <array name="autosize_text_sizes">
+        <item>10sp</item>
+        <item>12sp</item>
+        <item>20sp</item>
+        <item>40sp</item>
+        <item>100sp</item>
+    </array>
+    <string name="skip">Skip</string>
+    <string name="rate_our_app">Rate Our App</string>
+    <string name="rate_our_app_message">If you love our application ,please take a moment to rate it .</string>
+    <string name="rate_now">Rate Now</string>
+    <string name="later">Ask Me Later</string>
+    <string name="no_again">Don’t ask again</string>
+    <string name="description_subsribte">With our pack. You can enjoy an ad-free experiance . and focus on the  essential!</string>
+    <string name="select_language">Select your Languages</string>
+    <string name="on_review">On review</string>
+
+    <string name="title_slide_1">Welcome to Ultimaye news App</string>
+    <string name="description_slide_1">Thank you for download Ultimaye news App ,Enjoy with this Amazing Android app with cool features .</string>
+
+    <string name="title_slide_2">Everything organised here</string>
+    <string name="description_slide_2">You can find any content easily by using categories , languages , tags .</string>
+
+    <string name="title_slide_3">Be Creative </string>
+    <string name="description_slide_3">Register now and share you news with many users and be one of our community .</string>
+
+    <string name="title_slide_4">Share</string>
+    <string name="description_slide_4">Share Any content or keep it on your device to read it on offline mode </string>
+
+    <string name="title_slide_5">Favorites</string>
+    <string name="description_slide_5">Create your favorite list and save any content to view it later . </string>
+
+    <string name="title_slide_6">Give your Reactions </string>
+    <string name="description_slide_6">Browse best Post collection  and give your by rat all posts ...</string>
+
+    <string name="title_slide_8">Take your freedom</string>
+    <string name="description_slide_8">Subscribe with a small price , and take your freedom by remove all ads .</string>
+
+    <string name="share_this_app">Share this App</string>
+    <string name="images_downloaded">Video has been downloaded successfully</string>
+    <string name="twitter_not_installed">Twitter have not been installed</string>
+    <string name="app_not_installed">No App installed</string>
+    <string name="share_via">Shared via</string>
+    <string name="downloading">Downloading</string>
+    <string name="instagram_not_installed">Instagram have not been installed</string>
+    <string name="hike_not_installed">Hike have not been installed</string>
+    <string name="snapchat_not_installed">Snapshat have not been installed</string>
+    <string name="messenger_not_installed">Messenger have not been installed</string>
+    <string name="facebook_not_installed">Facebook have not been installed</string>
+    <string name="whatsapp_not_installed">Whatsapp have not been installed</string>
+    <string name="download_failed">Download failed! Please check your internet connection and try again</string>
+    <string name="my_profile">My Profile</string>
+    <string name="menu_follow">Follow</string>
+
+    <string name="title_activity_fullscreen">FullscreenActivity</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+    <string name="downloaded_video">Downloaded posts</string>
+    <string name="dialog_text_no_ads_title">Turn Off ads</string>
+    <string name="dialog_text_no_premium_wallpapers_title">Premium Content</string>
+    <string name="dialog_text_no_premium_wallpapers_description">Get unlimited wallpapers</string>
+    <string name="dialog_text_no_ads_description">Use App more free without ads</string>
+    <string name="subscribe">Subscribe</string>
+    <string name="Logout">Logout</string>
+    <string name="login">Login / Register</string>
+
+    <string name="save_successful_message">Saved To Gallery!</string>
+    <string name="save_error_message">Could not save,Try again later</string>
+    <string name="whatsapp_saver">Whatsapp Status Saver</string>
+    <string name="write_quote">Write Quot</string>
+    <string name="my_earning">My Earning</string>
+    <string name="reference_code_copied">Your Reference code has been copied</string>
+    <string name="hint_payemnts">Payment account infos</string>
+    <string name="send_request">Send Request</string>
+    <string name="request_withdrawal">Request withdrawal</string>
+    <string name="withdrawals">Withdrawals</string>
+    <string name="title_activity_post">PostActivity</string>
+    <string name="see_post_from">Read this post from :</string>
+    <string name="delete">Delete</string>
+    <string name="add_new_step">ADD NEW STEP</string>
+    <string name="post_title">Post title</string>
+    <string name="post_description">Post Description</string>
+    <string name="create_post">New post</string>
+    <string name="done">CLOSE</string>
+    <string name="next">ADD</string>
+    <string name="cancel">Cancel</string>
+    <string name="select_choice">Please select your choice</string>
+    <string name="upload_post">Post Text</string>
+    <string name="upload_youtube">Post Youtube</string>
+    <string name="edit_text_upload_youtube_error">Youtube link invalide</string>
+    <string name="edit_post">Edit post</string>
+    <string name="edit_youtube_video">Edit Youtube Video</string>
+    <string name="edit_video">Edit Video</string>
+    <string name="new_video">New Video</string>
+    <string name="post_delete_success">Post has been deleted successfully</string>
+    <string name="post_delete_failed">The Requested Operation has failed</string>
+
+</resources>

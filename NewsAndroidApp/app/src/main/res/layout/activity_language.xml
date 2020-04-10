@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layoutDirection="ltr"
+
+    tools:context=".ui.Activities.LoginActivity">
+        <LinearLayout
+            android:background="@drawable/comment_bg"
+            android:layout_alignParentBottom="true"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+                <RelativeLayout
+                    android:paddingTop="10dp"
+                    android:paddingBottom="10dp"
+                    android:orientation="horizontal"
+                    android:id="@+id/LinearLayout"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+                        <ImageView
+                            android:id="@+id/image_view_login"
+                            android:adjustViewBounds="true"
+                            android:scaleType="fitXY"
+                            android:tint="@color/dark_gray"
+                            android:padding="10dp"
+                            app:srcCompat="@drawable/ic_g_translate"
+                            android:layout_width="50dp"
+                            android:layout_height="50dp" />
+                        <TextView
+                            android:layout_marginLeft="50dp"
+                            android:textSize="21dp"
+                            android:textStyle="bold"
+                            android:gravity="center"
+                            android:textColor="@color/dark_gray"
+                            android:text="Select your languages"
+                            android:layout_width="wrap_content"
+                            android:layout_height="50dp" />
+                </RelativeLayout>
+                <RelativeLayout
+                    android:background="@color/grey_200"
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"/>
+                <RelativeLayout
+                    android:id="@+id/relative1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/LinearLayout">
+                        <android.support.v7.widget.RecyclerView
+                            android:visibility="gone"
+                            android:id="@+id/selection_list"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content">
+                        </android.support.v7.widget.RecyclerView>
+                        <com.leo.simplearcloader.SimpleArcLoader
+                            android:layout_margin="40dp"
+                            android:id="@+id/simple_arc_loader_lang"
+                            android:visibility="gone"
+                            android:layout_centerHorizontal="true"
+                            android:layout_centerVertical="true"
+                            android:layout_width="80dp"
+                            android:layout_height="80dp"
+                            app:arc_colors="@array/colors_load_img"
+                            app:arc_style="simple_arc"
+                            app:arc_speed="medium"
+                            app:arc_margin="3dp">
+                        </com.leo.simplearcloader.SimpleArcLoader>
+                </RelativeLayout>
+                </LinearLayout>
+                <LinearLayout
+                    android:weightSum="2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+                        <Button
+                            android:layout_margin="5dp"
+
+                            android:background="@drawable/bg_btn_cancel"
+                            android:layout_weight="1"
+                            android:clickable="true"
+                            android:focusable="true"
+                            android:layout_centerHorizontal="true"
+                            android:textStyle="bold"
+                            android:textColor="@color/white"
+                            android:text="CANCEL"
+                            style="?android:attr/borderlessButtonStyle"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/button_back_langauge" />
+                        <Button
+                            android:layout_margin="5dp"
+                            android:layout_weight="1"
+                            android:background="@drawable/bg_btn_submit"
+                            android:clickable="true"
+                            android:focusable="true"
+                            android:layout_centerHorizontal="true"
+                            android:textStyle="bold"
+                            android:textColor="@color/white"
+                            android:text="SELECT"
+                            style="?android:attr/borderlessButtonStyle"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/button_select_langauge" />
+                </LinearLayout>
+        </LinearLayout>
+</RelativeLayout>

@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layoutDirection="ltr"
+
+    android:layout_height="match_parent">
+    <RelativeLayout
+        android:background="@drawable/bg_dialog"
+        android:clickable="true"
+        android:focusable="true"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:id="@+id/relative_layout_item_quote"
+        android:layout_marginBottom="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="70dp">
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="70dp">
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/image_view_item_earning"
+                android:src="@drawable/image_quote"
+                android:padding="4dp"
+                android:layout_width="60dp"
+                android:layout_height="70dp" />
+
+        <LinearLayout
+            android:layout_marginLeft="60dp"
+            android:padding="5dp"
+            android:orientation="vertical"
+            android:layout_marginRight="80dp"
+            android:layout_width="match_parent"
+            android:layout_height="70dp">
+            <TextView
+                android:id="@+id/text_view_label_transaction_item"
+                android:paddingLeft="4dp"
+                android:textColor="@color/primary_text_light"
+                android:textStyle="bold"
+                android:textSize="13dp"
+                android:gravity="bottom|left"
+                android:lines="2"
+                android:ellipsize="end"
+                android:text="You watch the video : Oh My love still waiting you to keep me on your heard and live with you for ever"
+                android:layout_width="match_parent"
+                android:layout_height="35dp" />
+            <TextView
+                android:id="@+id/text_view_created_transaction_item"
+                android:textColor="@color/dark_gray"
+                android:textStyle="bold"
+                android:textSize="11dp"
+                android:gravity="left|top"
+                android:paddingLeft="4dp"
+                android:text="2 days Ago "
+                android:layout_width="match_parent"
+                android:layout_height="25dp" />
+        </LinearLayout>
+        <LinearLayout
+            android:paddingRight="10dp"
+            android:orientation="vertical"
+            android:layout_alignParentRight="true"
+            android:layout_width="80dp"
+            android:layout_height="70dp">
+            <TextView
+                android:id="@+id/text_view_points_transaction_item"
+                android:textSize="12dp"
+                android:textColor="@color/primary_text_light"
+                android:textStyle="bold"
+                android:gravity="right|bottom"
+                android:text="100 Pts"
+                android:layout_width="match_parent"
+                android:layout_height="35dp" />
+            <TextView
+                android:id="@+id/text_view_amount_transaction_item"
+                android:textColor="@color/green"
+                android:textStyle="bold"
+                android:gravity="right|top"
+                android:text="0.1$"
+                android:textSize="12dp"
+                android:layout_width="match_parent"
+                android:layout_height="35dp" />
+        </LinearLayout>
+    </RelativeLayout>
+    </RelativeLayout>
+</RelativeLayout>

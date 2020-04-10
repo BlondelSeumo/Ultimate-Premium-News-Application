@@ -1,0 +1,254 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:facebook="http://schemas.android.com/apk/res-auto"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layoutDirection="ltr"
+
+    tools:context=".ui.Activities.LoginActivity">
+    <LinearLayout
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:layout_alignParentBottom="true"
+        android:background="@drawable/comment_bg"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:padding="10dp"
+            android:visibility="visible"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:textSize="22dp"
+                android:textStyle="bold"
+                android:textColor="@color/dark_gray"
+                android:text="Sign in,it's free!"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:textSize="13dp"
+                android:layout_marginBottom="10dp"
+                android:lineSpacingExtra="3dp"
+                android:textColor="@color/primary_text_light"
+                android:text="In order to collect ,like ,sahre and download free content, you have to be signed up/in, Signing up/In  is free and has a lot of advantages:"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <RelativeLayout
+                android:paddingTop="5dp"
+                android:gravity="left|center"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <RelativeLayout
+                    android:layout_margin="7dp"
+                    android:background="@color/black"
+                    android:layout_width="5dp"
+                    android:layout_height="5dp"/>
+                <TextView
+                    android:textSize="13dp"
+                    android:text="Follow and  discover your favorite authors"
+                    android:layout_marginLeft="20dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+            </RelativeLayout>
+            <RelativeLayout
+                android:paddingTop="5dp"
+                android:gravity="left|center"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <RelativeLayout
+                    android:layout_margin="7dp"
+                    android:background="@color/black"
+                    android:layout_width="5dp"
+                    android:layout_height="5dp"/>
+                <TextView
+                    android:textSize="13dp"
+                    android:text="Publish you creative content with our community ."
+                    android:layout_marginLeft="20dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+            </RelativeLayout>
+            <RelativeLayout
+                android:paddingTop="5dp"
+                android:gravity="left|center"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <RelativeLayout
+                    android:layout_margin="7dp"
+                    android:background="@color/black"
+                    android:layout_width="5dp"
+                    android:layout_height="5dp"/>
+                <TextView
+                    android:textSize="13dp"
+                    android:text="Give your option in comment section"
+                    android:layout_marginLeft="20dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+            </RelativeLayout>
+            <RelativeLayout
+                android:paddingTop="5dp"
+                android:gravity="left|center"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <RelativeLayout
+                    android:layout_margin="7dp"
+                    android:background="@color/black"
+                    android:layout_width="5dp"
+                    android:layout_height="5dp"/>
+                <TextView
+                    android:textSize="13dp"
+                    android:text="Rate content and add your power"
+                    android:layout_marginLeft="20dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+            </RelativeLayout>
+            <RelativeLayout
+                android:paddingTop="5dp"
+                android:gravity="left|center"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <RelativeLayout
+                    android:layout_margin="7dp"
+                    android:background="@color/black"
+                    android:layout_width="5dp"
+                    android:layout_height="5dp"/>
+                <TextView
+                    android:textSize="13dp"
+                    android:text="Has own profile and take your trusted badge"
+                    android:layout_marginLeft="20dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+            </RelativeLayout>
+        </LinearLayout>
+        <LinearLayout
+            android:gravity="center"
+            android:orientation="vertical"
+            android:layout_below="@id/image_view_login"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <RelativeLayout
+                android:clickable="true"
+                android:background="?attr/selectableItemBackground"
+                android:id="@+id/relative_layout_facebook_login"
+                android:gravity="left|center"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="40dp">
+                <RelativeLayout
+                    android:background="@drawable/bg_facebook_btn"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+                    <ImageView
+                        android:tint="@color/white"
+                        android:padding="10dp"
+                        app:srcCompat="@drawable/ic_facebook_login"
+                        android:layout_width="40dp"
+                        android:layout_height="40dp" />
+                    <TextView
+                        android:layout_marginLeft="40dp"
+                        android:background="@drawable/border_left_transparent"
+                        android:gravity="center"
+                        android:textStyle="bold"
+                        android:textColor="@color/white"
+                        android:text="Login with facebook"
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp" />
+                </RelativeLayout>
+            </RelativeLayout>
+            <RelativeLayout
+                android:clickable="true"
+                android:background="?attr/selectableItemBackground"
+                android:id="@+id/relative_layout_google_login"
+                android:gravity="left|center"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="40dp">
+                <RelativeLayout
+                    android:background="@drawable/bg_google_btn"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+                    <ImageView
+                        android:layout_margin="2dp"
+                        android:background="@drawable/bg_google_icon"
+                        android:padding="6dp"
+                        app:srcCompat="@drawable/ic_google_login"
+                        android:layout_width="36dp"
+                        android:layout_height="36dp" />
+                    <TextView
+                        android:layout_marginLeft="40dp"
+                        android:background="@drawable/border_left_transparent"
+                        android:gravity="center"
+                        android:textStyle="bold"
+                        android:textColor="@color/white"
+                        android:text="Login with Google"
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp" />
+                </RelativeLayout>
+            </RelativeLayout>
+            <Button
+                android:textAllCaps="false"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginBottom="10dp"
+                android:background="@drawable/bg_card_count"
+                android:clickable="true"
+                android:focusable="true"
+                android:textStyle="bold"
+                android:textColor="@color/white"
+                android:text="Maybe later"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                style="?android:attr/borderlessButtonStyle"
+                android:id="@+id/text_view_skip_login" />
+            <com.google.android.gms.common.SignInButton
+                android:visibility="gone"
+                android:layout_above="@+id/sign_in_button_facebook"
+                android:id="@+id/sign_in_button_google"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:elevation="0dp"
+                android:layout_marginRight="16dp"
+                android:layout_marginLeft="16dp"
+                android:layout_marginTop="17dp"
+                android:layout_marginBottom="3dp"
+                android:text="login with Google"
+                app:colorScheme="dark"
+                />
+            <com.facebook.login.widget.LoginButton
+                android:visibility="gone"
+                facebook:com_facebook_login_text="Login with facebook"
+                android:layout_above="@+id/text_view_skip_login"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginBottom="20dp"
+
+                android:id="@+id/sign_in_button_facebook"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_weight="1"
+                android:textSize="15sp"
+                android:elevation="2dp"
+                android:paddingTop="5dp"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:paddingBottom="10dp" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</RelativeLayout>

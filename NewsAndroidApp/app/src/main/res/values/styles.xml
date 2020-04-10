@@ -1,0 +1,141 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:navigationBarColor">@color/white</item>
+        <item name="android:windowLightNavigationBar">true</item>
+
+    </style>
+
+    <style name="ActionBar" parent="Theme.AppCompat">
+        <item name="android:background">@color/white</item>
+        <item name="android:titleTextStyle">@style/ActionBar.TitleTextStyle</item>
+    </style>
+    <style name="DialogStyle" parent="Theme.Design.Light.BottomSheetDialog">
+        <item name="android:windowIsFloating">false</item>
+        <item name="android:statusBarColor">@android:color/transparent</item>
+        <item name="android:windowSoftInputMode">adjustResize</item>
+    </style>
+
+    <style name="ActionBar.TitleTextStyle" parent="@style/TextAppearance.AppCompat.Widget.ActionBar.Title">
+        <item name="android:textColor">@color/primary_text</item>
+    </style>
+    <style name="Theme_Dialog" parent="android:Theme.Holo.Light.Dialog">
+        <item name="android:windowMinWidthMajor">100%</item>
+        <item name="android:windowMinWidthMinor">100%</item>
+    </style>
+    <style name="AppTheme.NoActionBar" parent="AppTheme">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="PopupMenuStyle" parent="Theme.AppCompat.Light"></style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+    <style name="bnve"></style>
+
+    <style name="bnve_white_bg" parent="bnve">
+        <item name="android:background">#ffffff</item>
+    </style>
+
+    <style name="TextLabel" parent="AppTheme">
+        <!-- Hint color and label color in FALSE state -->
+        <item name="android:textColorHint">@color/white</item>
+        <item name="android:textSize">20sp</item>
+        <!-- Label color in TRUE state and bar color FALSE and TRUE State -->
+        <item name="colorAccent">@color/white</item>
+        <item name="colorControlNormal">@color/white</item>
+        <item name="colorControlActivated">@color/white</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+    <style name="Button_retry" parent="Theme.AppCompat.Light">
+        <item name="colorControlHighlight">@color/colorPrimaryDark</item>
+        <item name="colorButtonNormal">@color/colorPrimary</item>
+        <item name="android:textSize">13sp</item>
+    </style>
+
+    <style name="Button_login" parent="Theme.AppCompat.Light">
+        <item name="colorControlHighlight">@color/colorPrimaryDark</item>
+        <item name="colorButtonNormal">@color/colorPrimaryDark</item>
+        <item name="android:textSize">13sp</item>
+    </style>
+
+    <style name="Theme.UserDialog" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+    </style>
+
+    <style name="textview_login" parent="AppTheme">
+
+        <item name="android:textColorHint">@color/primary_text</item>
+        <item name="android:textSize">16sp</item>
+        <item name="colorAccent">@color/primary_text</item>
+        <item name="colorControlNormal">@color/primary_text</item>
+        <item name="colorControlActivated">@color/primary_text</item>
+        <item name="android:textColor">@color/primary_text</item>
+    </style>
+
+    <style name="FullscreenTheme" parent="AppTheme">
+        <item name="android:actionBarStyle">@style/FullscreenActionBarStyle</item>
+        <item name="android:windowActionBarOverlay">true</item>
+        <item name="android:windowBackground">@null</item>
+        <item name="metaButtonBarStyle">?android:attr/buttonBarStyle</item>
+        <item name="metaButtonBarButtonStyle">?android:attr/buttonBarButtonStyle</item>
+    </style>
+
+    <style name="FullscreenActionBarStyle" parent="Widget.AppCompat.ActionBar">
+        <item name="android:background">@color/black_overlay</item>
+    </style>
+
+    <style name="InputLabel" parent="TextAppearance.AppCompat.Caption">
+        <item name="android:paddingBottom">8dp</item>
+        <item name="android:paddingLeft">0dp</item>
+        <item name="android:paddingRight">4dp</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+    <style name="error_appearance" parent="@android:style/TextAppearance">
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textSize">12sp</item>
+    </style>
+
+    <style name="MaterialSearchViewStyle">
+        <!-- Background for the search bar-->
+        <item name="searchBackground">@color/colorAccent</item>
+
+        <!-- Change voice icon-->
+        <item name="searchVoiceIcon">@drawable/ic_mic</item>
+
+        <!-- Change clear text icon-->
+        <item name="searchCloseIcon">@drawable/ic_close</item>
+
+        <!-- Change up icon-->
+        <item name="searchBackIcon">@drawable/ic_arrow_back_black</item>
+
+        <!-- Change icon for the suggestions-->
+        <item name="searchSuggestionIcon">@drawable/ic_suggestion</item>
+
+        <!-- Change background for the suggestions list view-->
+        <item name="searchSuggestionBackground">@android:color/white</item>
+
+        <!-- Change text color for edit text. This will also be the color of the cursor-->
+        <item name="android:textColor">@color/white</item>
+
+        <!-- Change hint text color for edit text-->
+        <item name="android:textColorHint">@color/white</item>
+
+        <!-- Hint for edit text-->
+        <item name="android:hint">@string/search_hint</item>
+    </style>
+</resources>

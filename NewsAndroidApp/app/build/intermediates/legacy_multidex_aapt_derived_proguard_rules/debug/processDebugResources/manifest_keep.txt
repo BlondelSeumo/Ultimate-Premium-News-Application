@@ -1,0 +1,2 @@
+# Referenced at /Users/hsn/Desktop/My Projects/Ultimate News App V2/CodeCanyon/New/NewsApp/app/build/intermediates/merged_manifests/debug/processDebugManifest/merged/AndroidManifest.xml:34
+-keep class com.virmana.news_app.App { <init>(...); }

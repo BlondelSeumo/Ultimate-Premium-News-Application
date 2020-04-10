@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layoutDirection="ltr"
+    >
+
+    <RelativeLayout
+        android:visibility="visible"
+        android:id="@+id/relative_layout_item_question_choice_global"
+        android:orientation="horizontal"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/bg_choice_4"
+        android:layout_width="match_parent"
+        android:layout_height="50dp">
+        <RelativeLayout
+            android:visibility="invisible"
+            android:background="#60cccccc"
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="50dp">
+            <CheckedTextView
+                android:id="@+id/checked_text_view_item_vote_choice"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:checkMark="?android:attr/listChoiceIndicatorMultiple"
+                android:checkMarkTint="@color/white"
+                ></CheckedTextView>
+        </RelativeLayout>
+        <TextView
+            android:id="@+id/text_view_item_vote_choice"
+            android:layout_marginLeft="00dp"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:paddingLeft="15dp"
+            android:paddingRight="15dp"
+            android:text="Label"
+            android:gravity="center|left"
+            android:textColor="@color/white"
+            android:textStyle="bold"/>
+        <ImageView
+            android:padding="10dp"
+            android:layout_margin="5dp"
+            android:layout_alignParentRight="true"
+            android:background="@drawable/progress_value"
+            android:layout_width="40dp"
+            android:layout_height="40dp" />
+        <ImageView
+            android:visibility="gone"
+            android:id="@+id/image_view_item_vote_choice"
+            app:srcCompat="@drawable/ic_check"
+            android:padding="10dp"
+            android:layout_margin="5dp"
+            android:layout_alignParentRight="true"
+            android:layout_width="40dp"
+            android:layout_height="40dp" />
+
+    </RelativeLayout>
+</LinearLayout>
